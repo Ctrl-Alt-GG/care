@@ -1,0 +1,2 @@
+# care
+Support static site
