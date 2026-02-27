@@ -16,7 +16,7 @@ Segíteni akarunk, de közben az eseményt is üzemeltetjük. Így érsz el mink
 
 ## 2. Hol kérdezz
 
-- **Discord:** írj a `#tech-support` csatornába. Ez a legjobb, mert több staff is látja.
+- **Discord:** írj a `#support` csatornába. Ez a legjobb, mert több staff is látja.
 - **Személyesen:** keress valakit staff pólóban/jelvénnyel.
 - **Ne küldj privát üzenetet a szervezőknek.** Lehet, hogy nem látjuk.
 

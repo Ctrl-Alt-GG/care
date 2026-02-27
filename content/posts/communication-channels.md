@@ -14,9 +14,12 @@ Ez a központi hub. Ha nem vagy fent, lemaradsz.
 
 - **Fontos csatornák:**
   - `#announcements`: Hivatalos bejelentések (versenyek kezdete, kaja rendelés, áramszünet infók).
-  - `#help-desk`: Ha technikai gondod van, ide írj. A staff figyeli.
-  - `#looking-for-group`: Ha nincs kivel játszanod, itt keress csapattársat.
-  - `#general`: Általános csevegés, mémek.
+  - `#arriva-bt`: Ide érkezel, ez a kötelező alapértelmezett csatorna.
+  - `#general`: Általános csevegés.
+  - `#offtopic`: Minden, ami nem kapcsolódik szorosan a LAN-hoz.
+  - `#highlights`: Vicces képek és gaming pillanatok.
+  - `#support`: Fórum tipusu csatorna, ahol bármilyen segítségkérést feltehetsz.
+  - `#minecraft-chat`: Csevegés a játékon belüli játékosokkal, összekötve a Minecraft szerverrel.
 
 ## Staff
 

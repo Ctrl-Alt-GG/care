@@ -19,7 +19,7 @@ Ha nem az utolsó pillanatban kezded szervezni az utat, sok stresszt megspórols
 - Sok felszereléssel általában az autó a legegyszerűbb opció.
 - Használd a közösségi csatornákat (Discord, telekocsi táblázat), hogy útitársat találj.
 - Ha van szabad helyed, segíts másoknak lejutni.
-- Parkolni csak a kijelölt helyeken parkolj.
+- Csak a kijelölt helyeken parkolj.
 
 ## Tömegközlekedés
 

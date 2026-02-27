@@ -16,7 +16,7 @@ We want to help, but we are running the event at the same time. Here is how to r
 
 ## 2. Where to Ask
 
-- **Discord:** Use the `#tech-support` channel. This is the best way because multiple staff members see it.
+- **Discord:** Use the `#support` channel. This is the best way because multiple staff members see it.
 - **In Person:** Find anyone wearing a Staff shirt/badge.
 - **Do not DM organizers directly.** We might not see it.
 

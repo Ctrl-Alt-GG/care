@@ -1,10 +1,10 @@
---
+---
 title: "What to Expect During a Tournament"
 date: 2026-02-27T10:00:00+01:00
 categories: ["help"]
 description: "How matches work, what happens on a disconnect, and how to not annoy the admin."
 draft: false
---
+---
 
 You signed up, the team is ready, and your match is coming up. Here's what to expect.
 

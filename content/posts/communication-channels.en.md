@@ -14,9 +14,12 @@ This is the central hub. If you're not on it, you're missing out.
 
 - **Important Channels:**
   - `#announcements`: Official announcements (tournament starts, food orders, power outage info).
-  - `#help-desk`: If you have technical issues, post here. Staff monitors it.
-  - `#looking-for-group`: If you need teammates, look here.
-  - `#general`: General chat, memes.
+  - `#arriva-bt`: You land here when you join - it's the default channel.
+  - `#general`: General chat.
+  - `#offtopic`: Anything not strictly LAN-related.
+  - `#highlights`: Funny pictures and gaming highlights.
+  - `#support`: Forum-type channel where you can ask for support about anything.
+  - `#minecraft-chat`: Chat with in-game players, linked to the Minecraft server.
 
 ## Staff
 

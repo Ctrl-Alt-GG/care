@@ -19,7 +19,7 @@ Know this before you need it.
 ## Fire
 
 - If the alarm sounds, **leave immediately**.
-- Do not try to save your PC. It is insured (or replaceable). You are not.
+- Do not try to save your PC. It's replaceable. You're not.
 - Gather at the designated assembly point outside.
 
 ## Harassment / Safety Concerns

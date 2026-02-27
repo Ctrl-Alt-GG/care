@@ -1,10 +1,10 @@
---
+---
 title: "Mire számíts a verseny közben"
 date: 2026-02-27T10:00:00+01:00
 categories: ["help"]
 description: "A meccs menete, a szünetek és mi történik, ha valaki kiesik."
 draft: false
---
+---
 
 Feljelentkeztél, megvan a csapat, közeleg a meccs. Nem kell izgulni, de nem árt tudni, mire számíts.
 

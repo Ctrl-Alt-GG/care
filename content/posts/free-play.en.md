@@ -1,10 +1,10 @@
---
+---
 title: "Free Play and Finding Games"
 date: 2026-02-27T10:00:00+01:00
 categories: ["help"]
 description: "You don't have to stick to the official servers. Host your own session or find people to play with."
 draft: false
---
+---
 
 We run official game servers, but they are only part of what's available. You can play anything you have installed.
 

@@ -1,10 +1,10 @@
---
+---
 title: "Szabad játék és társkeresés"
 date: 2026-02-27T10:00:00+01:00
 categories: ["help"]
 description: "Nem muszáj a hivatalos szervereken játszani. Indíts sajátot, vagy keress társat."
 draft: false
---
+---
 
 A LAN-on futnak hivatalos szerverek, de ezek csak a kínálat egy része. Bármivel játszhatsz, ami a gépeden van.
 
