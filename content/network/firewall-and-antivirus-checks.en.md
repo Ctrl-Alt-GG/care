@@ -30,3 +30,11 @@ If you use Norton, McAfee, Bitdefender, etc.:
 - They often override Windows settings.
 - Look for "Game Mode" or temporarily pause the firewall to test.
 - **Remember to turn it back on.**
+
+## If this didn't work
+
+1. Check **[Known Issues](/help/known-issues/)** - it might be a global problem.
+2. Post in `#support` on Discord using the **[ticket template](/help/how-to-get-help/)**.
+3. Include: error message, screenshot, what you already tried.
+
+**Important:** Before asking for help, **disable your VPN!**

@@ -52,3 +52,9 @@ Steam won't start? Battle.net stuck? Try these.
 
 **Verify / Repair:**
 1. Right-click the game > Manage installation > **Verify / Repair**.
+
+## If this didn't work
+
+1. Check **[Known Issues](/help/known-issues/)** - it might be a global problem.
+2. Post in `#support` on Discord using the **[ticket template](/help/how-to-get-help/)**.
+3. Include: error message, screenshot, what you already tried.

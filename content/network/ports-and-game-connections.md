@@ -49,3 +49,9 @@ Ha egy játék nem látja a szervert, ellenőrizd, hogy a tűzfalad engedi-e a k
 
 Írd be a parancssorba: `netstat -an | findstr "ESTABLISHED"`.
 Ha látsz kapcsolatokat a játék szerverének IP-címével, de a játék mégis hibát dob, akkor a probléma valószínűleg a játékszerver oldalon van. Szólj a staffnak.
+
+## Gyors ellenőrzőlista segítségkérés előtt
+- Verzió egyezés: nézd meg a játék verzióját vs a szerverét (főmenü sarka)
+- Szerver állapot: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu)
+- Indítsd újra a játékot, miután csatlakoztál a LAN-hoz
+- Csatold a hibaüzenetet és egy képernyőképet a jelentéshez

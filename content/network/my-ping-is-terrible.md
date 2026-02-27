@@ -35,3 +35,9 @@ Nyisd meg a Task Managert (Ctrl+Shift+Esc) > Performance > Ethernet.
 Ha az egész sor laggol:
 - Kérdezd meg a szomszédokat, fut-e náluk nagy letöltés.
 - Ha mindenki laggol és senki sem tölt, **szólj a staffnak**. Ellenőrizni tudjuk a switch uplinket.
+
+## Ha ez nem segített
+
+1. Nézd meg az **[Ismert hibák](/help/known-issues/)** listát (lehet, hogy globális gond).
+2. Írj a `#support` csatornára Discordon a **[hibajegy sablon](/help/how-to-get-help/)** használatával.
+3. Csatolj: hibaüzenetet, képernyőképet, és hogy mit próbáltál eddig.

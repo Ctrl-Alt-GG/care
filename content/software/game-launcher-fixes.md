@@ -52,3 +52,9 @@ A Steam nem indul? A Battle.net beragadt? Próbáld ezeket.
 
 **Verify / Repair:**
 1. Jobb klikk a játékra > Manage installation > **Verify / Repair**.
+
+## Ha ez nem segített
+
+1. Nézd meg az **[Ismert hibák](/help/known-issues/)** listát (lehet, hogy globális gond).
+2. Írj a `#support` csatornára Discordon a **[hibajegy sablon](/help/how-to-get-help/)** használatával.
+3. Csatolj: hibaüzenetet, képernyőképet, és hogy mit próbáltál eddig.

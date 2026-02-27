@@ -9,6 +9,10 @@ draft: false
 
 If something is broken, check this list first. If it's here, we know about it and are working on it.
 
+- **If your problem is listed:** You don't need to troubleshoot further. We are on it.
+- **If it's a global issue:** Sometimes the internet or power goes out for everyone. It is OK to stop and wait while we fix it.
+- **If it is NOT listed:** Report it in `#support` on Discord!
+
 ## Network
 
 - **[SOLVED] Steam download slow (Friday 18:00)**

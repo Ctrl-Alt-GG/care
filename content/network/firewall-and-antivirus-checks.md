@@ -30,3 +30,11 @@ Ha Norton, McAfee, Bitdefender stb. fut:
 - Gyakran felülírják a Windows beállításokat.
 - Keresd a "Game Mode" opciót, vagy teszthez ideiglenesen állítsd le a tűzfalat.
 - **Ne felejtsd visszakapcsolni.**
+
+## Ha ez nem segített
+
+1. Nézd meg az **[Ismert hibák](/help/known-issues/)** listát (lehet, hogy globális gond).
+2. Írj a `#support` csatornára Discordon a **[hibajegy sablon](/help/how-to-get-help/)** használatával.
+3. Csatolj: hibaüzenetet, képernyőképet, és hogy mit próbáltál eddig.
+
+**Fontos:** Mielőtt segítséget kérsz, **kapcsold ki a VPN-t!**

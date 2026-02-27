@@ -41,6 +41,8 @@ Temporarily disable your Windows Firewall or third-party antivirus firewall to t
 - If the server appears, re-enable the firewall and add an exception for the game executable.
 - Do not leave your firewall disabled for the entire event.
 
-## Still nothing?
-
-If you have a link light, DHCP is on, and you can't load the portal: **ask for help**.
+## Quick checklist before asking for help
+- Version match: check your game version vs the server's (main menu corner)
+- Server status: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu)
+- Restart the game after connecting to the LAN
+- Include the error message and a screenshot when reporting

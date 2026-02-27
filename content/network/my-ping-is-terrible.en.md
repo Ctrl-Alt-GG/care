@@ -35,3 +35,9 @@ Open Task Manager (Ctrl+Shift+Esc) > Performance > Ethernet.
 If your whole row is lagging:
 - Ask your neighbors if they are running heavy downloads.
 - If everyone is lagging and nobody is downloading, **tell staff**. We can check the switch uplink.
+
+## If this didn't work
+
+1. Check **[Known Issues](/help/known-issues/)** - it might be a global problem.
+2. Post in `#support` on Discord using the **[ticket template](/help/how-to-get-help/)**.
+3. Include: error message, screenshot, what you already tried.

@@ -32,3 +32,8 @@ Ha a gép sípol, vagy elindul-leáll ciklusban ragad:
 ## 4. Ha semmi sem segít
 
 Kérj meg egy szomszédot, hogy teszteljétek le az ő tápkábelével vagy monitorával. Ha így sem megy, keress meg egy szervezőt. Van néhány tartalék alkatrészünk tesztelésre, de nem ígérünk csodát.
+
+## Ha ez nem segített
+
+1. Írj a `#support` csatornára Discordon a **[hibajegy sablon](/help/how-to-get-help/)** használatával.
+2. Csatolj: hibaüzenetet, képernyőképet, és hogy mit próbáltál eddig.

@@ -32,3 +32,8 @@ If the PC beeps or loops on startup:
 ## 4. If nothing works
 
 Ask a neighbor to test with their power cable or monitor. If it still fails, find an organizer. We have some spare parts for testing, but we can't promise miracles.
+
+## If this didn't work
+
+1. Post in `#support` on Discord using the **[ticket template](/help/how-to-get-help/)**.
+2. Include: error message, screenshot, what you already tried.

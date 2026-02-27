@@ -31,3 +31,15 @@ If we play a game not on Steam (e.g., Minetest, Xonotic, OpenArena):
 1. **Check Discord.** The link to the required patch will be in `#announcements` or the game's channel.
 2. **Local File Server.** Check [files.ctrl-alt-gg.hu](https://files.ctrl-alt-gg.hu), we usually keep "LAN Pack" bundles there.
 3. **Ask for help.** If you can't find it, ask on Discord. Someone definitely has it on a flash drive.
+
+## If this didn't work
+
+1. Check **[Known Issues](/help/known-issues/)** - it might be a global problem.
+2. Post in `#support` on Discord using the **[ticket template](/help/how-to-get-help/)**.
+3. Include: error message, screenshot, what you already tried.
+
+## Quick checklist before asking for help
+- Version match: check your game version vs the server's (main menu corner)
+- Server status: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu)
+- Restart the game after connecting to the LAN
+- Include the error message and a screenshot when reporting

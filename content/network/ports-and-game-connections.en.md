@@ -49,3 +49,9 @@ If a game can't find the server, check if your firewall allows traffic on these 
 
 Open Command Prompt and type: `netstat -an | findstr "ESTABLISHED"`.
 If you see connections to the game server's IP but the game still fails, the issue is likely on the server side. Tell the staff.
+
+## Quick checklist before asking for help
+- Version match: check your game version vs the server's (main menu corner)
+- Server status: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu)
+- Restart the game after connecting to the LAN
+- Include the error message and a screenshot when reporting

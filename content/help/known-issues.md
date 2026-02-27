@@ -9,6 +9,10 @@ draft: false
 
 Ha valami nem működik, először nézd meg ezt a listát. Ha itt van, akkor tudunk róla és dolgozunk rajta.
 
+- **Ha a problémád itt van:** Nem kell tovább keresned a hibát. Tudunk róla.
+- **Ha globális a gond:** Néha mindenkinél elmegy a net vagy az áram. Ilyenkor nyugodtan dőlj hátra és várj, amíg megjavítjuk.
+- **Ha NINCS a listán:** Jelentsd a Discord `#support` csatornában!
+
 ## Hálózat
 
 - **[MEGOLDVA] Steam letöltés lassú (Péntek 18:00)**

@@ -31,3 +31,15 @@ Ha olyan játékkal játszunk, ami nincs Steamen (pl. Minetest, Xonotic, OpenAre
 1. **Nézd meg a Discordot.** A `#announcements` vagy a játék csatornáján ott lesz a link a szükséges patch-hez.
 2. **Helyi fájlszerver.** Nézz rá a [files.ctrl-alt-gg.hu](https://files.ctrl-alt-gg.hu) oldalra, ott szoktuk tárolni a "LAN Pack" csomagokat.
 3. **Kérj segítséget.** Ha nem találod, kérdezz rá a Discordon. Valakinek biztos megvan pendrive-on.
+
+## Ha ez nem segített
+
+1. Nézd meg az **[Ismert hibák](/help/known-issues/)** listát (lehet, hogy globális gond).
+2. Írj a `#support` csatornára Discordon a **[hibajegy sablon](/help/how-to-get-help/)** használatával.
+3. Csatolj: hibaüzenetet, képernyőképet, és hogy mit próbáltál eddig.
+
+## Gyors ellenőrzőlista segítségkérés előtt
+- Verzió egyezés: nézd meg a játék verzióját vs a szerverét (főmenü sarka)
+- Szerver állapot: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu)
+- Indítsd újra a játékot, miután csatlakoztál a LAN-hoz
+- Csatold a hibaüzenetet és egy képernyőképet a jelentéshez

@@ -41,6 +41,8 @@ Tesztként ideiglenesen kapcsold ki a Windows Tűzfalat vagy a külső antivíru
 - Ha megjelenik a szerver, kapcsold vissza a tűzfalat, és adj kivételt a játék futtatható fájljára.
 - Ne hagyd kikapcsolva az esemény teljes idejére.
 
-## Még mindig semmi?
-
-Ha van linkfény, DHCP be van kapcsolva, és a portál sem tölt be: **kérj segítséget**.
+## Gyors ellenőrzőlista segítségkérés előtt
+- Verzió egyezés: nézd meg a játék verzióját vs a szerverét (főmenü sarka)
+- Szerver állapot: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu)
+- Indítsd újra a játékot, miután csatlakoztál a LAN-hoz
+- Csatold a hibaüzenetet és egy képernyőképet a jelentéshez
