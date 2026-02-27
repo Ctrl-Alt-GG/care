@@ -8,7 +8,7 @@ draft: false
 
 Minden LAN-on előfordul: valaki végig 60Hz-en játszik és észre sem veszi.
 
-## Ellenőrizd a beállítást
+## Így állítsd be
 
 1. Jobb klikk az asztalon > **Display settings**.
 2. Görgess le az **Advanced display settings** részhez.
@@ -17,6 +17,6 @@ Minden LAN-on előfordul: valaki végig 60Hz-en játszik és észre sem veszi.
 
 ## Hibakeresés
 
-- **Nincs opció?** Ellenőrizd a kábelt. A HDMI gyakran korlátoz. Ha lehet, használj DisplayPortot.
+- **Nincs opció?** Nézd meg a kábelt. A HDMI gyakran korlátoz. Ha lehet, használj DisplayPortot.
 - **Lassúnak érződik a játék?** Nézd meg a játékon belüli videó beállításokat. A V-Sync vagy FPS limit 60fps-re zárhat.
 - **Nvidia/AMD panel:** Néha a "PC" felbontást kell választani "TV/Ultra HD" helyett, hogy feloldja a magasabb frissítést.

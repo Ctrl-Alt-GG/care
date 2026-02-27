@@ -27,4 +27,4 @@ Egy teremben sok játékos PC sok hőt termel. Ha a géped furcsán viselkedik, 
 Ha a CPU tartósan 95C+ vagy a GPU 85C+:
 - Hagyd abba a játékot.
 - Hagyd üresjáratban 10 percig hűlni.
-- Ellenőrizd, hogy nem halt-e meg ventilátor vagy nem lazult-e meg a hűtő.
+- Nézd meg, forog-e minden ventilátor, vagy nem lazult-e meg a hűtő.

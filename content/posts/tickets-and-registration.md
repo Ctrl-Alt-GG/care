@@ -18,7 +18,7 @@ Ha biztosra akarsz menni, a jegyet és a regisztrációt intézd el minél hamar
 
 Mielőtt elindulsz:
 
-- Ellenőrizd, hogy a jegyed **érvényes**.
+- Győződj meg róla, hogy a jegyed **érvényes**.
 - Nézd meg, hogy minden fizetésed rendezett-e.
 - Ha valami nem stimmel, jelezd időben Discordon vagy a szervezőknek.
 

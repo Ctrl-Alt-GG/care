@@ -41,7 +41,7 @@ Haladó felhasználóknak: ha tudod hogyan, pingeld a gateway-t. Ha az megy, a h
 
 - Indítsd újra a hálózati adaptert (vagy a gépet)
 - Újítsd meg az IP-címed
-- Ellenőrizd, hogy **Automatikus IP (DHCP)** van beállítva
+- Legyen **Automatikus IP (DHCP)** beállítva
 - Ha egy idő után meghal a port, lehet, hogy túl sok eszközt kötöttél rá - kérd a staffot újraengedélyezésre
 
 ## 5. lépés: segítségkéréskor ezt mondd

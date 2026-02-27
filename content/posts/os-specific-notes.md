@@ -23,5 +23,5 @@ Különböző rendszerek, ugyanaz a hálózat.
 ## macOS
 
 - **Adapterek:** hozz USB-C -> Ethernet adaptert.
-- **Játékok:** ellenőrizd a kompatibilitást, sok LAN klasszikus csak Windows-on fut.
+- **Játékok:** nézz utána a kompatibilitásnak, sok LAN klasszikus csak Windows-on fut.
 - **Fájlmegosztás:** kapcsold be a "File Sharing" opciót a System Settings > General > Sharing részben a Windows SMB megosztásokhoz.

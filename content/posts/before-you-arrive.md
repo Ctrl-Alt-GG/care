@@ -11,7 +11,7 @@ Lesz internet, de sokkal jobban indulsz, ha otthon felkészülsz.
 ## Előző este
 
 - **Frissítsd az operációs rendszert** (Windows Update, disztró frissítések stb.)
-- **Frissítsd a launchereket** (Steam, Battle.net, Epic), és ellenőrizd a bejelentkezést
+- **Frissítsd a launchereket** (Steam, Battle.net, Epic), és próbálj meg belépni
 - **Töltsd le és frissítsd** azokat a játékokat, amikkel valóban játszani fogsz
 - **Szabadíts fel tárhelyet** (a patchek nagyok, a hibák idegesítőek)
 - Ha használsz **VPN-t, hálózati optimalizálót vagy egyedi DNS-t**, kapcsold ki, vagy készülj fel a helyszíni kikapcsolásra
@@ -19,11 +19,11 @@ Lesz internet, de sokkal jobban indulsz, ha otthon felkészülsz.
 ## Gyors ellenőrzés
 
 - Dugd be az Ethernet kábelt, és nézd meg, hogy működik-e a kártya/port
-- Ellenőrizd, hogy a hálózat **Automatikus (DHCP)** módban van
+- Legyen a hálózat **Automatikus (DHCP)** módban
 
 ## Jegyek
 
-- A lobby oldalon ellenőrizd, hogy a jegyed **érvényes**: [lobby.ctrl-alt-gg.hu](https://lobby.ctrl-alt-gg.hu/)
+- A lobby oldalon nézd meg, hogy a jegyed **érvényes**: [lobby.ctrl-alt-gg.hu](https://lobby.ctrl-alt-gg.hu/)
 - Készítsd elő a jegyed vonalkódját (telefonon vagy nyomtatott screenshoton).
 - Részletes leírás: [Jegyek és regisztráció](/posts/tickets-and-registration/).
 

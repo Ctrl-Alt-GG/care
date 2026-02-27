@@ -30,10 +30,10 @@ A hálózati adapter legyen **IP-cím automatikus lekérése (DHCP)** módban.
 
 ## 4. Szerver állapot
 
-Ellenőrizd: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu).
+Csekkold itt: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu).
 
 - Ha ott piros/down, akkor mindenkinek áll.
-- Ha zöld, de te nem látod, ellenőrizd a tűzfalat.
+- Ha zöld, de te nem látod, nézd meg a tűzfalat.
 
 ## 5. Tűzfal
 

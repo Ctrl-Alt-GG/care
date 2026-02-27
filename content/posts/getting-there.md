@@ -23,7 +23,7 @@ Ha nem az utolsó pillanatban kezded szervezni az utat, sok stresszt megspórols
 
 ## Tömegközlekedés
 
-- Ellenőrizd indulás előtt a friss menetrendet.
+- Indulás előtt nézz rá a friss menetrendre.
 - Nézd meg, hogy a bérleted/jegyed érvényes-e az adott járatra.
 - Késő esti vagy ritkább járatoknál különösen fontos az időzítés.
 

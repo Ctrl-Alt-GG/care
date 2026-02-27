@@ -22,7 +22,7 @@ A részleteket (csoportbeosztás, menetrend) mindig az adott verseny előtt komm
 
 Amikor rátok kerül a sor:
 
-1. **Bemelegítés:** A szerver betölti a pályát, van pár perc ráhangolódni. Próbáld ki a beállításaidat, ellenőrizd a hangot.
+1. **Bemelegítés:** A szerver betölti a pályát, van pár perc ráhangolódni. Próbáld ki a beállításaidat, teszteld a hangot.
 2. **Éles meccs:** Az admin jelzi, hogy indul. Innentől számít minden.
 3. **Meccs vége:** Az eredményt az admin rögzíti. Ne lépjetek ki a szerverről, amíg nem szólnak.
 
