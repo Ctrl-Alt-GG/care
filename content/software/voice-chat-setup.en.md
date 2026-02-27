@@ -38,6 +38,13 @@ If you do use Discord for voice (not recommended during games due to lag):
 **Noise Suppression:**
 - Enable **Krisp** noise suppression so the whole hall isn't broadcasted.
 
+## No sound / headset not detected?
+
+1. **Check Windows:** Right-click speaker icon > Sound settings > check Output device.
+2. **USB Headset:** Unplug, wait 5 seconds, replug.
+3. **In-game:** Check audio output device settings (many games default to "Default" which might be wrong).
+4. **Control Panel:** Press `Win + R`, type `mmsys.cpl`. Make sure your headset is set as Default Device.
+
 ## General Etiquette
 
 - **Don't shout.** Your neighbor is sitting 50cm away from you.

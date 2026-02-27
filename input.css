@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+
+	html.dark {
+		color-scheme: dark;
+	}
+}
+
 @layer components {
 
 	.insert-link {

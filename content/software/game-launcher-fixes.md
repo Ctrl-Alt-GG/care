@@ -7,13 +7,22 @@ draft: false
 
 A Steam nem indul? A Battle.net beragadt? Próbáld ezeket.
 
+Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
+
 ## Steam
 
+### Nem indul
+1. Lődd ki az összes `steam.exe` folyamatot a Feladatkezelőben.
+2. Indítsd újra.
+3. Ha még mindig rossz: töröld a `%localappdata%\Steam\htmlcache` és `%localappdata%\Steam\browser` mappákat.
+
+### Játék nem frissül / sérült
 **Letöltési gyorsítótár törlése:**
 1. Steam > Settings > Downloads.
 2. Kattints a **Clear Download Cache** gombra.
 3. A Steam újraindul, és újra be kell jelentkezned.
 
+### Gyorsítótár törlés / javítás
 **Fájlok ellenőrzése (Verify Integrity):**
 1. Jobb klikk a játékra a könyvtárban > Properties.
 2. Installed Files fül.
@@ -25,36 +34,52 @@ A Steam nem indul? A Battle.net beragadt? Próbáld ezeket.
 
 ## Epic Games Store
 
+### Nem indul
+1. Lődd ki az `EpicGamesLauncher.exe` és `EpicWebHelper.exe` folyamatokat.
+2. Nyomd meg a `Win + R` gombot, írd be: `%localappdata%`.
+3. Töröld az `EpicGamesLauncher\Saved\webcache` mappát.
+4. Indítsd újra.
+
+### Játék nem frissül / sérült
 **Fájlok ellenőrzése:**
 1. Library.
 2. Kattints a három pontra a játék alatt.
 3. Manage > **Verify**.
 
-**Gyorsítótár törlése:**
-1. Zárd be az Epic Games Launchert (a tálcáról is!).
-2. Nyomd meg a `Win + R` gombot, írd be: `%localappdata%`.
-3. Nyisd meg az `EpicGamesLauncher` > `Saved` mappát.
-4. Töröld a `webcache` mappát.
-
 ## Battle.net
 
+### Nem indul
+1. Lődd ki az `Agent.exe` és `Battle.net.exe` folyamatokat.
+2. Nyomd meg a `Win + R` gombot, írd be: `%programdata%`.
+3. Töröld a `Battle.net` és `Blizzard Entertainment` mappákat.
+4. Indítsd újra.
+
+### Játék nem frissül / sérült
 **Scan and Repair:**
 1. Válaszd ki a játékot.
 2. Kattints a fogaskerék ikonra (Options) a Play gomb mellett.
 3. Válaszd a **Scan and Repair** opciót.
-
-**Launcher gyorsítótár törlése:**
-1. Zárd be a Battle.net-et és az Agent.exe-t a Feladatkezelőben.
-2. `Win + R`, írd be: `%programdata%`.
-3. Töröld a `Battle.net` és `Blizzard Entertainment` mappákat. (Ez nem törli a játékaidat, csak a launcher beállításait.)
 
 ## GOG Galaxy
 
 **Verify / Repair:**
 1. Jobb klikk a játékra > Manage installation > **Verify / Repair**.
 
-## Ha ez nem segített
+## A játék összeomlik indításkor
 
-1. Nézd meg az **[Ismert hibák](/help/known-issues/)** listát (lehet, hogy globális gond).
-2. Írj a `#support` csatornára Discordon a **[hibajegy sablon](/help/how-to-get-help/)** használatával.
-3. Csatolj: hibaüzenetet, képernyőképet, és hogy mit próbáltál eddig.
+Ha azonnal bezáródik:
+1. **Fájlok ellenőrzése** (lásd fent).
+2. **Antivírus:** Nézd meg, nem tette-e karanténba az .exe-t.
+3. **Futtatás rendszergazdaként:** Jobb klikk az .exe-re > Run as administrator.
+4. **Visual C++:** Telepítsd a Redistributable csomagokat (általában a játék mappájában `_CommonRedist` alatt, vagy töltsd le a fájlszerverről).
+5. **Ablakos mód:** Adj hozzá `-windowed` kapcsolót az indítási opciókhoz.
+
+## Még mindig nem megy?
+
+1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
+2. Írj a `#support` csatornára Discordon ezzel az infóval:
+   - Ülésed helye (pl. 4. sor, 12. szék)
+   - Mi a baj (egy mondatban)
+   - Mit próbáltál eddig
+   - Képernyőkép vagy hibaüzenet
+3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.

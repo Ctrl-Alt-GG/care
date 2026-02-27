@@ -27,3 +27,11 @@ Hozz **elosztót**.
 - **UPS-t ne hozz.** Töltéskor nagy terhelési csúcsokat okozhat.
 - **Ne hozz hőfúvót, ventilátort vagy vízforralót.**
 - Tarts rendet a kábelekkel. Ne legyen botlásveszély a folyosón.
+
+## Lement a biztosíték?
+
+Ha a sorodban elmegy az áram:
+1. **Húzzatok ki mindent.**
+2. Szóljatok a staffnak, melyik sor.
+3. **Ne kapcsold vissza te.**
+4. A staff megkeresi a túlterhelt kört és elosztja a terhelést.

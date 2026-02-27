@@ -14,6 +14,14 @@ It happens every LAN. Someone plays all weekend on 60Hz without realizing it.
 3. Check the **Refresh rate** dropdown.
 4. Set it to the highest available number (144Hz, 240Hz, etc.).
 
+## Monitor goes black when game starts?
+
+If the game launches but the screen says "Out of Range" or goes black:
+1. **Unsupported Resolution:** The game is trying to run at a resolution or refresh rate your monitor can't handle.
+2. **Fix:** Press `Alt + Enter` to force windowed mode.
+3. **Launch Options:** Add `-windowed -w 1920 -h 1080` to the game's launch options.
+4. **Stuck?** Press `Ctrl + Alt + Del`, open Task Manager, and kill the game process.
+
 ## Troubleshooting
 
 - **Option missing?** Check your cable. HDMI often limits refresh rates. Use DisplayPort if possible.

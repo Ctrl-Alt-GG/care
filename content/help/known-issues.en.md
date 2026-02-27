@@ -7,6 +7,13 @@ draft: false
 
 *Last updated: Continuously during the event.*
 
+**Before you troubleshoot anything, check this page. If your problem is listed here, stop -- we know about it and are working on it.**
+
+## Status Tags
+- **[ACTIVE]** We know about it, we are fixing it.
+- **[SOLVED]** Fixed. Try again.
+- **[MONITORING]** Fixed, but might come back.
+
 If something is broken, check this list first. If it's here, we know about it and are working on it.
 
 - **If your problem is listed:** You don't need to troubleshoot further. We are on it.

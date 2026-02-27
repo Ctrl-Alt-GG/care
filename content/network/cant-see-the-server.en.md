@@ -7,42 +7,49 @@ draft: false
 
 If you can't see a game server or the LAN portal, start here.
 
-## 1. Physical check
+First, check **[Known Issues](/help/known-issues/)**.
 
-- Is your network cable plugged in at both ends?
-- Do you see a link light (green/amber LED) on your network port?
-- Are you using the cable provided by us? (Do not use your own cable unless authorized).
+## 1. Basics check
 
-## 2. Portal check
+Run through the basics in [Network Troubleshooting](/network/network-troubleshooting/) first.
 
-Open your browser and go to [spawn.ctrl-alt-gg.hu](https://spawn.ctrl-alt-gg.hu).
+- **Cable plugged in?**
+- **Link light on?**
+- **Portal loads?**
 
-- **If it loads:** Your connection is fine. The issue is likely the specific game server or your firewall.
-- **If it doesn't load:** You have a connection problem.
+If the portal loads but the game server doesn't, continue here.
 
-## 3. IP configuration
+## 2. IP configuration
 
 Make sure your network adapter is set to **Obtain an IP address automatically (DHCP)**.
 
-- **Windows:** Settings > Network & Internet > Ethernet > IP assignment > Edit > Automatic (DHCP).
-- **Static IPs are not allowed** and will not work.
+1. Press `Win + R`, type `ncpa.cpl`, press Enter.
+2. Right-click Ethernet > Properties.
+3. Select **Internet Protocol Version 4 (TCP/IPv4)** > Properties.
+4. Select **Obtain an IP address automatically**.
 
-## 4. Server status
+**Static IPs are not allowed** and will not work.
+
+## 3. Server status
 
 Check [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu).
 
 - If the server is red/down there, it's down for everyone.
 - If it's green but you can't see it, check your firewall.
 
-## 5. Firewall
+## 4. Firewall
 
 Temporarily disable your Windows Firewall or third-party antivirus firewall to test.
 
 - If the server appears, re-enable the firewall and add an exception for the game executable.
 - Do not leave your firewall disabled for the entire event.
 
-## Quick checklist before asking for help
-- Version match: check your game version vs the server's (main menu corner)
-- Server status: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu)
-- Restart the game after connecting to the LAN
-- Include the error message and a screenshot when reporting
+## Still stuck?
+
+1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
+2. Post in `#support` on Discord with this info:
+   - Seat number (e.g. Row 4, Seat 12)
+   - What's broken, one sentence
+   - What you already tried
+   - Screenshot or error message
+3. If no reply in 15 minutes, come to the organizer desk.

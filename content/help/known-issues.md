@@ -7,6 +7,13 @@ draft: false
 
 *Utoljára frissítve: A rendezvény alatt folyamatosan.*
 
+**Mielőtt bármit szerelni kezdenél, nézd meg ezt az oldalt. Ha a problémád itt van, állj meg -- tudunk róla és dolgozunk rajta.**
+
+## Státuszok
+- **[AKTÍV]** Tudunk róla, javítjuk.
+- **[MEGOLDVA]** Kész. Próbáld újra.
+- **[FIGYELJÜK]** Javítva, de visszajöhet.
+
 Ha valami nem működik, először nézd meg ezt a listát. Ha itt van, akkor tudunk róla és dolgozunk rajta.
 
 - **Ha a problémád itt van:** Nem kell tovább keresned a hibát. Tudunk róla.

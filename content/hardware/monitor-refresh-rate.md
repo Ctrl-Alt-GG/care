@@ -14,6 +14,14 @@ Minden LAN-on előfordul: valaki végig 60Hz-en játszik és észre sem veszi.
 3. Nézd meg a **Refresh rate** listát.
 4. Állítsd a lehető legmagasabb értékre (144Hz, 240Hz stb.).
 
+## Fekete képernyő játék indításakor?
+
+Ha a játék elindul, de a monitor "Out of Range" hibát ír vagy elsötétül:
+1. **Rossz felbontás:** A játék olyan felbontást vagy frissítést erőltet, amit a monitorod nem bír.
+2. **Javítás:** Nyomj `Alt + Enter`-t az ablakos mód kényszerítéséhez.
+3. **Indítási opciók:** Adj hozzá `-windowed -w 1920 -h 1080` kapcsolót.
+4. **Beragadt?** Nyomj `Ctrl + Alt + Del`-t, nyisd meg a Feladatkezelőt, és lődd ki a játékot.
+
 ## Hibakeresés
 
 - **Nincs opció?** Nézd meg a kábelt. A HDMI gyakran korlátoz. Ha lehet, használj DisplayPortot.

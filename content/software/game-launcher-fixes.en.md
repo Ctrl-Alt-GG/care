@@ -7,13 +7,22 @@ draft: false
 
 Steam won't start? Battle.net stuck? Try these.
 
+First, check **[Known Issues](/help/known-issues/)**.
+
 ## Steam
 
+### Won't start
+1. Kill all `steam.exe` processes in Task Manager.
+2. Relaunch.
+3. If still broken: delete `%localappdata%\Steam\htmlcache` and `%localappdata%\Steam\browser` folders.
+
+### Game won't update/verify
 **Clear Download Cache:**
 1. Steam > Settings > Downloads.
 2. Click **Clear Download Cache**.
 3. Steam will restart, and you will need to log in again.
 
+### Clear cache/repair
 **Verify Integrity:**
 1. Right-click the game in your Library > Properties.
 2. Installed Files tab.
@@ -25,36 +34,52 @@ Steam won't start? Battle.net stuck? Try these.
 
 ## Epic Games Store
 
+### Won't start
+1. Kill `EpicGamesLauncher.exe` and `EpicWebHelper.exe` in Task Manager.
+2. Press `Win + R`, type: `%localappdata%`.
+3. Delete the `EpicGamesLauncher\Saved\webcache` folder.
+4. Relaunch.
+
+### Game won't update/verify
 **Verify Files:**
 1. Library.
 2. Click the three dots under the game.
 3. Manage > **Verify**.
 
-**Clear Cache:**
-1. Close the Epic Games Launcher (check the system tray!).
-2. Press `Win + R`, type: `%localappdata%`.
-3. Open `EpicGamesLauncher` > `Saved`.
-4. Delete the `webcache` folder.
-
 ## Battle.net
 
+### Won't start
+1. Kill `Agent.exe` and `Battle.net.exe` in Task Manager.
+2. Press `Win + R`, type: `%programdata%`.
+3. Delete the `Battle.net` and `Blizzard Entertainment` folders.
+4. Relaunch.
+
+### Game won't update/verify
 **Scan and Repair:**
 1. Select the game.
 2. Click the gear icon (Options) next to the Play button.
 3. Select **Scan and Repair**.
-
-**Clear Launcher Cache:**
-1. Close Battle.net and Agent.exe in Task Manager.
-2. `Win + R`, type: `%programdata%`.
-3. Delete the `Battle.net` and `Blizzard Entertainment` folders. (This does not delete your games, only launcher settings.)
 
 ## GOG Galaxy
 
 **Verify / Repair:**
 1. Right-click the game > Manage installation > **Verify / Repair**.
 
-## If this didn't work
+## Game crashes on launch
 
-1. Check **[Known Issues](/help/known-issues/)** - it might be a global problem.
-2. Post in `#support` on Discord using the **[ticket template](/help/how-to-get-help/)**.
-3. Include: error message, screenshot, what you already tried.
+If the game closes immediately:
+1. **Verify game files** (see above).
+2. **Antivirus:** Check if it quarantined the .exe.
+3. **Run as Administrator:** Right-click the .exe > Run as administrator.
+4. **Visual C++:** Install the Redistributables (usually in the game folder `_CommonRedist` or download from file server).
+5. **Windowed mode:** Add `-windowed` to launch options.
+
+## Still stuck?
+
+1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
+2. Post in `#support` on Discord with this info:
+   - Seat number (e.g. Row 4, Seat 12)
+   - What's broken, one sentence
+   - What you already tried
+   - Screenshot or error message
+3. If no reply in 15 minutes, come to the organizer desk.

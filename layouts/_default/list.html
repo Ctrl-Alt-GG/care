@@ -22,11 +22,11 @@
 
     <div class="flex items-center mt-10">
       {{- if .Paginator.HasPrev -}}
-        <a class="border rounded-full px-6 py-2 hover:bg-zinc-200 mr-auto" href="{{ .Paginator.Prev.URL }}">← {{ i18n "pagination_prev" }}</a>
+        <a class="border rounded-full px-6 py-2 hover:bg-zinc-200 dark:border-zinc-700 dark:hover:bg-zinc-700 mr-auto" href="{{ .Paginator.Prev.URL }}">← {{ i18n "pagination_prev" }}</a>
       {{- end -}}
 
       {{- if .Paginator.HasNext -}}
-        <a class="border rounded-full px-6 py-2 hover:bg-zinc-200" href="{{ .Paginator.Next.URL }}">{{ i18n "pagination_next" }} →</a>
+        <a class="border rounded-full px-6 py-2 hover:bg-zinc-200 dark:border-zinc-700 dark:hover:bg-zinc-700" href="{{ .Paginator.Next.URL }}">{{ i18n "pagination_next" }} →</a>
       {{- end -}}
     </div>
   

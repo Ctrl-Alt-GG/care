@@ -38,6 +38,13 @@ Ha mégis Discordon hangalapú csevegést használsz (nem ajánlott játék köz
 **Zajszűrés:**
 - Kapcsold be a **Krisp** zajszűrést, hogy ne hallatszódjon be az egész terem.
 
+## Nincs hang / nem látja a headsetet?
+
+1. **Windows:** Jobb klikk a hangszóró ikonra > Hangbeállítások > Kimeneti eszköz ellenőrzése.
+2. **USB Headset:** Húzd ki, várj 5 másodpercet, dugd vissza.
+3. **Játékban:** Nézd meg az audio beállításokat (sok játék "Default"-ra áll, ami lehet rossz).
+4. **Vezérlőpult:** Nyomd meg: `Win + R`, írd be: `mmsys.cpl`. Legyen a headseted az alapértelmezett eszköz.
+
 ## Általános etikett
 
 - **Ne ordibálj.** A szomszédod 50 centire ül tőled.

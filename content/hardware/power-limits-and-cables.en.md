@@ -27,3 +27,11 @@ Bring a **power strip**.
 - **Do not bring a UPS.** They cause load spikes that trip breakers.
 - **Do not bring a space heater, fan, or kettle.**
 - Keep cables tidy. Don't create a trip hazard in the aisle.
+
+## Breaker tripped?
+
+If your row loses power:
+1. **Unplug everything.**
+2. Tell staff which row.
+3. **Do not flip breakers yourself.**
+4. Staff will identify the overloaded circuit and redistribute load.

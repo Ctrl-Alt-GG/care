@@ -14,6 +14,16 @@ Egy teremben sok játékos PC sok hőt termel. Ha a géped furcsán viselkedik, 
 - Ventilátorok állandó 100%-on pörögnek.
 - Képhibák a kijelzőn (GPU túlmelegedés).
 
+## Hőmérséklet ellenőrzés
+
+- **Modern CPU-k** 90-100°C-nál veszik vissza az órajelet (throttling).
+- **GPU-k** 83-90°C-nál, modelltől függően.
+
+**Eszközök:**
+- **Windows 11:** Feladatkezelő (Ctrl+Shift+Esc) > Teljesítmény > GPU mutatja a hőfokot.
+- **Szoftver:** Töltsd le a **HWiNFO64** vagy **HWMonitor** programot a helyi fájlszerverről.
+- **Linux:** Használd a `sensors` parancsot.
+
 ## Gyors javítások
 
 1. **Légáramlás:** a ház ventijeit ne takarják táskák, fal vagy más gépek. Legyen helye lélegezni.
@@ -21,9 +31,12 @@ Egy teremben sok játékos PC sok hőt termel. Ha a géped furcsán viselkedik, 
 3. **Oldallap levétel:** nem szép, de szükségmegoldásként működik.
 4. **Fan curve ellenőrzés:** MSI Afterburnerben vagy BIOS-ban állíts agresszívebb ventilátor görbét.
 
-## Vészhelyzet
+## Még mindig nem megy?
 
-Ha a CPU tartósan 95C+ vagy a GPU 85C+:
-- Hagyd abba a játékot.
-- Hagyd üresjáratban 10 percig hűlni.
-- Nézd meg, forog-e minden ventilátor, vagy nem lazult-e meg a hűtő.
+1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
+2. Írj a `#support` csatornára Discordon ezzel az infóval:
+   - Ülésed helye (pl. 4. sor, 12. szék)
+   - Mi a baj (egy mondatban)
+   - Mit próbáltál eddig
+   - Képernyőkép vagy hibaüzenet
+3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.

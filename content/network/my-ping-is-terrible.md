@@ -7,6 +7,8 @@ draft: false
 
 A magas ping általában azt jelenti, hogy valami a gépeden éppen sávszélességet eszik.
 
+Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
+
 ## 1. Letöltések leállítása
 
 Nézd meg:
@@ -28,6 +30,11 @@ Wifin vagy?
 
 Nyisd meg a Task Managert (Ctrl+Shift+Esc) > Performance > Ethernet.
 
+Vagy használd a Resource Monitort a részletekért:
+1. Nyomd meg: `Win + R`, írd be: `resmon`, majd Enter.
+2. Menj a **Network** fülre.
+3. A "Network Activity" alatt látod, pontosan melyik program eszi a sávszélességet.
+
 - Ha állandóan magas Mbps forgalmat látsz úgy, hogy semmit nem csinálsz, keresd meg a folyamatot és állítsd le.
 
 ## 4. Hálózati túlterhelés
@@ -36,8 +43,12 @@ Ha az egész sor laggol:
 - Kérdezd meg a szomszédokat, fut-e náluk nagy letöltés.
 - Ha mindenki laggol és senki sem tölt, **szólj a staffnak**. Ellenőrizni tudjuk a switch uplinket.
 
-## Ha ez nem segített
+## Még mindig nem megy?
 
-1. Nézd meg az **[Ismert hibák](/help/known-issues/)** listát (lehet, hogy globális gond).
-2. Írj a `#support` csatornára Discordon a **[hibajegy sablon](/help/how-to-get-help/)** használatával.
-3. Csatolj: hibaüzenetet, képernyőképet, és hogy mit próbáltál eddig.
+1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
+2. Írj a `#support` csatornára Discordon ezzel az infóval:
+   - Ülésed helye (pl. 4. sor, 12. szék)
+   - Mi a baj (egy mondatban)
+   - Mit próbáltál eddig
+   - Képernyőkép vagy hibaüzenet
+3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.

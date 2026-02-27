@@ -7,6 +7,8 @@ draft: false
 
 If your game won't connect or screams "Strict NAT", read this.
 
+First, check **[Known Issues](/help/known-issues/)**.
+
 ## What is NAT?
 
 NAT (Network Address Translation) translates your internal IP to the outside world. On a LAN, this is usually fine, but some games (especially older P2P ones) hate it.
@@ -45,13 +47,12 @@ If a game can't find the server, check if your firewall allows traffic on these 
 4. **IPv6:**
    Some older games get confused if IPv6 is enabled but there is no IPv6 internet connectivity. Try disabling IPv6 in your adapter settings.
 
-## If nothing works
+## Still stuck?
 
-Open Command Prompt and type: `netstat -an | findstr "ESTABLISHED"`.
-If you see connections to the game server's IP but the game still fails, the issue is likely on the server side. Tell the staff.
-
-## Quick checklist before asking for help
-- Version match: check your game version vs the server's (main menu corner)
-- Server status: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu)
-- Restart the game after connecting to the LAN
-- Include the error message and a screenshot when reporting
+1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
+2. Post in `#support` on Discord with this info:
+   - Seat number (e.g. Row 4, Seat 12)
+   - What's broken, one sentence
+   - What you already tried
+   - Screenshot or error message
+3. If no reply in 15 minutes, come to the organizer desk.

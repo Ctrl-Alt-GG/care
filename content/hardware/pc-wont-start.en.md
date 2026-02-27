@@ -7,6 +7,17 @@ draft: false
 
 Transport vibration often loosens components. Don't panic, it's probably just a loose cable.
 
+First, check **[Known Issues](/help/known-issues/)**.
+
+## Quick diagnosis
+
+- **No lights, no fans, nothing:** PSU switch, PSU cable, or dead PSU. Check the switch on the back (I = on). Try a different power cable. Try a different outlet.
+- **Motherboard LED on, but no fans spin:** Check the front panel power button connector. Try shorting the power pins with a screwdriver (staff can help).
+- **Fans spin, but no display:** GPU cable (make sure it's in the GPU, not motherboard). Try a different video output. Reseat the GPU.
+- **Fans spin briefly then stop (boot loop):** RAM not seated. Remove and reseat all sticks. Try one stick at a time.
+- **Beeps on startup:** 1 long + 2 short = GPU. Continuous = RAM. Refer to your motherboard manual for other codes.
+- **Gets to BIOS but won't boot OS:** Boot drive cable loose, or boot order changed. Check BIOS > Boot Priority.
+
 ## 1. Power Supply (PSU)
 
 - **Switch:** Check the switch on the back of your PSU. Is it set to "I"?
@@ -33,7 +44,12 @@ If the PC beeps or loops on startup:
 
 Ask a neighbor to test with their power cable or monitor. If it still fails, find an organizer. We have some spare parts for testing, but we can't promise miracles.
 
-## If this didn't work
+## Still stuck?
 
-1. Post in `#support` on Discord using the **[ticket template](/help/how-to-get-help/)**.
-2. Include: error message, screenshot, what you already tried.
+1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
+2. Post in `#support` on Discord with this info:
+   - Seat number (e.g. Row 4, Seat 12)
+   - What's broken, one sentence
+   - What you already tried
+   - Screenshot or error message
+3. If no reply in 15 minutes, come to the organizer desk.

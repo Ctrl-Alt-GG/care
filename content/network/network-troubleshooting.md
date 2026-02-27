@@ -7,6 +7,8 @@ draft: false
 
 A legtöbb gond **kábel/port**, **DHCP** vagy **helyi gépes beállítás**. Menj sorban.
 
+Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát. Ha globális a hiba, feleslegesen szerelsz.
+
 ## 1. lépés: alapok ellenőrzése
 
 - Ethernet kábel stabilan bedugva (mindkét oldalon)
@@ -22,11 +24,12 @@ Amit ne tegyél:
 
 Nyisd meg a LAN portált: [spawn.ctrl-alt-gg.hu](https://spawn.ctrl-alt-gg.hu)
 
-- **Ha betölt:** online vagy. Nézd meg a szerver állapotot: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu)
-- **Ha nem tölt be:**
-  - Húzd ki és dugd vissza a kábelt
-  - Próbálj másik portot (vagy kérj segítséget)
-  - Átmenetileg próbáld a wifi-t
+- **Betölt:** Online vagy. Nézd meg a szerver állapotot: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu). Menj a 3. lépésre.
+- **Nem tölt be:**
+  - Húzd ki és dugd vissza a kábelt.
+  - Próbálj másik portot (vagy kérj segítséget).
+  - Átmenetileg próbáld a wifi-t.
+  - Menj a 4. lépésre.
 
 Haladó felhasználóknak: ha tudod hogyan, pingeld a gateway-t. Ha az megy, a helyi link valószínűleg jó.
 
@@ -55,13 +58,12 @@ sudo dhclient -r && sudo dhclient -v
 - Legyen **Automatikus IP (DHCP)** beállítva
 - Ha egy idő után meghal a port, lehet, hogy túl sok eszközt kötöttél rá - kérd a staffot újraengedélyezésre
 
-## 5. lépés: segítségkéréskor ezt mondd
+## Még mindig nem megy?
 
-- Vezetékes vagy wifi
-- Mi működik / mi nem (portál, Discord/TeamSpeak, Steam, konkrét szerver)
-- Milyen eszköz + OS (PC/laptop/konzol, Windows/Linux/macOS)
-- Hol ülsz
-
-A gyakori okokhoz nézd meg: [IP beállítás alapok](/network/ip-setup-basics/), [Tűzfal és antivírus ellenőrzés](/network/firewall-and-antivirus-checks/), [Hálózati hibák jelentése](/network/reporting-network-issues/).
-
-Inkább segítünk most, mint hogy később kelljen tüzet oltani. Ha elakadtál, szólj.
+1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
+2. Írj a `#support` csatornára Discordon ezzel az infóval:
+   - Ülésed helye (pl. 4. sor, 12. szék)
+   - Mi a baj (egy mondatban)
+   - Mit próbáltál eddig
+   - Képernyőkép vagy hibaüzenet
+3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.

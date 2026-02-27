@@ -7,6 +7,8 @@ draft: false
 
 A Windows Tűzfal gyakran blokkolja a LAN-játékokat, főleg ha a hálózat „Nyilvános" profilra van állítva.
 
+Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
+
 ## Tünetek
 
 - Látod a szerverlistát, de nem tudsz csatlakozni.
@@ -17,9 +19,15 @@ A Windows Tűzfal gyakran blokkolja a LAN-játékokat, főleg ha a hálózat „
 
 1. **Hálózati profil:** Legyen **Privát** (ha megbízol a LAN-ban), vagy kézzel engedélyezd a játékot.
    - Beállítások > Hálózat és internet > Ethernet > Hálózati profil típusa.
+   - **PowerShell (Admin):**
+     ```powershell
+     Get-NetConnectionProfile
+     Set-NetConnectionProfile -InterfaceAlias "Ethernet" -NetworkCategory Private
+     ```
 2. **Alkalmazás engedélyezése:**
-   - Keresd: "Allow an app through Windows Firewall".
-   - Kattints: **Change settings**.
+   - Nyomd meg: `Win + R`, írd be: `firewall.cpl`, majd Enter.
+   - Kattints a bal oldalon: **Allow an app or feature through Windows Defender Firewall** (Alkalmazás átengedése).
+   - Kattints: **Change settings** (Beállítások módosítása).
    - Keresd ki a játékot.
    - Pipáld be a **Private** és **Public** oszlopot is.
    - OK.
@@ -31,10 +39,14 @@ Ha Norton, McAfee, Bitdefender stb. fut:
 - Keresd a "Game Mode" opciót, vagy teszthez ideiglenesen állítsd le a tűzfalat.
 - **Ne felejtsd visszakapcsolni.**
 
-## Ha ez nem segített
+## Még mindig nem megy?
 
-1. Nézd meg az **[Ismert hibák](/help/known-issues/)** listát (lehet, hogy globális gond).
-2. Írj a `#support` csatornára Discordon a **[hibajegy sablon](/help/how-to-get-help/)** használatával.
-3. Csatolj: hibaüzenetet, képernyőképet, és hogy mit próbáltál eddig.
+1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
+2. Írj a `#support` csatornára Discordon ezzel az infóval:
+   - Ülésed helye (pl. 4. sor, 12. szék)
+   - Mi a baj (egy mondatban)
+   - Mit próbáltál eddig
+   - Képernyőkép vagy hibaüzenet
+3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.
 
 **Fontos:** Mielőtt segítséget kérsz, **kapcsold ki a VPN-t!**

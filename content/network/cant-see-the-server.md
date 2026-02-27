@@ -7,42 +7,49 @@ draft: false
 
 Ha nem látod a játékszervert vagy a LAN portált, itt kezdd.
 
-## 1. Fizikai ellenőrzés
+Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
 
-- Be van dugva a hálózati kábel mindkét oldalon?
-- Van linkfény (zöld/sárga LED) a hálózati porton?
-- A tőlünk kapott kábelt használod? (Saját kábel csak engedéllyel.)
+## 1. Alapok ellenőrzése
 
-## 2. Portál ellenőrzés
+Először fuss át a [Hálózati hibakeresés](/network/network-troubleshooting/) lépésein.
 
-Nyisd meg a böngészőt, és menj ide: [spawn.ctrl-alt-gg.hu](https://spawn.ctrl-alt-gg.hu).
+- **Kábel bedugva?**
+- **Linkfény világít?**
+- **Portál betölt?**
 
-- **Ha betölt:** A kapcsolat rendben van. A gond valószínűleg a konkrét játékszerver vagy a tűzfal.
-- **Ha nem tölt be:** Kapcsolati probléma van.
+Ha a portál betölt, de a játékszerver nem, folytasd itt.
 
-## 3. IP beállítás
+## 2. IP beállítás
 
 A hálózati adapter legyen **IP-cím automatikus lekérése (DHCP)** módban.
 
-- **Windows:** Beállítások > Hálózat és internet > Ethernet > IP-cím hozzárendelés > Szerkesztés > Automatikus (DHCP)
-- **Statikus IP nem engedélyezett** és nem fog működni.
+1. Nyomd meg: `Win + R`, írd be: `ncpa.cpl`, majd Enter.
+2. Jobb klikk az Ethernet adapteren > Tulajdonságok.
+3. Válaszd: **Internet Protocol Version 4 (TCP/IPv4)** > Tulajdonságok.
+4. Válaszd: **IP-cím automatikus lekérése**.
 
-## 4. Szerver állapot
+**Statikus IP nem engedélyezett** és nem fog működni.
+
+## 3. Szerver állapot
 
 Csekkold itt: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu).
 
 - Ha ott piros/down, akkor mindenkinek áll.
 - Ha zöld, de te nem látod, nézd meg a tűzfalat.
 
-## 5. Tűzfal
+## 4. Tűzfal
 
 Tesztként ideiglenesen kapcsold ki a Windows Tűzfalat vagy a külső antivírus tűzfalat.
 
 - Ha megjelenik a szerver, kapcsold vissza a tűzfalat, és adj kivételt a játék futtatható fájljára.
 - Ne hagyd kikapcsolva az esemény teljes idejére.
 
-## Gyors ellenőrzőlista segítségkérés előtt
-- Verzió egyezés: nézd meg a játék verzióját vs a szerverét (főmenü sarka)
-- Szerver állapot: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu)
-- Indítsd újra a játékot, miután csatlakoztál a LAN-hoz
-- Csatold a hibaüzenetet és egy képernyőképet a jelentéshez
+## Még mindig nem megy?
+
+1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
+2. Írj a `#support` csatornára Discordon ezzel az infóval:
+   - Ülésed helye (pl. 4. sor, 12. szék)
+   - Mi a baj (egy mondatban)
+   - Mit próbáltál eddig
+   - Képernyőkép vagy hibaüzenet
+3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.

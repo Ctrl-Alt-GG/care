@@ -7,6 +7,8 @@ draft: false
 
 Windows Firewall loves to block LAN games on "Public" networks.
 
+First, check **[Known Issues](/help/known-issues/)**.
+
 ## The symptoms
 
 - You can see the server list but can't join.
@@ -17,8 +19,14 @@ Windows Firewall loves to block LAN games on "Public" networks.
 
 1. **Network Profile:** Make sure your network is set to **Private** (if you trust the LAN) or manually allow the game.
    - Settings > Network & Internet > Ethernet > Network profile type.
+   - **PowerShell (Admin):**
+     ```powershell
+     Get-NetConnectionProfile
+     Set-NetConnectionProfile -InterfaceAlias "Ethernet" -NetworkCategory Private
+     ```
 2. **Allow an app:**
-   - Search "Allow an app through Windows Firewall".
+   - Press `Win + R`, type `firewall.cpl`, press Enter.
+   - Click **Allow an app or feature through Windows Defender Firewall** (left side).
    - Click **Change settings**.
    - Find your game.
    - Check both **Private** and **Public** boxes.
@@ -31,10 +39,14 @@ If you use Norton, McAfee, Bitdefender, etc.:
 - Look for "Game Mode" or temporarily pause the firewall to test.
 - **Remember to turn it back on.**
 
-## If this didn't work
+## Still stuck?
 
-1. Check **[Known Issues](/help/known-issues/)** - it might be a global problem.
-2. Post in `#support` on Discord using the **[ticket template](/help/how-to-get-help/)**.
-3. Include: error message, screenshot, what you already tried.
+1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
+2. Post in `#support` on Discord with this info:
+   - Seat number (e.g. Row 4, Seat 12)
+   - What's broken, one sentence
+   - What you already tried
+   - Screenshot or error message
+3. If no reply in 15 minutes, come to the organizer desk.
 
 **Important:** Before asking for help, **disable your VPN!**

@@ -7,6 +7,17 @@ draft: false
 
 A szállítás rázkódása gyakran kilazít dolgokat. Ne pánikolj, valószínűleg csak egy kábel csúszott ki.
 
+Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
+
+## Gyors diagnózis
+
+- **Nincs fény, nincs ventilátor, semmi:** Tápkapcsoló, tápkábel vagy halott táp. Nézd meg a kapcsolót hátul (I = be). Próbálj másik kábelt. Próbálj másik konnektort.
+- **Alaplapi LED világít, de nem indul:** Nézd meg az előlapi bekapcsológomb csatlakozóját. Próbáld rövidre zárni a power pineket egy csavarhúzóval (staff segít).
+- **Ventilátorok forognak, de nincs kép:** GPU kábel (a videókártyába dugd, ne az alaplapba). Próbálj másik videó kimenetet. Vedd ki és tedd vissza a videókártyát.
+- **Ventilátorok felpörögnek, majd leáll (boot loop):** RAM hiba. Vedd ki és tedd vissza a modulokat. Próbáld egy modullal.
+- **Sípolás indításkor:** 1 hosszú + 2 rövid = GPU. Folyamatos = RAM. Nézd meg az alaplapod kézikönyvét a többi kódért.
+- **BIOS bejön, de Windows nem:** Boot meghajtó kábele kilazult, vagy elállítódott a sorrend. Ellenőrizd a BIOS-ban a Boot Priority-t.
+
 ## 1. Áramellátás (PSU)
 
 - **Kapcsoló:** Nézd meg a tápegységed hátulján a kapcsolót. "I" állásban van?
@@ -33,7 +44,12 @@ Ha a gép sípol, vagy elindul-leáll ciklusban ragad:
 
 Kérj meg egy szomszédot, hogy teszteljétek le az ő tápkábelével vagy monitorával. Ha így sem megy, keress meg egy szervezőt. Van néhány tartalék alkatrészünk tesztelésre, de nem ígérünk csodát.
 
-## Ha ez nem segített
+## Még mindig nem megy?
 
-1. Írj a `#support` csatornára Discordon a **[hibajegy sablon](/help/how-to-get-help/)** használatával.
-2. Csatolj: hibaüzenetet, képernyőképet, és hogy mit próbáltál eddig.
+1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
+2. Írj a `#support` csatornára Discordon ezzel az infóval:
+   - Ülésed helye (pl. 4. sor, 12. szék)
+   - Mi a baj (egy mondatban)
+   - Mit próbáltál eddig
+   - Képernyőkép vagy hibaüzenet
+3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.

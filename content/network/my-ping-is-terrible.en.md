@@ -7,6 +7,8 @@ draft: false
 
 High ping usually means something on your machine is eating bandwidth.
 
+First, check **[Known Issues](/help/known-issues/)**.
+
 ## 1. Stop downloads
 
 Check:
@@ -28,6 +30,11 @@ Are you on Wi-Fi?
 
 Open Task Manager (Ctrl+Shift+Esc) > Performance > Ethernet.
 
+Or use Resource Monitor for more detail:
+1. Press `Win + R`, type `resmon`, press Enter.
+2. Go to the **Network** tab.
+3. Look at "Network Activity" to see exactly which program is using bandwidth.
+
 - If you see constant high throughput (Mbps) when you aren't doing anything, find the process responsible and kill it.
 
 ## 4. Network congestion
@@ -36,8 +43,12 @@ If your whole row is lagging:
 - Ask your neighbors if they are running heavy downloads.
 - If everyone is lagging and nobody is downloading, **tell staff**. We can check the switch uplink.
 
-## If this didn't work
+## Still stuck?
 
-1. Check **[Known Issues](/help/known-issues/)** - it might be a global problem.
-2. Post in `#support` on Discord using the **[ticket template](/help/how-to-get-help/)**.
-3. Include: error message, screenshot, what you already tried.
+1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
+2. Post in `#support` on Discord with this info:
+   - Seat number (e.g. Row 4, Seat 12)
+   - What's broken, one sentence
+   - What you already tried
+   - Screenshot or error message
+3. If no reply in 15 minutes, come to the organizer desk.

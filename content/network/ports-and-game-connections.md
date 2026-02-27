@@ -7,6 +7,8 @@ draft: false
 
 Ha a játék nem csatlakozik, vagy "Strict NAT" hibát dob, itt a megoldás.
 
+Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
+
 ## Mi az a NAT?
 
 A NAT (Network Address Translation) fordítja le a belső IP-címedet a külvilág felé. LAN-on ez általában nem gond, de egyes játékok (főleg a régebbi P2P alapúak) érzékenyek rá.
@@ -45,13 +47,12 @@ Ha egy játék nem látja a szervert, ellenőrizd, hogy a tűzfalad engedi-e a k
 4. **IPv6:**
    Néhány játék (pl. régebbi címek) megzavarodhat, ha az IPv6 be van kapcsolva, de nincs IPv6 internet. Próbáld meg kikapcsolni az adapter beállításaiban.
 
-## Ha semmi sem segít
+## Még mindig nem megy?
 
-Írd be a parancssorba: `netstat -an | findstr "ESTABLISHED"`.
-Ha látsz kapcsolatokat a játék szerverének IP-címével, de a játék mégis hibát dob, akkor a probléma valószínűleg a játékszerver oldalon van. Szólj a staffnak.
-
-## Gyors ellenőrzőlista segítségkérés előtt
-- Verzió egyezés: nézd meg a játék verzióját vs a szerverét (főmenü sarka)
-- Szerver állapot: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu)
-- Indítsd újra a játékot, miután csatlakoztál a LAN-hoz
-- Csatold a hibaüzenetet és egy képernyőképet a jelentéshez
+1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
+2. Írj a `#support` csatornára Discordon ezzel az infóval:
+   - Ülésed helye (pl. 4. sor, 12. szék)
+   - Mi a baj (egy mondatban)
+   - Mit próbáltál eddig
+   - Képernyőkép vagy hibaüzenet
+3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.
