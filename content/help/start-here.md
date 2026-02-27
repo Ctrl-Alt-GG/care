@@ -3,6 +3,8 @@ title: "Itt kezdd (Start Here)"
 date: 2026-02-27T10:00:00+01:00
 description: "Válassz egy problémát, és mondjuk a megoldást."
 draft: false
+_build:
+  list: never
 ---
 
 Mi a gond? Kattints arra, ami a legjobban hasonlít a problémádra.
