@@ -1,30 +1,30 @@
 ---
-title: "Overheating: Symptoms and Quick Fixes"
+title: "Túlmelegedés: tünetek és gyors javítások"
 date: 2026-02-27T10:00:00+01:00
 categories: ["hardware"]
-description: "It gets hot in here. Keep your PC cool."
+description: "Itt meleg lesz. Tartsd hűvösen a gépedet."
 draft: false
 ---
 
-A room full of gaming PCs generates heat. If your rig starts acting up, check temps.
+Egy teremben sok játékos PC sok hőt termel. Ha a géped furcsán viselkedik, nézd meg a hőmérsékleteket.
 
-## Symptoms
+## Tünetek
 
-- Sudden FPS drops (throttling).
-- Random shutdowns or reboots.
-- Fans spinning at 100% constantly.
-- Artifacts on screen (GPU overheating).
+- Hirtelen FPS esés (throttling).
+- Váratlan leállás vagy újraindulás.
+- Ventilátorok állandó 100%-on pörögnek.
+- Képhibák a kijelzőn (GPU túlmelegedés).
 
-## Quick fixes
+## Gyors javítások
 
-1. **Airflow:** Ensure your case fans aren't blocked by bags, walls, or other PCs. Give it breathing room.
-2. **Dust:** If your filters are clogged, clean them. Ask staff for compressed air (we might have some).
-3. **Open the side panel:** It's ugly, but it works in a pinch.
-4. **Check fan curves:** Use MSI Afterburner or BIOS to ramp up fans earlier.
+1. **Légáramlás:** a ház ventijeit ne takarják táskák, fal vagy más gépek. Legyen helye lélegezni.
+2. **Por:** ha a szűrők eldugultak, tisztítsd ki őket. Kérj sűrített levegőt a stafftól (ha van).
+3. **Oldallap levétel:** nem szép, de szükségmegoldásként működik.
+4. **Fan curve ellenőrzés:** MSI Afterburnerben vagy BIOS-ban állíts agresszívebb ventilátor görbét.
 
-## Emergency
+## Vészhelyzet
 
-If your CPU hits 95°C+ or GPU hits 85°C+ consistently:
-- Stop gaming.
-- Let it idle for 10 minutes.
-- Check if a fan died or a cooler came loose.
+Ha a CPU tartósan 95C+ vagy a GPU 85C+:
+- Hagyd abba a játékot.
+- Hagyd üresjáratban 10 percig hűlni.
+- Ellenőrizd, hogy nem halt-e meg ventilátor vagy nem lazult-e meg a hűtő.

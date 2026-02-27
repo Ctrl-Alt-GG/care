@@ -1,0 +1,98 @@
+[home_heading]
+other = "Miben segíthetünk?"
+
+[cat_network_title]
+other = "Hálózat és kapcsolat"
+
+[cat_network_desc]
+other = "Nem látod a szervert? Magas a ping? Itt kezdd az összes kapcsolati hibával."
+
+[cat_hardware_title]
+other = "Hardver és áramellátás"
+
+[cat_hardware_desc]
+other = "Áramkeretek, kábelek, monitorok és tippek, hogy ne forrjon fel a géped."
+
+[cat_software_title]
+other = "Szoftver alapok"
+
+[cat_software_desc]
+other = "Fájlmegosztás, helyi letöltések és operációs rendszer specifikus beállítások."
+
+[cat_wellness_title]
+other = "Jólét és közösség"
+
+[cat_wellness_desc]
+other = "Házirend, higiénia, biztonság és tippek a hétvége túléléséhez."
+
+[cat_help_title]
+other = "Hogyan kérj segítséget"
+
+[cat_help_desc]
+other = "Kit kérdezz, hova írj, és milyen infók kellenek a gyors hibajavításhoz."
+
+[breadcrumb_home]
+other = "Kezdőlap"
+
+[menu_home]
+other = "Kezdőlap"
+
+[menu_network]
+other = "Hálózat"
+
+[menu_hardware]
+other = "Hardver"
+
+[menu_software]
+other = "Szoftver"
+
+[menu_wellness]
+other = "Jólét"
+
+[menu_help]
+other = "Segítség"
+
+[aside_other_articles]
+other = "Többi cikk"
+
+[aside_need_help]
+other = "Segítség kell?"
+
+[aside_help_desc]
+other = "Fordulj közvetlenül bármelyik szervezőhöz vagy staff taghoz."
+
+[aside_lan_portal]
+other = "LAN portál"
+
+[aside_server_status]
+other = "Szerver állapot"
+
+[aside_discord]
+other = "Discord"
+
+[footer_tagline]
+other = "Ne aggódj, játssz boldogan!"
+
+[footer_desc]
+other = "Támogatási és információs központ a Ctrl-Alt-GG LAN közösségnek. Útmutatók, hibakeresés, házirend és minden, ami kell egy nyugodt hétvégéhez."
+
+[footer_all_rights_reserved]
+other = "Minden jog fenntartva."
+
+[pagination_prev]
+other = "Előző"
+
+[pagination_next]
+other = "Következő"
+
+[error_label]
+other = "Hiba"
+
+[not_found_title]
+other = "Az oldal nem található"
+
+[not_found_desc]
+other = "A keresett oldal nem létezik, vagy lehet, hogy másik helyre került."
+
+[back_home]
+other = "Vissza a kezdőlapra"

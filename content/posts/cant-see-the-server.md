@@ -1,47 +1,47 @@
 ---
-title: "I Can't See the Server"
+title: "Nem látom a szervert"
 date: 2026-02-27T10:00:00+01:00
 categories: ["network"]
-description: "Cable check, portal check, and what to do when nothing loads."
+description: "Kábel ellenőrzés, portál teszt, és mit tegyél, ha semmi nem tölt be."
 draft: false
 ---
 
-If you can't see a game server or the LAN portal, start here.
+Ha nem látod a játékszervert vagy a LAN portált, itt kezdd.
 
-## 1. Physical check
+## 1. Fizikai ellenőrzés
 
-- Is your network cable plugged in at both ends?
-- Do you see a link light (green/amber LED) on your network port?
-- Are you using the cable provided by us? (Do not use your own cable unless authorized).
+- Be van dugva a hálózati kábel mindkét oldalon?
+- Van linkfény (zöld/sárga LED) a hálózati porton?
+- A tőlünk kapott kábelt használod? (Saját kábel csak engedéllyel.)
 
-## 2. Portal check
+## 2. Portál ellenőrzés
 
-Open your browser and go to [spawn.ctrl-alt-gg.hu](https://spawn.ctrl-alt-gg.hu).
+Nyisd meg a böngészőt, és menj ide: [spawn.ctrl-alt-gg.hu](https://spawn.ctrl-alt-gg.hu).
 
-- **If it loads:** Your connection is fine. The issue is likely the specific game server or your firewall.
-- **If it doesn't load:** You have a connection problem.
+- **Ha betölt:** A kapcsolat rendben van. A gond valószínűleg a konkrét játékszerver vagy a tűzfal.
+- **Ha nem tölt be:** Kapcsolati probléma van.
 
-## 3. IP configuration
+## 3. IP beállítás
 
-Ensure your network adapter is set to **Obtain an IP address automatically (DHCP)**.
+A hálózati adapter legyen **IP-cím automatikus lekérése (DHCP)** módban.
 
-- **Windows:** Settings > Network & Internet > Ethernet > IP assignment > Edit > Automatic (DHCP).
-- **Static IPs are not allowed** and will not work.
+- **Windows:** Beállítások > Hálózat és internet > Ethernet > IP-cím hozzárendelés > Szerkesztés > Automatikus (DHCP)
+- **Statikus IP nem engedélyezett** és nem fog működni.
 
-## 4. Server status
+## 4. Szerver állapot
 
-Check [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu).
+Ellenőrizd: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu).
 
-- If the server is red/down there, it's down for everyone.
-- If it's green but you can't see it, check your firewall.
+- Ha ott piros/down, akkor mindenkinek áll.
+- Ha zöld, de te nem látod, ellenőrizd a tűzfalat.
 
-## 5. Firewall
+## 5. Tűzfal
 
-Temporarily disable your Windows Firewall or third-party antivirus firewall to test.
+Tesztként ideiglenesen kapcsold ki a Windows Tűzfalat vagy a külső antivírus tűzfalat.
 
-- If the server appears, re-enable the firewall and add an exception for the game executable.
-- Do not leave your firewall disabled for the entire event.
+- Ha megjelenik a szerver, kapcsold vissza a tűzfalat, és adj kivételt a játék futtatható fájljára.
+- Ne hagyd kikapcsolva az esemény teljes idejére.
 
-## Still nothing?
+## Még mindig semmi?
 
-If you have a link light, DHCP is on, and you can't load the portal: **ask for help**.
+Ha van linkfény, DHCP be van kapcsolva, és a portál sem tölt be: **kérj segítséget**.

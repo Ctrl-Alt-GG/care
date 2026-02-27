@@ -1,29 +1,29 @@
 ---
-title: "File Sharing on the LAN"
+title: "Fájlmegosztás a LAN-on"
 date: 2026-02-27T10:00:00+01:00
 categories: ["software"]
-description: "Share game files, not viruses. The rules."
+description: "Játékfájlokat ossz meg, ne vírusokat. A szabályok."
 draft: false
 ---
 
-Sharing large files over the LAN is fast and saves internet bandwidth.
+A nagy fájlok LAN-on való megosztása gyors, és kíméli az internet sávszélességét.
 
-## Allowed Tools
+## Engedélyezett eszközök
 
-- **DC++ (Direct Connect):** If we run a hub, use it.
-- **Windows File Sharing (SMB):** Great for small groups.
-- **USB Drives:** The classic "Sneakernet". Reliable.
+- **DC++ (Direct Connect):** Ha fut hub, használd azt.
+- **Windows fájlmegosztás (SMB):** Kis csoportoknak kiváló.
+- **USB meghajtók:** A klasszikus „sneakernet”, megbízható.
 
-## The Rules
+## Szabályok
 
-1. **No Piracy:** Do not share cracked games, movies, or software.
-2. **Scan for Viruses:** Don't be the person who infects the whole row.
-3. **Respect Bandwidth:** Don't saturate the switch uplink with 10 simultaneous transfers.
+1. **Nincs warez:** Feltört játékokat, filmeket vagy szoftvert ne ossz meg.
+2. **Vírusellenőrzés:** Ne te fertőzd le az egész sort.
+3. **Sávszél tisztelet:** Ne terheld túl a switch uplinket 10 párhuzamos átvitellel.
 
-## How to use Windows Sharing
+## Windows megosztás röviden
 
-1. Right-click folder > Properties > Sharing.
-2. Click **Share...**
-3. Select **Everyone** > Add > Read (or Read/Write).
-4. Click **Share**.
-5. Tell your friend your PC name or IP address (`\\YourPCName`).
+1. Jobb klikk a mappán > Tulajdonságok > Megosztás.
+2. Kattints a **Megosztás...** gombra.
+3. Válaszd: **Everyone** > Add > Read (vagy Read/Write).
+4. Kattints: **Share**.
+5. Mondd meg a barátodnak a gépnevet vagy IP-címet (`\GépNév`).

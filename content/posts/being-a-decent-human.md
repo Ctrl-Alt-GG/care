@@ -1,32 +1,32 @@
 ---
-title: "Being a Decent Human"
+title: "Légy normális ember"
 date: 2026-02-27T10:00:00+01:00
 categories: ["wellness"]
-description: "Community standards and behavior."
+description: "Közösségi normák és viselkedés."
 draft: false
 ---
 
-A LAN is a social event. Don't make it awkward.
+A LAN közösségi esemény. Ne tedd kínossá.
 
-## Trash Talk vs. Harassment
+## Trash talk vagy zaklatás
 
-- **Trash Talk:** Friendly banter between rivals who know each other. "Nice shot, lucky."
-- **Harassment:** Personal attacks, slurs, threats, or targeting someone who isn't enjoying it.
-- **The Line:** If someone asks you to stop, stop. If you don't, it's harassment.
+- **Trash talk:** Baráti oltogatás olyanok között, akik értik egymást. „Szép lövés, szerencséd volt.”
+- **Zaklatás:** Személyes támadás, gyűlöletbeszéd, fenyegetés, vagy olyan személy célzása, aki ezt nem élvezi.
+- **A határ:** Ha valaki azt mondja, hogy elég, akkor elég. Ha folytatod, az zaklatás.
 
-## Helping Newbies
+## Újoncok segítése
 
-- Not everyone is a pro. Not everyone has been to a LAN before.
-- If someone is struggling with setup, offer to help.
-- If someone is new to a game, don't flame them. Teach them.
+- Nem mindenki profi, és nem mindenki volt már LAN-on.
+- Ha valakinek gondja van a beállítással, segíts neki.
+- Ha valaki új egy játékban, ne alázd. Inkább tanítsd.
 
-## Theft & Security
+## Lopás és biztonság
 
-- We have never had a major theft, because we look out for each other.
-- If you see someone messing with gear that isn't theirs, say something or tell staff.
-- Lock your PC (Win+L) when you walk away.
+- Eddig nem volt komoly lopás, mert figyelünk egymásra.
+- Ha valaki más felszerelését piszkálja, szólj neki vagy jelezd a staffnak.
+- Ha elmész a gépedtől, zárold le (Win+L).
 
-## Inclusion
+## Befogadás
 
-- Everyone is here to game.
-- We do not tolerate discrimination based on race, gender, orientation, or ability.
+- Mindenki azért van itt, hogy játsszon.
+- Nem toleráljuk a diszkriminációt származás, nem, orientáció vagy képesség alapján.

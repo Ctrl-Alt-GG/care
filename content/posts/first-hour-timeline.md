@@ -1,42 +1,42 @@
 ---
-title: "Your First Hour: A Timeline"
+title: "Az első óra: idővonal"
 date: 2026-02-27T10:00:00+01:00
 categories: ["wellness"]
-description: "Don't panic. Follow the plan."
+description: "Ne pánikolj. Kövess egy egyszerű tervet."
 draft: false
 ---
 
-The first hour sets the tone. If you rush, you'll be fixing things all weekend. Take it step by step.
+Az első óra meghatározza az egész hétvégét. Ha kapkodsz, utána csak hibákat javítasz.
 
-## 0-15 Minutes: Arrival & Load-in
+## 0-15 perc: érkezés és kipakolás
 
-1. **Check in:** Get your badge/wristband.
-2. **Find your seat:** It's first come, first served.
-3. **Drop your gear:** Put your PC/Monitor on the desk. Put bags under the table.
-4. **Say hi:** Introduce yourself to your neighbors. You'll be sitting next to them for 48 hours.
+1. **Belépés:** Vedd át a karszalagot/jelvényt.
+2. **Helykeresés:** Érkezési sorrend alapján ülünk.
+3. **Felszerelés lerakása:** PC/monitor az asztalra, táskák az asztal alá.
+4. **Köszönés:** Mutatkozz be a szomszédoknak, 48 órán át mellettük ülsz.
 
-## 15-30 Minutes: Physical Setup
+## 15-30 perc: fizikai beállítás
 
-1. **Power:** Plug in your PC and Monitor. (Remember: 2 outlets max).
-2. **Peripherals:** Connect mouse, keyboard, headset.
-3. **Network:** Plug in the provided blue cable. Check for a link light on your port.
-4. **Cable Management:** Route cables so they don't block the aisle or your mousepad.
+1. **Áram:** Dugd be a PC-t és a monitort (max. 2 konnektor).
+2. **Perifériák:** Egér, billentyűzet, headset.
+3. **Hálózat:** Dugd be a kapott kék kábelt, ellenőrizd a linkfényt.
+4. **Kábelrendezés:** Ne lógjon kábel a folyosóra vagy az egérpadra.
 
-## 30-45 Minutes: Boot & Connect
+## 30-45 perc: boot és csatlakozás
 
-1. **Power On:** Boot up your machine.
-2. **DHCP Check:** Ensure your network adapter is set to Automatic IP.
-3. **Portal:** Open [spawn.ctrl-alt-gg.hu](https://spawn.ctrl-alt-gg.hu). If it loads, you're online.
-4. **Launchers:** Open Steam/Battle.net. Let them update (they should pull from our local cache).
+1. **Bekapcsolás:** Indítsd el a gépet.
+2. **DHCP ellenőrzés:** Az adapter legyen Automatikus IP módban.
+3. **Portál:** Nyisd meg: [spawn.ctrl-alt-gg.hu](https://spawn.ctrl-alt-gg.hu). Ha betölt, online vagy.
+4. **Launcherek:** Nyisd meg a Steam/Battle.net klienseket, hagyd frissülni (helyi cache-ből gyors lesz).
 
-## 45-60 Minutes: Life Support
+## 45-60 perc: alap túlélés
 
-1. **Hydration:** Fill your water bottle.
-2. **Food Plan:** Know where the food area is and when you're eating.
-3. **Toilet Run:** You won't want to move once the gaming starts.
+1. **Folyadék:** Tölts vizet a kulacsodba.
+2. **Evés terv:** Tudd, hol és mikor eszel.
+3. **WC kör:** Játék közben nem akarsz felállni.
 
-## 60+ Minutes: Game Time
+## 60+ perc: játékidő
 
-- Join a server.
-- Jump in Discord.
-- Play.
+- Lépj be egy szerverre.
+- Menj Discordra.
+- Játssz.

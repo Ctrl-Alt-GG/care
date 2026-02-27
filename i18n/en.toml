@@ -1,0 +1,98 @@
+[home_heading]
+other = "What do you need help with?"
+
+[cat_network_title]
+other = "Network & Connectivity"
+
+[cat_network_desc]
+other = "Can't see the server? Ping is terrible? Start here for all connection issues."
+
+[cat_hardware_title]
+other = "Hardware & Power"
+
+[cat_hardware_desc]
+other = "Power limits, cables, monitors, and keeping your rig from melting."
+
+[cat_software_title]
+other = "Software Basics"
+
+[cat_software_desc]
+other = "File sharing, local downloads, and OS-specific setup tips."
+
+[cat_wellness_title]
+other = "Wellness & Community"
+
+[cat_wellness_desc]
+other = "House rules, hygiene, safety, and how to survive the weekend."
+
+[cat_help_title]
+other = "How to Get Help"
+
+[cat_help_desc]
+other = "Who to ask, where to post, and what info we need to fix your problem fast."
+
+[breadcrumb_home]
+other = "Home"
+
+[menu_home]
+other = "Home"
+
+[menu_network]
+other = "Network"
+
+[menu_hardware]
+other = "Hardware"
+
+[menu_software]
+other = "Software"
+
+[menu_wellness]
+other = "Wellness"
+
+[menu_help]
+other = "Get Help"
+
+[aside_other_articles]
+other = "Other articles"
+
+[aside_need_help]
+other = "Need help?"
+
+[aside_help_desc]
+other = "Talk to any organizer or staff member directly."
+
+[aside_lan_portal]
+other = "LAN portal"
+
+[aside_server_status]
+other = "Server status"
+
+[aside_discord]
+other = "Discord"
+
+[footer_tagline]
+other = "Don't worry, play happy!"
+
+[footer_desc]
+other = "Support and care hub for the Ctrl-Alt-GG LAN community. Guides, troubleshooting, house rules, and everything you need for a smooth weekend."
+
+[footer_all_rights_reserved]
+other = "All rights reserved."
+
+[pagination_prev]
+other = "Previous"
+
+[pagination_next]
+other = "Next"
+
+[error_label]
+other = "Error"
+
+[not_found_title]
+other = "Page not found"
+
+[not_found_desc]
+other = "The page you are looking for does not exist or may have moved."
+
+[back_home]
+other = "Back to homepage"

@@ -1,35 +1,35 @@
 ---
-title: "IP Setup Basics"
+title: "IP beállítás alapok"
 date: 2026-02-27T10:00:00+01:00
 categories: ["network"]
-description: "DHCP is mandatory. Static IPs will break your connection."
+description: "A DHCP kötelező. A statikus IP tönkreteszi a kapcsolatot."
 draft: false
 ---
 
-Our network uses dynamic addressing.
+A hálózatunk dinamikus címzést használ.
 
-## The Rule
+## Szabály
 
-**Set everything to Automatic (DHCP).**
+**Minden legyen Automatikus (DHCP).**
 
-- Do not set a static IP.
-- Do not use your home DNS settings if they are local (like Pi-hole).
-- Do not set a custom gateway.
+- Ne állíts be statikus IP-címet.
+- Ne használd az otthoni helyi DNS beállítást (pl. Pi-hole).
+- Ne állíts be egyedi gateway-t.
 
-## How to check (Windows)
+## Ellenőrzés (Windows)
 
-1. Press `Win + R`, type `ncpa.cpl`, press Enter.
-2. Right-click your Ethernet adapter > Properties.
-3. Select **Internet Protocol Version 4 (TCP/IPv4)** > Properties.
-4. Ensure both are selected:
+1. Nyomd meg: `Win + R`, írd be: `ncpa.cpl`, majd Enter.
+2. Jobb klikk az Ethernet adapteren > Tulajdonságok.
+3. Válaszd: **Internet Protocol Version 4 (TCP/IPv4)** > Tulajdonságok.
+4. Mindkettő legyen kijelölve:
    - **Obtain an IP address automatically**
    - **Obtain DNS server address automatically**
 
-## Troubleshooting
+## Hibakeresés
 
-If you have "Unidentified Network" or "No Internet":
-1. Open Command Prompt (`cmd`).
-2. Type `ipconfig /release` and press Enter.
-3. Type `ipconfig /renew` and press Enter.
+Ha "Unidentified Network" vagy "No Internet" látszik:
+1. Nyiss egy Command Promptot (`cmd`).
+2. Futtasd: `ipconfig /release`
+3. Futtasd: `ipconfig /renew`
 
-If you get an error or it times out, check your cable or ask staff.
+Ha hibát ad vagy timeoutol, nézd meg a kábelt, vagy kérj segítséget a stafftól.

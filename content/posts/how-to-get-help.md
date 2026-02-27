@@ -1,41 +1,41 @@
 ---
-title: "How to Ask for Tech Help"
+title: "Hogyan kérj technikai segítséget"
 date: 2026-02-27T10:00:00+01:00
 categories: ["help"]
-description: "The fastest way to get your problem fixed."
+description: "Így javul meg leggyorsabban a problémád."
 draft: false
 ---
 
-We want to help, but we are running the event at the same time. Here is how to reach us.
+Segíteni akarunk, de közben az eseményt is üzemeltetjük. Így érsz el minket a leggyorsabban.
 
-## 1. Ask Early
+## 1. Kérj időben segítséget
 
-- **Do not wait 3 hours** hoping the problem fixes itself.
-- If you can't connect, tell us now.
-- If your power is flickering, tell us immediately.
+- **Ne várj 3 órát** abban reménykedve, hogy majd magától megjavul.
+- Ha nem tudsz csatlakozni, jelezd most.
+- Ha villog az áram, azonnal jelezd.
 
-## 2. Where to Ask
+## 2. Hol kérdezz
 
-- **Discord:** Use the `#tech-support` channel. This is the best way because multiple staff members see it.
-- **In Person:** Find anyone wearing a Staff shirt/badge.
-- **Do not DM organizers directly.** We might not see it.
+- **Discord:** írj a `#tech-support` csatornába. Ez a legjobb, mert több staff is látja.
+- **Személyesen:** keress valakit staff pólóban/jelvénnyel.
+- **Ne küldj privát üzenetet a szervezőknek.** Lehet, hogy nem látjuk.
 
-## 3. What to Say
+## 3. Mit írj
 
-Don't just say "It's broken." Tell us:
+Ne csak annyit, hogy "rossz". Inkább:
 
-- **Who:** Your seat number (e.g., Row 4, Seat 12).
-- **What:** "I can't connect to the CS2 server" or "My power strip is sparking."
-- **Status:** "I tried rebooting and disabling firewall, still nothing."
+- **Ki:** ülésed helye (pl. 4. sor, 12. hely).
+- **Mi:** "Nem tudok csatlakozni a CS2 szerverre" vagy "Szikrázik az elosztóm".
+- **Státusz:** "Újraindítottam, tűzfal kikapcs, még mindig semmi."
 
-## 4. Expected Response Time
+## 4. Várható reakcióidő
 
-- **Critical (Power/Network Down):** Immediate.
-- **Game Issues:** 5-15 minutes.
-- **"How do I install this mod?":** Low priority. Ask a neighbor first.
+- **Kritikus (áram/hálózat kiesés):** azonnali.
+- **Játék problémák:** 5-15 perc.
+- **"Hogy telepítsem ezt a modot?":** alacsony prioritás. Először kérdezz meg egy szomszédot.
 
-## 5. Escalation
+## 5. Eszkaláció
 
-If you posted in Discord and nobody replied in 15 minutes:
-- Come to the organizer desk.
-- Be polite. We are probably putting out another fire.
+Ha Discordon 15 perc után sincs válasz:
+- Menj a szervezői pulthoz.
+- Légy udvarias. Valószínűleg épp máshol tüzet oltunk.

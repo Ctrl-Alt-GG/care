@@ -1,22 +1,22 @@
 ---
-title: "Monitor Refresh Rate Checks"
+title: "Monitor frissítési frekvencia ellenőrzés"
 date: 2026-02-27T10:00:00+01:00
 categories: ["hardware"]
-description: "You paid for 144Hz. Make sure you're using it."
+description: "Fizettél 144Hz-ért, használd is ki."
 draft: false
 ---
 
-It happens every LAN. Someone plays all weekend on 60Hz without realizing it.
+Minden LAN-on előfordul: valaki végig 60Hz-en játszik és észre sem veszi.
 
-## Check your settings
+## Ellenőrizd a beállítást
 
-1. Right-click Desktop > **Display settings**.
-2. Scroll down to **Advanced display settings**.
-3. Check the **Refresh rate** dropdown.
-4. Set it to the highest available number (144Hz, 240Hz, etc.).
+1. Jobb klikk az asztalon > **Display settings**.
+2. Görgess le az **Advanced display settings** részhez.
+3. Nézd meg a **Refresh rate** listát.
+4. Állítsd a lehető legmagasabb értékre (144Hz, 240Hz stb.).
 
-## Troubleshooting
+## Hibakeresés
 
-- **Option missing?** Check your cable. HDMI often limits refresh rates. Use DisplayPort if possible.
-- **Game feels slow?** Check in-game video settings. V-Sync or frame caps might be locking you to 60fps.
-- **Nvidia/AMD Panel:** Sometimes you need to set the resolution to "PC" instead of "TV/Ultra HD" to unlock higher refresh rates.
+- **Nincs opció?** Ellenőrizd a kábelt. A HDMI gyakran korlátoz. Ha lehet, használj DisplayPortot.
+- **Lassúnak érződik a játék?** Nézd meg a játékon belüli videó beállításokat. A V-Sync vagy FPS limit 60fps-re zárhat.
+- **Nvidia/AMD panel:** Néha a "PC" felbontást kell választani "TV/Ultra HD" helyett, hogy feloldja a magasabb frissítést.

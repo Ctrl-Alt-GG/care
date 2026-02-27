@@ -1,38 +1,53 @@
 ---
-title: "House Rules"
+title: "Házirend"
 date: 2026-02-27T10:00:00+01:00
 categories: ["wellness"]
-description: "The non-negotiables. Read this before you unpack."
+description: "Nem alku tárgya. Olvasd el, mielőtt kipakolsz."
 draft: false
 ---
 
-We are here to have fun, but 100 people in one room requires some ground rules.
+Azért vagyunk itt, hogy jól érezzük magunkat, de 100 ember egy térben szabályokat igényel.
 
-## 1. No Speakers
+## 1. Érkezés és távozás
 
-- **Headsets only.**
-- If we hear your music, game, or Discord call, we will ask you to turn it off.
-- Repeated offenses = you leave.
+- Érkezz időben.
+- A saját felszerelésedet te hozod és te is viszed haza.
 
-## 2. Hygiene
+## 2. Nincs hangszóró
 
-- **Shower daily.** This is not a request.
-- Use deodorant.
-- Keep your area clean. Throw your trash in the bins, not on the floor.
+- **Csak headset.**
+- Ha halljuk a játékot, zenét vagy Discord hívásodat, szólunk.
+- Ismételt szabálysértés = távozás.
 
-## 3. Alcohol & Substances
+## 3. Higiénia
 
-- **Alcohol:** Allowed in moderation (if legal age). Being drunk and disorderly is not allowed.
-- **Smoking/Vaping:** Outside only. No vaping at your desk.
-- **Illegal substances:** Zero tolerance. Immediate ban and police involvement.
+- **Napi fürdés.** Ez nem javaslat.
+- Használj dezodort.
+- Tartsd tisztán a helyed. A szemét a kukába megy.
 
-## 4. Respect the Venue
+## 4. Alkohol és szerek
 
-- Do not tape things to the walls.
-- Do not mess with the venue's network equipment or power distribution.
-- Sleep only in designated sleeping areas, not under your desk (fire hazard).
+- **Alkohol:** mértékkel (jogszabályi korhatár felett). Részeg, rendetlen viselkedés nem elfogadott.
+- **Dohányzás/vape:** csak kint. Az asztalnál tilos.
+- **Illegális szerek:** zéró tolerancia. Azonnali kizárás és rendőrségi ügy.
 
-## 5. Be Cool
+## 5. Hálózat
 
-- Don't be the person who ruins it for everyone else.
-- If staff asks you to stop doing something, stop.
+- Ne állítsd át a hálózati beállításokat, és ne cserélgess kábelt.
+- Ha portra vagy kábelre van szükséged, kérd a staffot.
+
+## 6. Játék közben
+
+- Csalás tilos.
+- Szándékos rombolás, griefing tilos.
+
+## 7. Tiszteld a helyszínt
+
+- Ne ragassz semmit a falakra.
+- Ne nyúlj a helyszín hálózati vagy áramelosztó eszközeihez.
+- Aludni csak kijelölt alvótérben lehet, nem az asztal alatt.
+
+## 8. Légy korrekt
+
+- Ne te legyél az, aki elrontja mások hétvégéjét.
+- Ha a staff kéri, hogy hagyd abba, akkor hagyd abba.

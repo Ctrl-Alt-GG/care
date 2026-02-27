@@ -1,30 +1,30 @@
 ---
-title: "Reporting Network Issues"
+title: "Hálózati hibák jelentése"
 date: 2026-02-27T10:00:00+01:00
 categories: ["network"]
-description: "Help us help you. What to tell the tech team."
+description: "Segíts, hogy gyorsan segíthessünk. Ezt mondd a technikai csapatnak."
 draft: false
 ---
 
-"The internet is broken" doesn't help us fix it. When you message support or wave down a staff member, tell us:
+Az, hogy "rossz az internet", önmagában nem elég a javításhoz. Amikor a supportnak írsz vagy staffot hívsz, ezeket mondd:
 
-## 1. Who and Where
-- Your seat location (Row/Seat number).
-- Your username (if on Discord).
+## 1. Ki vagy és hol ülsz
+- Ülésed helye (sor/hely szám).
+- Felhasználóneved (ha Discordon írsz).
 
-## 2. The Connection
-- **Wired** or **Wi-Fi**?
-- Do you have a link light on the port?
+## 2. A kapcsolat típusa
+- **Vezetékes** vagy **wifi**?
+- Van linkfény a porton?
 
-## 3. The Problem
-- **No connection:** "I can't load the portal or Google."
-- **Specific site:** "I can't reach Steam, but Discord works."
-- **Game issue:** "I can't connect to the CS2 server."
-- **Performance:** "I have 50% packet loss."
+## 3. A probléma
+- **Nincs kapcsolat:** "Nem tölt be a portál vagy a Google."
+- **Csak bizonyos oldal:** "A Steam nem megy, de a Discord igen."
+- **Játék gond:** "Nem tudok csatlakozni a CS2 szerverre."
+- **Teljesítmény:** "50% packet lossom van."
 
-## 4. What you tried
-- "I rebooted."
-- "I tried a different cable."
-- "I disabled my firewall."
+## 4. Mit próbáltál
+- "Újraindítottam."
+- "Másik kábelt próbáltam."
+- "Kikapcsoltam a tűzfalat."
 
-The more specific you are, the faster you get back in the game.
+Minél pontosabb vagy, annál gyorsabban kerülsz vissza a játékba.

@@ -1,34 +1,34 @@
 ---
-title: "Wi-Fi vs LAN"
+title: "Wi-Fi vagy LAN"
 date: 2026-02-27T10:00:00+01:00
 categories: ["network"]
-description: "When to use which, and why you really want a cable."
+description: "Mikor melyiket használd, és miért jobb a kábel."
 draft: false
 ---
 
-We provide both, but they are for different things.
+Mindkettőt biztosítjuk, de nem ugyanarra valók.
 
-## Wired LAN (Ethernet)
+## Vezetékes LAN (Ethernet)
 
-**Use for:** Gaming, large downloads, stability.
+**Erre használd:** játék, nagy letöltés, stabil kapcsolat.
 
-- Every seat has a dedicated cable.
-- Gigabit speed (usually).
-- Lowest latency.
-- Required for tournaments.
+- Minden üléshelyhez dedikált kábel van.
+- Gigabites sebesség (általában).
+- Legalacsonyabb késleltetés.
+- Versenyekhez kötelező.
 
 ## Wi-Fi
 
-**Use for:** Phones, tablets, browsing on laptops while eating.
+**Erre használd:** telefon, tablet, laptopos böngészés evés közben.
 
-- Shared bandwidth.
-- Higher latency and jitter.
-- Subject to interference from hundreds of other devices.
-- **Do not game on Wi-Fi.** You will lag, and you will blame the network, but it's physics.
+- Megosztott sávszélesség.
+- Magasabb késleltetés és jitter.
+- Érzékeny a több száz eszköz okozta interferenciára.
+- **Ne játssz wifin.** Laggolni fogsz, és a hálózatot okolod majd, pedig fizika.
 
-## No Ethernet port?
+## Nincs Ethernet port?
 
-If your laptop has no Ethernet port:
-- Use a USB-to-Ethernet adapter.
-- Ask around if you didn't bring one; someone might have a spare.
-- Use Wi-Fi as a last resort, but expect lag.
+Ha a laptopodon nincs Ethernet:
+- Használj USB -> Ethernet adaptert.
+- Kérdezz körbe, ha nem hoztál; lehet valakinek van tartalék.
+- Végszükségként használhatsz wifit, de számíts lagra.

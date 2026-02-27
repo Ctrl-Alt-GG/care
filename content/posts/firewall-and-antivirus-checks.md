@@ -1,33 +1,33 @@
 ---
-title: "Firewall and Antivirus Checks"
+title: "Tűzfal és antivírus ellenőrzés"
 date: 2026-02-27T10:00:00+01:00
 categories: ["network"]
-description: "If you can ping it but can't join it, it's probably your firewall."
+description: "Ha pingelhető, de nem tudsz csatlakozni, valószínűleg a tűzfal az ok."
 draft: false
 ---
 
-Windows Firewall loves to block LAN games on "Public" networks.
+A Windows Tűzfal gyakran blokkolja a LAN-játékokat, főleg ha a hálózat „Nyilvános” profilra van állítva.
 
-## The symptoms
+## Tünetek
 
-- You can see the server list but can't join.
-- You can't host a local lobby.
-- You can't see other players in LAN browsers.
+- Látod a szerverlistát, de nem tudsz csatlakozni.
+- Nem tudsz helyi lobbyt hostolni.
+- Nem látod a többi játékost LAN böngészőben.
 
-## Quick fix
+## Gyors javítás
 
-1. **Network Profile:** Ensure your network is set to **Private** (if you trust the LAN) or manually allow the game.
-   - Settings > Network & Internet > Ethernet > Network profile type.
-2. **Allow an app:**
-   - Search "Allow an app through Windows Firewall".
-   - Click **Change settings**.
-   - Find your game.
-   - Check both **Private** and **Public** boxes.
-   - Click OK.
+1. **Hálózati profil:** Legyen **Privát** (ha megbízol a LAN-ban), vagy kézzel engedélyezd a játékot.
+   - Beállítások > Hálózat és internet > Ethernet > Hálózati profil típusa.
+2. **Alkalmazás engedélyezése:**
+   - Keresd: "Allow an app through Windows Firewall".
+   - Kattints: **Change settings**.
+   - Keresd ki a játékot.
+   - Pipáld be a **Private** és **Public** oszlopot is.
+   - OK.
 
-## Third-party Antivirus
+## Külső antivírus
 
-If you use Norton, McAfee, Bitdefender, etc.:
-- They often override Windows settings.
-- Look for "Game Mode" or temporarily pause the firewall to test.
-- **Remember to turn it back on.**
+Ha Norton, McAfee, Bitdefender stb. fut:
+- Gyakran felülírják a Windows beállításokat.
+- Keresd a "Game Mode" opciót, vagy teszthez ideiglenesen állítsd le a tűzfalat.
+- **Ne felejtsd visszakapcsolni.**

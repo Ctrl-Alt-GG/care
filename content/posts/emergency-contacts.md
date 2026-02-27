@@ -1,35 +1,35 @@
 ---
-title: "Emergency & Safety"
+title: "Vészhelyzet és biztonság"
 date: 2026-02-27T10:00:00+01:00
 categories: ["wellness"]
-description: "First aid, fire safety, and reporting serious issues."
+description: "Elsősegély, tűzbiztonság és komoly problémák jelentése."
 draft: false
 ---
 
-Know this before you need it.
+Ezt tudd, mielőtt szükség lenne rá.
 
-## Medical Emergency
+## Egészségügyi vészhelyzet
 
-- **Minor (cuts, headaches):** Go to the Organizer Desk. We have a basic First Aid kit.
-- **Major (collapse, seizure, severe injury):**
-  1. Call **112** (Emergency Services) immediately.
-  2. Shout for "MEDIC" or "STAFF".
-  3. Clear the area around the person.
+- **Kisebb (vágás, fejfájás):** Menj a szervezői pulthoz. Van alap elsősegély csomagunk.
+- **Súlyos (összeesés, roham, komoly sérülés):**
+  1. Azonnal hívd a **112**-t.
+  2. Kiálts: **ORVOS** vagy **STAFF**.
+  3. Tisztítsd ki a területet a sérült körül.
 
-## Fire
+## Tűz
 
-- If the alarm sounds, **leave immediately**.
-- Do not try to save your PC. It is insured (or replaceable). You are not.
-- Gather at the designated assembly point outside.
+- Ha megszólal a riasztó, **azonnal hagyd el** az épületet.
+- Ne próbáld menteni a gépedet. Pótolható. Te nem.
+- Gyülekezz a kijelölt külső gyülekezési ponton.
 
-## Harassment / Safety Concerns
+## Zaklatás / biztonsági aggály
 
-- If someone is making you feel unsafe or uncomfortable:
-  - Come to the Organizer Desk immediately.
-  - Ask to speak to a lead organizer privately.
-  - We take this seriously and will handle it discreetly.
+- Ha valaki miatt veszélyben vagy kellemetlenül érzed magad:
+  - Menj azonnal a szervezői pulthoz.
+  - Kérd, hogy egy vezető szervezővel beszélhess privátban.
+  - Komolyan vesszük, és diszkréten kezeljük.
 
-## Lost & Found
+## Talált tárgyak
 
-- Found something? Bring it to the Organizer Desk.
-- Lost something? Check the Organizer Desk.
+- Találtál valamit? Vidd a szervezői pulthoz.
+- Elhagytál valamit? Érdeklődj a szervezői pultnál.

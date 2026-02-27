@@ -3,39 +3,39 @@
   <section class="mb-16">
 
     <div class="flex items-center mb-10">
-      <h2 class="text-3xl md:text-4xl font-bold mr-auto">What do you need help with?</h2>
+      <h2 class="text-3xl md:text-4xl font-bold mr-auto">{{ i18n "home_heading" }}</h2>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
       <!-- Network -->
-      <a href="/categories/network/" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
-        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">Network & Connectivity</h3>
-        <p class="text-zinc-600">Can't see the server? Ping is terrible? Start here for all connection issues.</p>
+      <a href="{{ "/categories/network/" | relLangURL }}" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
+        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">{{ i18n "cat_network_title" }}</h3>
+        <p class="text-zinc-600">{{ i18n "cat_network_desc" }}</p>
       </a>
 
       <!-- Hardware -->
-      <a href="/categories/hardware/" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
-        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">Hardware & Power</h3>
-        <p class="text-zinc-600">Power limits, cables, monitors, and keeping your rig from melting.</p>
+      <a href="{{ "/categories/hardware/" | relLangURL }}" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
+        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">{{ i18n "cat_hardware_title" }}</h3>
+        <p class="text-zinc-600">{{ i18n "cat_hardware_desc" }}</p>
       </a>
 
       <!-- Software -->
-      <a href="/categories/software/" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
-        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">Software Basics</h3>
-        <p class="text-zinc-600">File sharing, local downloads, and OS-specific setup tips.</p>
+      <a href="{{ "/categories/software/" | relLangURL }}" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
+        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">{{ i18n "cat_software_title" }}</h3>
+        <p class="text-zinc-600">{{ i18n "cat_software_desc" }}</p>
       </a>
 
       <!-- Wellness -->
-      <a href="/categories/wellness/" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
-        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">Wellness & Community</h3>
-        <p class="text-zinc-600">House rules, hygiene, safety, and how to survive the weekend.</p>
+      <a href="{{ "/categories/wellness/" | relLangURL }}" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
+        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">{{ i18n "cat_wellness_title" }}</h3>
+        <p class="text-zinc-600">{{ i18n "cat_wellness_desc" }}</p>
       </a>
 
       <!-- Help -->
-      <a href="/categories/help/" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300 md:col-span-2 lg:col-span-1">
-        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">How to Get Help</h3>
-        <p class="text-zinc-600">Who to ask, where to post, and what info we need to fix your problem fast.</p>
+      <a href="{{ "/categories/help/" | relLangURL }}" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300 md:col-span-2 lg:col-span-1">
+        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">{{ i18n "cat_help_title" }}</h3>
+        <p class="text-zinc-600">{{ i18n "cat_help_desc" }}</p>
       </a>
 
     </div>

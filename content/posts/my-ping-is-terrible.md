@@ -1,38 +1,38 @@
 ---
-title: "My Ping is Terrible"
+title: "Nagyon rossz a pingem"
 date: 2026-02-27T10:00:00+01:00
 categories: ["network"]
-description: "Lag spikes? High latency? Check your background apps first."
+description: "Lag spike vagy magas késleltetés? Először a háttérben futó appokat nézd meg."
 draft: false
 ---
 
-High ping usually means something on your machine is eating bandwidth.
+A magas ping általában azt jelenti, hogy valami a gépeden éppen sávszélességet eszik.
 
-## 1. Stop downloads
+## 1. Letöltések leállítása
 
-Check:
-- Steam / Epic / Battle.net (auto-updates)
+Nézd meg:
+- Steam / Epic / Battle.net (auto frissítések)
 - Windows Update
-- Browser tabs (YouTube, Twitch)
-- File sharing clients (torrent, DC++)
+- Böngésző tabok (YouTube, Twitch)
+- Fájlmegosztó kliensek (torrent, DC++)
 
-Pause everything.
+Mindent szüneteltess.
 
-## 2. Wired vs Wireless
+## 2. Vezetékes vagy wifi
 
-Are you on Wi-Fi?
+Wifin vagy?
 
-- **Switch to cable.** Wi-Fi is for mobile devices and browsing, not competitive gaming.
-- We provide a network cable for every seat. Use it.
+- **Válts kábelre.** A wifi mobilhoz és böngészéshez jó, kompetitív játékhoz nem.
+- Minden helyhez adunk hálózati kábelt. Használd azt.
 
-## 3. Check local traffic
+## 3. Helyi forgalom ellenőrzése
 
-Open Task Manager (Ctrl+Shift+Esc) > Performance > Ethernet.
+Nyisd meg a Task Managert (Ctrl+Shift+Esc) > Performance > Ethernet.
 
-- If you see constant high throughput (Mbps) when you aren't doing anything, find the process responsible and kill it.
+- Ha állandóan magas Mbps forgalmat látsz úgy, hogy semmit nem csinálsz, keresd meg a folyamatot és állítsd le.
 
-## 4. Network congestion
+## 4. Hálózati túlterhelés
 
-If your whole row is lagging:
-- Ask your neighbors if they are running heavy downloads.
-- If everyone is lagging and nobody is downloading, **tell staff**. We can check the switch uplink.
+Ha az egész sor laggol:
+- Kérdezd meg a szomszédokat, fut-e náluk nagy letöltés.
+- Ha mindenki laggol és senki sem tölt, **szólj a staffnak**. Ellenőrizni tudjuk a switch uplinket.

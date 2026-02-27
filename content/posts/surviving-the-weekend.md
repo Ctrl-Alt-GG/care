@@ -1,35 +1,46 @@
 ---
-title: "Surviving the Weekend"
+title: "Hogyan éld túl a hétvégét"
 date: 2026-02-27T10:00:00+01:00
 categories: ["wellness"]
-description: "How to not feel terrible on Monday morning."
+description: "Hogyan ne érezd magad borzalmasan hétfő reggel."
 draft: false
 ---
 
-LAN parties are endurance events. Pace yourself.
+A LAN parti állóképességi verseny is. Oszd be az energiád.
 
-## The 3-2-1 Rule
+## A 3-2-1 szabály
 
-Every 24 hours, you need:
+Minden 24 órában szükséged van:
 
-- **3 hours of sleep** (minimum).
-- **2 solid meals** (not just chips).
-- **1 shower** (mandatory).
+- **3 óra alvásra** (minimum).
+- **2 normális étkezésre** (nem csak chipsre).
+- **1 zuhanyra** (kötelező).
 
-## Hydration
+## Étel és ital
 
-- Drink water. Energy drinks and soda dehydrate you.
-- Keep a refillable water bottle at your desk.
-- Headache? You're probably dehydrated. Drink water.
+- **Nincs teljes catering**. Az étkezést magadnak tervezd.
+- Ha van rá igény, **közösen rendelhetünk** kaját a helyszínre.
+- Lesz **hideg sör és üdítő** önköltségen, plusz **korlátozott snack**.
 
-## Sleep
+## Hidratáció
 
-- **Don't pull an all-nighter on night one.** You will crash on Saturday afternoon and miss the best tournaments.
-- Sleeping areas are quiet zones. Respect that.
-- Bring earplugs and a sleep mask.
+- Igyál vizet. Az energiaital és a kóla dehidratál.
+- Tarts újratölthető kulacsot az asztalodon.
+- Fejfájás? Valószínűleg dehidratált vagy. Igyál vizet.
 
-## Movement
+## Alvás
 
-- Get up every hour.
-- Stretch your wrists, back, and neck.
-- Go outside for fresh air at least twice a day. The "LAN cough" is real, and fresh air helps prevent it.
+- **Ne húzd végig az első éjszakát.** Szombat délután összeesel, és lemaradsz a legjobb meccsekről.
+- Az alvótér csendes zóna. Tartsd tiszteletben.
+- Hozz füldugót és alvómaszkot.
+
+## Hol aludj
+
+- Aludj ott, ahol találsz megfelelő helyet, de számíts rá, hogy a helyszín nem lesz teljesen csendes.
+- Ha valódi csendre van szükséged, a város közel van, el tudsz menni egy gyors pihenésre.
+
+## Mozgás
+
+- Óránként állj fel.
+- Nyújtsd a csuklód, hátad és nyakad.
+- Napi legalább kétszer menj ki friss levegőre. A "LAN köhögés" valós, a friss levegő segít elkerülni.

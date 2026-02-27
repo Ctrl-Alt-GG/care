@@ -1,30 +1,30 @@
 ---
-title: "Power Limits and Extension Cables"
+title: "Áramkorlátok és hosszabbítók"
 date: 2026-02-27T10:00:00+01:00
 categories: ["hardware"]
-description: "Two outlets per person. Don't trip the breaker."
+description: "Fejenként két konnektor. Ne verd le a kismegszakítót."
 draft: false
 ---
 
-We have enough power for everyone, but only if you follow the rules.
+Van elég áram mindenkinek, de csak akkor, ha betartjuk a szabályokat.
 
-## The Limit
+## Korlátozás
 
-**You get TWO (2) power outlets.**
+**Fejenként KETTŐ (2) konnektor jár.**
 
-- One for your PC/Laptop.
-- One for your Monitor.
+- Egy a PC/laptop számára.
+- Egy a monitornak.
 
-## Need more?
+## Több eszköz kell?
 
-Bring a **power strip**.
+Hozz **elosztót**.
 
-- Plug your strip into one of your allocated outlets.
-- Plug your phone charger, second monitor, etc., into your strip.
-- **Do not** plug your strip into another strip (daisy-chaining).
+- Az elosztót a saját konnektorodba dugd.
+- Telefon töltőt, második monitort stb. az elosztóba köss.
+- **Tilos** az elosztót elosztóba dugni (daisy chain).
 
-## Safety
+## Biztonság
 
-- **Do not bring a UPS.** They cause load spikes that trip breakers.
-- **Do not bring a space heater, fan, or kettle.**
-- Keep cables tidy. Don't create a trip hazard in the aisle.
+- **UPS-t ne hozz.** Töltéskor nagy terhelési csúcsokat okozhat.
+- **Ne hozz hőfúvót, ventilátort vagy vízforralót.**
+- Tarts rendet a kábelekkel. Ne legyen botlásveszély a folyosón.

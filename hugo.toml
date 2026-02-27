@@ -1,51 +1,106 @@
 baseURL = 'https://care.ctrl-alt-gg.hu/'
-languageCode = 'en-us'
-title = 'Ctrl-Alt-GG Care'
 theme = 'pehtheme-hugo'
+defaultContentLanguage = 'hu'
 
 summaryLength = '20' # <- 20 words are approximately 160 characters
 #googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
 #disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.com
 
-[params]
-	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
-	description = "Technical support, network troubleshooting, and help for the Ctrl-Alt-GG LAN community."
-	mainSections = 'posts'
-
-[author]
-	name = 'Ctrl-Alt-GG'
-	bio = 'Practical support for gaming, logistics, and community wellbeing.'
-	avatar = '/favicon.svg'
-#	twitter = 'https://twitter.com/insertapps'
-
 [pagination]
 	pagerSize = 6 # <- Set the desired number of posts per page 
 
-[menu] # Menu management
-	[[menu.main]]
-		name = 'Home'
-		pageRef = '/'
-		weight = 10
-	[[menu.main]]
-		name = 'Network'
-		pageRef = '/categories/network'
-		weight = 15
-	[[menu.main]]
-		name = 'Hardware'
-		pageRef = '/categories/hardware'
-		weight = 16
-	[[menu.main]]
-		name = 'Software'
-		pageRef = '/categories/software'
-		weight = 17
-	[[menu.main]]
-		name = 'Wellness'
-		pageRef = '/categories/wellness'
-		weight = 18
-	[[menu.main]]
-		name = 'Get Help'
-		pageRef = '/categories/help'
-		weight = 19
+[languages]
+	[languages.hu]
+		languageCode = 'hu'
+		languageName = 'Magyar'
+		title = 'Ctrl-Alt-GG Care'
+		weight = 1
+
+		[languages.hu.params]
+			description = "Technikai támogatás, hálózati hibakeresés és segítség a Ctrl-Alt-GG LAN közösségnek."
+			mainSections = 'posts'
+
+		[languages.hu.author]
+			name = 'Ctrl-Alt-GG'
+			bio = 'Gyakorlati támogatás játékhoz, logisztikához és közösségi jóléthez.'
+			avatar = '/favicon.svg'
+
+		[[languages.hu.menu.main]]
+			name = 'Kezdőlap'
+			identifier = 'menu_home'
+			pageRef = '/'
+			weight = 10
+		[[languages.hu.menu.main]]
+			name = 'Hálózat'
+			identifier = 'menu_network'
+			pageRef = '/categories/network'
+			weight = 15
+		[[languages.hu.menu.main]]
+			name = 'Hardver'
+			identifier = 'menu_hardware'
+			pageRef = '/categories/hardware'
+			weight = 16
+		[[languages.hu.menu.main]]
+			name = 'Szoftver'
+			identifier = 'menu_software'
+			pageRef = '/categories/software'
+			weight = 17
+		[[languages.hu.menu.main]]
+			name = 'Jólét'
+			identifier = 'menu_wellness'
+			pageRef = '/categories/wellness'
+			weight = 18
+		[[languages.hu.menu.main]]
+			name = 'Segítség'
+			identifier = 'menu_help'
+			pageRef = '/categories/help'
+			weight = 19
+
+	[languages.en]
+		languageCode = 'en'
+		languageName = 'English'
+		title = 'Ctrl-Alt-GG Care'
+		weight = 2
+
+		[languages.en.params]
+			description = "Technical support, network troubleshooting, and help for the Ctrl-Alt-GG LAN community."
+			mainSections = 'posts'
+
+		[languages.en.author]
+			name = 'Ctrl-Alt-GG'
+			bio = 'Practical support for gaming, logistics, and community wellbeing.'
+			avatar = '/favicon.svg'
+
+		[[languages.en.menu.main]]
+			name = 'Home'
+			identifier = 'menu_home'
+			pageRef = '/'
+			weight = 10
+		[[languages.en.menu.main]]
+			name = 'Network'
+			identifier = 'menu_network'
+			pageRef = '/categories/network'
+			weight = 15
+		[[languages.en.menu.main]]
+			name = 'Hardware'
+			identifier = 'menu_hardware'
+			pageRef = '/categories/hardware'
+			weight = 16
+		[[languages.en.menu.main]]
+			name = 'Software'
+			identifier = 'menu_software'
+			pageRef = '/categories/software'
+			weight = 17
+		[[languages.en.menu.main]]
+			name = 'Wellness'
+			identifier = 'menu_wellness'
+			pageRef = '/categories/wellness'
+			weight = 18
+		[[languages.en.menu.main]]
+			name = 'Get Help'
+			identifier = 'menu_help'
+			pageRef = '/categories/help'
+			weight = 19
 
 [module]
   [module.hugoVersion]

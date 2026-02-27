@@ -1,0 +1,22 @@
+{{- if not .IsHome -}}
+<div id="breadcrumb" class="py-8">
+	<ul class="flex space-x-4 text-sm text-zinc-500">
+		<li class="after:content-['❯'] after:ml-4 after:opacity-30 last:after:content-none uppercase">
+			<a href="{{ "/" | relLangURL }}">{{ i18n "breadcrumb_home" }}</a>
+		</li>
+
+		{{- if .IsPage -}}
+			{{- with .Params.categories -}}
+				{{- $cat := index . 0 -}}
+				<li class="after:content-['❯'] after:ml-4 after:opacity-30 last:after:content-none uppercase">
+					<a href="{{ printf "/categories/%s/" (urlize $cat) | relURL }}">{{ $cat }}</a>
+				</li>
+			{{- end -}}
+		{{- else -}}
+			<li class="after:content-['❯'] after:ml-4 after:opacity-30 last:after:content-none uppercase">
+				<span>{{ .Title }}</span>
+			</li>
+		{{- end -}}
+	</ul>
+</div>
+{{- end -}}

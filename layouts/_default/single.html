@@ -1,9 +1,9 @@
 {{ define "main" }}
 {{- partial "content/breadcrumb.html" . -}}
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-14">
 
-  <article class="md:col-span-2 prose lg:prose-lg">
+  <article class="md:col-span-3 prose lg:prose-lg">
 
     <header class="not-prose">
       
@@ -15,50 +15,7 @@
 
       </div>
       
-      <div id="writer" class="flex items-center space-x-4">
-
-        {{- $name := .Site.Params.Author.name -}}
-
-        {{- with $avatar := resources.Get .Site.Params.Author.avatar }}
-
-        <img class="w-12 h-12 bg-black rounded-full" src="{{ $avatar.Permalink }}" alt="{{ $name }} avatar" width="{{ $avatar.Width }}" height="{{ $avatar.Height }}">
-
-        {{ end -}}
-        
-        <ul class="flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
-          
-          <li class="font-semibold my-2">{{ .Site.Params.Author.name }}</li>
-
-        </ul>
-
-      </div>
-      
     </header>
-
-    <figure id="featureimage" class="rounded-xl aspect-video">
-
-      {{- if .Params.image }}
-
-        {{- if ( strings.HasPrefix .Params.image "http" ) }}
-
-          <img class="rounded-lg" src="{{ .Params.image }}" alt="{{ .Params.title }}">
-
-        {{- else }}
-
-          {{- with $image := resources.Get .Params.image }}
-            {{- $image := $image.Resize "750x" }}
-            <img class="rounded-lg" src="{{ $image.Permalink }}" alt="{{ .Params.title }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
-          {{- end }}
-
-        {{- end }}
-
-      {{- end }}
-
-      {{- if ( isset .Params "caption" ) }}
-        <figcaption class="text-center italic text-xs">{{ .Params.caption }}</figcaption>
-      {{- end }}
-
-    </figure>
 
     <div id="content" class="mb-14">
 
