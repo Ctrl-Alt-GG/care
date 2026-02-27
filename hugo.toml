@@ -7,7 +7,7 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 #disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.com
 
 [pagination]
-	pagerSize = 6 # <- Set the desired number of posts per page 
+	pagerSize = 100 # <- Set the desired number of posts per page 
 
 [languages]
 	[languages.hu]
@@ -18,7 +18,7 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 
 		[languages.hu.params]
 			description = "Technikai támogatás, hálózati hibakeresés és segítség a Ctrl-Alt-GG LAN közösségnek."
-			mainSections = 'posts'
+			mainSections = ['network', 'hardware', 'software', 'wellness', 'logistics', 'help']
 
 		[languages.hu.author]
 			name = 'Ctrl-Alt-GG'
@@ -33,32 +33,32 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 		[[languages.hu.menu.main]]
 			name = 'Hálózat'
 			identifier = 'menu_network'
-			pageRef = '/categories/network'
+			pageRef = '/network'
 			weight = 15
 		[[languages.hu.menu.main]]
 			name = 'Hardver'
 			identifier = 'menu_hardware'
-			pageRef = '/categories/hardware'
+			pageRef = '/hardware'
 			weight = 16
 		[[languages.hu.menu.main]]
 			name = 'Szoftver'
 			identifier = 'menu_software'
-			pageRef = '/categories/software'
+			pageRef = '/software'
 			weight = 17
 		[[languages.hu.menu.main]]
 			name = 'Jólét'
 			identifier = 'menu_wellness'
-			pageRef = '/categories/wellness'
+			pageRef = '/wellness'
 			weight = 18
 		[[languages.hu.menu.main]]
 			name = 'Logisztika'
 			identifier = 'menu_logistics'
-			pageRef = '/categories/logistics'
+			pageRef = '/logistics'
 			weight = 19
 		[[languages.hu.menu.main]]
 			name = 'Segítség'
 			identifier = 'menu_help'
-			pageRef = '/categories/help'
+			pageRef = '/help'
 			weight = 20
 
 	[languages.en]
@@ -69,7 +69,7 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 
 		[languages.en.params]
 			description = "Technical support, network troubleshooting, and help for the Ctrl-Alt-GG LAN community."
-			mainSections = 'posts'
+			mainSections = ['network', 'hardware', 'software', 'wellness', 'logistics', 'help']
 
 		[languages.en.author]
 			name = 'Ctrl-Alt-GG'
@@ -84,32 +84,32 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 		[[languages.en.menu.main]]
 			name = 'Network'
 			identifier = 'menu_network'
-			pageRef = '/categories/network'
+			pageRef = '/network'
 			weight = 15
 		[[languages.en.menu.main]]
 			name = 'Hardware'
 			identifier = 'menu_hardware'
-			pageRef = '/categories/hardware'
+			pageRef = '/hardware'
 			weight = 16
 		[[languages.en.menu.main]]
 			name = 'Software'
 			identifier = 'menu_software'
-			pageRef = '/categories/software'
+			pageRef = '/software'
 			weight = 17
 		[[languages.en.menu.main]]
 			name = 'Wellness'
 			identifier = 'menu_wellness'
-			pageRef = '/categories/wellness'
+			pageRef = '/wellness'
 			weight = 18
 		[[languages.en.menu.main]]
 			name = 'Logistics'
 			identifier = 'menu_logistics'
-			pageRef = '/categories/logistics'
+			pageRef = '/logistics'
 			weight = 19
 		[[languages.en.menu.main]]
 			name = 'Get Help'
 			identifier = 'menu_help'
-			pageRef = '/categories/help'
+			pageRef = '/help'
 			weight = 20
 
 [module]

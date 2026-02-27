@@ -9,10 +9,9 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
       {{ range .Site.Menus.main }}
-        {{ $url := .URL }}
-        {{ if in $url "/categories/" }}
-          {{ $catPath := index (split $url "/categories/") 1 }}
-          {{ $catSlug := strings.TrimSuffix "/" $catPath }}
+        {{ if ne .Identifier "menu_home" }}
+          {{ $url := .URL }}
+          {{ $catSlug := strings.TrimPrefix "/" $url }}
           {{ $titleKey := printf "cat_%s_title" $catSlug }}
           {{ $descKey := printf "cat_%s_desc" $catSlug }}
           {{ $title := T $titleKey }}
