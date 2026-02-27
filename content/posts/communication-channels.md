@@ -12,7 +12,6 @@ A LAN-on mindenki ott van, de a kommunikáció nagy része online zajlik.
 
 Ez a központi hub. Ha nem vagy fent, lemaradsz.
 
-- **Csatlakozás:** [Kattints ide a csatlakozáshoz](https://discord.gg/your-invite-link) (vagy kérd el a QR kódot a bejáratnál).
 - **Fontos csatornák:**
   - `#announcements`: Hivatalos bejelentések (versenyek kezdete, kaja rendelés, áramszünet infók).
   - `#help-desk`: Ha technikai gondod van, ide írj. A staff figyeli.

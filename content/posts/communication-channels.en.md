@@ -12,7 +12,6 @@ Everyone is at the LAN, but most communication happens online.
 
 This is the central hub. If you're not on it, you're missing out.
 
-- **Join:** [Click here to join](https://discord.gg/your-invite-link) (or ask for the QR code at the entrance).
 - **Important Channels:**
   - `#announcements`: Official announcements (tournament starts, food orders, power outage info).
   - `#help-desk`: If you have technical issues, post here. Staff monitors it.
