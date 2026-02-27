@@ -1,41 +1,45 @@
 {{ define "main" }}
 
-<!-- Start recent post  -->
-
   <section class="mb-16">
 
-    <div class="flex items-center mb-6">
-
-      <h2 class="text-3xl md:text-4xl font-bold mr-auto">Guides</h2>
-
+    <div class="flex items-center mb-10">
+      <h2 class="text-3xl md:text-4xl font-bold mr-auto">What do you need help with?</h2>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-    {{ $paginator := .Paginate ( where site.RegularPages "Type" "in" site.Params.mainSections) }}
+      <!-- Network -->
+      <a href="/categories/network/" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
+        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">Network & Connectivity</h3>
+        <p class="text-zinc-600">Can't see the server? Ping is terrible? Start here for all connection issues.</p>
+      </a>
 
-    {{ range $paginator.Pages }}
+      <!-- Hardware -->
+      <a href="/categories/hardware/" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
+        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">Hardware & Power</h3>
+        <p class="text-zinc-600">Power limits, cables, monitors, and keeping your rig from melting.</p>
+      </a>
 
-      {{- partial "content/card" . -}}
+      <!-- Software -->
+      <a href="/categories/software/" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
+        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">Software Basics</h3>
+        <p class="text-zinc-600">File sharing, local downloads, and OS-specific setup tips.</p>
+      </a>
 
-    {{ end }}
+      <!-- Wellness -->
+      <a href="/categories/wellness/" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
+        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">Wellness & Community</h3>
+        <p class="text-zinc-600">House rules, hygiene, safety, and how to survive the weekend.</p>
+      </a>
 
-    </div>
+      <!-- Help -->
+      <a href="/categories/help/" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300 md:col-span-2 lg:col-span-1">
+        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">How to Get Help</h3>
+        <p class="text-zinc-600">Who to ask, where to post, and what info we need to fix your problem fast.</p>
+      </a>
 
-    <!-- Paginate here -->
-
-    <div class="flex items-center mt-10">
-      {{- if $paginator.HasPrev -}}
-        <a class="border rounded-full px-6 py-2 hover:bg-zinc-200 mr-auto" href="{{ $paginator.Prev.URL }}">← Previous</a>
-      {{- end -}}
-
-      {{- if $paginator.HasNext -}}
-        <a class="border rounded-full px-6 py-2 hover:bg-zinc-200" href="{{ $paginator.Next.URL }}">Next →</a>
-      {{- end -}}
     </div>
 
   </section>
-
-<!-- / End recent post  -->
 
 {{ end }}

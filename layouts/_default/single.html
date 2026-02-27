@@ -28,10 +28,6 @@
         <ul class="flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
           
           <li class="font-semibold my-2">{{ .Site.Params.Author.name }}</li>
-          
-          <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2">
-            {{ .ReadingTime }} min read
-          </li>
 
         </ul>
 
@@ -71,31 +67,6 @@
       {{- partial "terms.html" (dict "taxonomy" "tags" "page" .) -}}
 
     </div>
-
-    <footer id="content-footer" class="not-prose">
-
-      <div id="related-post" class="">
-
-        <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">Recommended for You</h2>
-
-        {{- $related := .Site.RegularPages.Related . | first 2 -}}
-
-        {{- with $related -}}
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-          {{- range . }}
-
-          {{- partial "content/card.html" . -}}
-
-          {{- end }}
-          
-        </div>
-
-        {{- end }}
-      </div>
-
-    </footer>
 
   </article>
 

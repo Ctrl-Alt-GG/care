@@ -9,7 +9,7 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 
 [params]
 	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
-	description = "Support and care hub for the Ctrl-Alt-GG LAN community."
+	description = "Technical support, network troubleshooting, and help for the Ctrl-Alt-GG LAN community."
 	mainSections = 'posts'
 
 [author]
@@ -27,25 +27,25 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 		pageRef = '/'
 		weight = 10
 	[[menu.main]]
-		name = 'About'
-		pageRef = '/about'
+		name = 'Network'
+		pageRef = '/categories/network'
 		weight = 15
 	[[menu.main]]
-		name = 'Support'
-		pageRef = '/support'
+		name = 'Hardware'
+		pageRef = '/categories/hardware'
 		weight = 16
 	[[menu.main]]
-		name = 'FAQ'
-		pageRef = '/faq'
+		name = 'Software'
+		pageRef = '/categories/software'
 		weight = 17
 	[[menu.main]]
-		name = 'Care & Community'
-		pageRef = '/care'
+		name = 'Wellness'
+		pageRef = '/categories/wellness'
 		weight = 18
 	[[menu.main]]
-		name = 'Tags'
-		pageRef = '/tags'
-		weight = 25
+		name = 'Get Help'
+		pageRef = '/categories/help'
+		weight = 19
 
 [module]
   [module.hugoVersion]
