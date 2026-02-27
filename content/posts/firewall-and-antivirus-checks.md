@@ -6,7 +6,7 @@ description: "Ha pingelhető, de nem tudsz csatlakozni, valószínűleg a tűzfa
 draft: false
 ---
 
-A Windows Tűzfal gyakran blokkolja a LAN-játékokat, főleg ha a hálózat „Nyilvános” profilra van állítva.
+A Windows Tűzfal gyakran blokkolja a LAN-játékokat, főleg ha a hálózat „Nyilvános" profilra van állítva.
 
 ## Tünetek
 

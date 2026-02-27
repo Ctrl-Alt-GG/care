@@ -6,7 +6,7 @@ description: "Five minutes of prep beats an hour of updates at the venue."
 draft: false
 ---
 
-There will be internet access, but you’ll have a much better start if you prep at home.
+There will be internet access, but you'll have a much better start if you prep at home.
 
 ## The night before
 
@@ -14,7 +14,7 @@ There will be internet access, but you’ll have a much better start if you prep
 - **Update your launchers** (Steam, Battle.net, Epic) and make sure you can log in
 - **Download and update the games** you actually plan to play
 - **Free up disk space** (patches are large and failures are annoying)
-- If you use **VPNs, “network optimizers”, or custom DNS**, turn them off or be ready to disable them on-site
+- If you use **VPNs, "network optimizers", or custom DNS**, turn them off or be ready to disable them on-site
 
 ## Quick sanity checks
 

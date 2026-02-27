@@ -35,7 +35,7 @@ Ez megvéd a "vicces" üzenetektől, amit a nevedben küldenének, és a fiókod
 ## 5. Csak a hivatalos hálózatot használd
 
 - Kábelen: Csak a fali aljzatba dugd a géped.
-- Wifin: Csak a hivatalos SSID-hez csatlakozz. Ha látsz egy "Free Wifi" vagy hasonló nevű hálózatot, ami nem a miénk, ne csatlakozz rá – lehet, hogy adathalász kísérlet.
+- Wifin: Csak a hivatalos SSID-hez csatlakozz. Ha látsz egy "Free Wifi" vagy hasonló nevű hálózatot, ami nem a miénk, ne csatlakozz rá - lehet, hogy adathalász kísérlet.
 
 ## +1: Frissíts!
 

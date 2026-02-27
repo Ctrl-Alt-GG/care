@@ -35,7 +35,7 @@ This protects you from "funny" messages sent in your name and secures your accou
 ## 5. Use Only Official Networks
 
 - Wired: Plug directly into the wall jack.
-- Wi-Fi: Connect only to the official SSID. If you see "Free Wifi" or similar networks that aren't ours, do not connect—they could be phishing attempts.
+- Wi-Fi: Connect only to the official SSID. If you see "Free Wifi" or similar networks that aren't ours, do not connect - they could be phishing attempts.
 
 ## +1: Update!
 

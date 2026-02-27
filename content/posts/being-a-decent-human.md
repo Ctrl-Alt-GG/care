@@ -10,7 +10,7 @@ A LAN közösségi esemény. Ne tedd kínossá.
 
 ## Trash talk vagy zaklatás
 
-- **Trash talk:** Baráti oltogatás olyanok között, akik értik egymást. „Szép lövés, szerencséd volt.”
+- **Trash talk:** Baráti oltogatás olyanok között, akik értik egymást. „Szép lövés, szerencséd volt."
 - **Zaklatás:** Személyes támadás, gyűlöletbeszéd, fenyegetés, vagy olyan személy célzása, aki ezt nem élvezi.
 - **A határ:** Ha valaki azt mondja, hogy elég, akkor elég. Ha folytatod, az zaklatás.
 

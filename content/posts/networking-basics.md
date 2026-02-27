@@ -2,7 +2,7 @@
 title: "Hálózati alapfogalmak"
 date: 2026-02-27T10:00:00+01:00
 categories: ["network"]
-description: "IP, DHCP, DNS – mit jelentenek és miért fontosak a LAN-on."
+description: "IP, DHCP, DNS - mit jelentenek és miért fontosak a LAN-on."
 draft: false
 ---
 

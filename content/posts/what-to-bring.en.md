@@ -12,23 +12,23 @@ Pack for the setup you actually want to play on. Missing one cable can waste hal
 
 - Your **gaming PC** (desktop or laptop)
 - **Power cable / charger** for everything
-- **Monitor** (if you’re bringing a desktop) + the right video cable (DP/HDMI)
-- A **power strip** (you’ll have limited wall outlets)
+- **Monitor** (if you're bringing a desktop) + the right video cable (DP/HDMI)
+- A **power strip** (you'll have limited wall outlets)
 - **Mouse, keyboard, mousepad**
 - A **headset** (speakers are not allowed)
 - **Ethernet adapter** if your laptop has no LAN port (USB-C/USB-A)
 - Any small extras you rely on (controller, DAC, spare batteries)
 
-You **don’t** need to bring an Ethernet cable — we provide those.
+You **don't** need to bring an Ethernet cable - we provide those.
 
-## Don’t bring
+## Don't bring
 
 - **Speakers**
 - **UPS** units
 - Your own **switches/routers/access points**
 - High-draw appliances (kettle, heater, toaster, mini-fridge)
 
-If you’re unsure, see [What Not to Plug In](/posts/what-not-to-plug-in/).
+If you're unsure, see [What Not to Plug In](/posts/what-not-to-plug-in/).
 
 ## Survival Kit
 
@@ -41,7 +41,7 @@ It's not just your PC that needs to survive; you do too.
 
 ## Getting your PC there
 
-If transport is a problem, ask in Discord ahead of time — someone usually has room in a car.
+If transport is a problem, ask in Discord ahead of time - someone usually has room in a car.
 
 ## Seating
 

@@ -2,7 +2,7 @@
 title: "Networking Glossary"
 date: 2026-02-27T10:00:00+01:00
 categories: ["network"]
-description: "IP, DHCP, DNS – what they mean and why they matter at a LAN."
+description: "IP, DHCP, DNS - what they mean and why they matter at a LAN."
 draft: false
 ---
 

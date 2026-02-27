@@ -6,7 +6,7 @@ description: "Rövid, gyakorlatias áttekintés azoknak, akiket érdekel."
 draft: false
 ---
 
-Ez a „haladó” verzió. Ha csak online akarsz kerülni, kezdd itt: [Hálózati hibakeresés](/posts/network-troubleshooting/).
+Ez a „haladó" verzió. Ha csak online akarsz kerülni, kezdd itt: [Hálózati hibakeresés](/posts/network-troubleshooting/).
 
 ## Magas szintű felépítés
 

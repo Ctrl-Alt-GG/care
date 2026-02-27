@@ -19,8 +19,8 @@ Every 24 hours, you need:
 ## Food & drinks
 
 - There is **no full catering**. Plan your own meals.
-- If there’s interest, we can **pool money and order food** together at the venue.
-- We’ll have **cold beer and soft drinks** available at cost, plus **limited snacks**.
+- If there's interest, we can **pool money and order food** together at the venue.
+- We'll have **cold beer and soft drinks** available at cost, plus **limited snacks**.
 
 ## Hydration
 
@@ -36,7 +36,7 @@ Every 24 hours, you need:
 
 ## Where to sleep
 
-- Sleep wherever you can find a suitable spot, but keep in mind the venue won’t be silent.
+- Sleep wherever you can find a suitable spot, but keep in mind the venue won't be silent.
 - If you need real quiet, the city is close enough that you can slip away for a quick power nap.
 
 ## Movement

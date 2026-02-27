@@ -12,7 +12,7 @@ A nagy fájlok LAN-on való megosztása gyors, és kíméli az internet sávszé
 
 - **DC++ (Direct Connect):** Ha fut hub, használd azt.
 - **Windows fájlmegosztás (SMB):** Kis csoportoknak kiváló.
-- **USB meghajtók:** A klasszikus „sneakernet”, megbízható.
+- **USB meghajtók:** A klasszikus „sneakernet", megbízható.
 
 ## Szabályok
 
