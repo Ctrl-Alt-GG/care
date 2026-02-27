@@ -21,4 +21,10 @@ Lesz internet, de sokkal jobban indulsz, ha otthon felkészülsz.
 - Dugd be az Ethernet kábelt, és nézd meg, hogy működik-e a kártya/port
 - Ellenőrizd, hogy a hálózat **Automatikus (DHCP)** módban van
 
+## Jegyek
+
+- A lobby oldalon ellenőrizd, hogy a jegyed **érvényes**: [lobby.ctrl-alt-gg.hu](https://lobby.ctrl-alt-gg.hu/)
+- Készítsd elő a jegyed vonalkódját (telefonon vagy nyomtatott screenshoton).
+- Részletes leírás: [Jegyek és regisztráció](/posts/tickets-and-registration/).
+
 Kell egy csomagolási lista? Nézd meg: [Mit hozz magaddal](/posts/what-to-bring/).

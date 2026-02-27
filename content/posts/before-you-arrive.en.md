@@ -21,4 +21,10 @@ There will be internet access, but you’ll have a much better start if you prep
 - Plug in Ethernet and confirm your adapter/port works
 - Ensure your network is set to **Automatic (DHCP)**
 
+## Tickets
+
+- On the lobby portal, confirm your ticket is **valid**: [lobby.ctrl-alt-gg.hu](https://lobby.ctrl-alt-gg.hu/)
+- Keep your ticket barcode ready (phone display or printed screenshot).
+- Full guide: [Tickets & Registration](/posts/tickets-and-registration/).
+
 Need a packing list? See [What to Bring](/posts/what-to-bring/).

@@ -51,10 +51,15 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 			pageRef = '/categories/wellness'
 			weight = 18
 		[[languages.hu.menu.main]]
+			name = 'Logisztika'
+			identifier = 'menu_logistics'
+			pageRef = '/categories/logistics'
+			weight = 19
+		[[languages.hu.menu.main]]
 			name = 'Segítség'
 			identifier = 'menu_help'
 			pageRef = '/categories/help'
-			weight = 19
+			weight = 20
 
 	[languages.en]
 		languageCode = 'en'
@@ -97,10 +102,15 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 			pageRef = '/categories/wellness'
 			weight = 18
 		[[languages.en.menu.main]]
+			name = 'Logistics'
+			identifier = 'menu_logistics'
+			pageRef = '/categories/logistics'
+			weight = 19
+		[[languages.en.menu.main]]
 			name = 'Get Help'
 			identifier = 'menu_help'
 			pageRef = '/categories/help'
-			weight = 19
+			weight = 20
 
 [module]
   [module.hugoVersion]

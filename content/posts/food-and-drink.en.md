@@ -29,3 +29,15 @@ If you prefer to take a walk (which is good for your legs), here are your option
 - **Eat carefully.** Your keyboard (and your neighbor's) does not like spilled energy drinks.
 - **Throw away your trash.** Don't build a fortress out of pizza boxes. Leftover food smells and attracts bugs.
 - **Common Dining Area:** If there is a designated dining area, use it for larger meals. It's more comfortable, and you won't get crumbs in your mouse.
+
+## What We Provide
+
+- We usually bring a **limited amount of snacks** (chips and small bites).
+- There are often **cold soft drinks and beer** available at cost.
+- Many events also have a **coffee machine** (typically Nespresso) for an extra fee.
+
+## Dedicated Meal Windows
+
+- We sometimes define dedicated meal windows so the whole hall does not rush for food at once.
+- These windows also make group orders and quick store runs easier to coordinate.
+- Always check announcements and the schedule for current meal windows.

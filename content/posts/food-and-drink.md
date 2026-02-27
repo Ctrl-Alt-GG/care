@@ -29,3 +29,15 @@ Ha inkább sétálnál egyet (ami jót tesz a lábadnak), ezek vannak a közelbe
 - **Óvatosan egyél.** A billentyűzeted (és a szomszédodé) nem szereti a kiömlő energiaitalt.
 - **Dobd ki a szemetet.** Ne építs pizzásdoboz-várat. A maradék kaja vonzza a bogarakat és büdös.
 - **Közös étkező:** Ha van kijelölt étkezőhelyiség, használd azt a nagyobb étkezésekhez. Kényelmesebb, és nem morzsázod össze az egered.
+
+## Amit mi adunk
+
+- Általában készülünk **limitált mennyiségű nasival** (chips, apróságok).
+- Szokott lenni **hideg üdítő és sör** önköltségi áron.
+- Több eseményen van **kávégép** is (jellemzően Nespresso), külön díjért.
+
+## Közös étkezési idősávok
+
+- Időnként kijelölünk dedikált étkezési idősávokat, hogy ne mindenki egyszerre induljon kajavadászatra.
+- Ilyenkor könnyebb közösen rendelni vagy együtt elugrani boltba.
+- Az aktuális időablakokat mindig figyeld a bejelentésekben és a menetrendben.

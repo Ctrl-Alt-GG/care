@@ -10,7 +10,7 @@ The first hour sets the tone. If you rush, you'll be fixing things all weekend. 
 
 ## 0-15 Minutes: Arrival & Load-in
 
-1. **Check in:** Get your badge/wristband.
+1. **Check in:** Show your ticket barcode (phone or printed screenshot), then collect your badge/wristband.
 2. **Find your seat:** It's first come, first served.
 3. **Drop your gear:** Put your PC/Monitor on the desk. Put bags under the table.
 4. **Say hi:** Introduce yourself to your neighbors. You'll be sitting next to them for 48 hours.
