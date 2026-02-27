@@ -1,6 +1,6 @@
 baseURL = 'https://care.ctrl-alt-gg.hu/'
 languageCode = 'en-us'
-title = 'Ctrl-Alt-GG Support'
+title = 'Ctrl-Alt-GG Care'
 theme = 'pehtheme-hugo'
 
 summaryLength = '20' # <- 20 words are approximately 160 characters
@@ -9,13 +9,13 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 
 [params]
 	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
-	description = "Don't worry, play happy!"
+	description = "Support and care hub for the Ctrl-Alt-GG LAN community."
 	mainSections = 'posts'
 
 [author]
 	name = 'Ctrl-Alt-GG'
-	bio = 'The best LAN party in history'
-#	avatar = '/images/nasa-astronaut-unsplash.jpg'
+	bio = 'Practical support for gaming, logistics, and community wellbeing.'
+	avatar = '/favicon.svg'
 #	twitter = 'https://twitter.com/insertapps'
 
 [pagination]
@@ -31,12 +31,20 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 		pageRef = '/about'
 		weight = 15
 	[[menu.main]]
+		name = 'Support'
+		pageRef = '/support'
+		weight = 16
+	[[menu.main]]
+		name = 'FAQ'
+		pageRef = '/faq'
+		weight = 17
+	[[menu.main]]
+		name = 'Care & Community'
+		pageRef = '/care'
+		weight = 18
+	[[menu.main]]
 		name = 'Tags'
 		pageRef = '/tags'
-		weight = 20
-	[[menu.main]]
-		name = 'Taxonomy'
-		pageRef = '/tags/space/'
 		weight = 25
 
 [module]

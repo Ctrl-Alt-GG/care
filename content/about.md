@@ -1,42 +1,36 @@
 ---
 title: "About"
-date: 2023-10-06T20:37:29+07:00
-image: images/nadine-shaabana-ZPP-zP8HYG0-unsplash.jpg
+image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1600&q=80"
 draft: false
 ---
 
-**Pehtheme Hugo** is your gateway to the mysteries and wonders of the universe. We are a passionate community of space enthusiasts, scientists, and stargazers dedicated to sharing the awe-inspiring beauty and profound knowledge of the cosmos.
+**Ctrl-Alt-GG Care** is the support side of the Ctrl-Alt-GG LAN party. This site exists so you can find answers, fix problems, and know what to expect before and during the event.
 
-At **Pehtheme Hugo**, we believe that space exploration is not just a scientific endeavor; it's a human adventure. It's about the curiosity that drives us to look up at the night sky and wonder about the galaxies, stars, and planets that fill our universe.
+Our motto: **Don't worry, play happy!**
 
-## Our Mission
+## What this site is for
 
-Our mission is to inspire, educate, and spark curiosity about space and astronomy. We aim to make the wonders of the cosmos accessible to everyone, from seasoned astronomers to those taking their first steps into the world of stargazing.
+- **[Support](/support/)**: Something broken? Start here. Network issues, game problems, hardware trouble, or anything else.
+- **[F.A.Q.](/faq/)**: Quick answers to the most common questions about the event, food, sleep, games, transport, and cost.
+- **[Care & Community](/care/)**: How we treat each other, what to do when things go wrong, and how to look after yourself during a long event.
+- **Guides**: Practical articles about preparation, wellness, and getting the most out of the weekend.
 
-Through a diverse range of articles, videos, images, and interactive tools, we strive to:
+## What is Ctrl-Alt-GG?
 
-- **Educate**: We provide well-researched, informative content that explains complex astronomical concepts in an accessible way.
+A LAN party organized by a group of friends who wanted a reliable, no-nonsense gaming weekend. We handle the network, the servers, the venue, and everything around it so you can focus on playing.
 
-- **Inspire**: We share the breathtaking beauty of the universe through stunning images and stories of space exploration.
+We split costs fairly, keep things simple, and try to make it better each time.
 
-- **Connect**: We foster a vibrant community where space enthusiasts can share their passion, ask questions, and learn from each other.
+## How to get help
 
-## What You'll Find Here
+- **During the event**: Talk to any organizer or staff member directly.
+- **Before/after the event**: Use Discord.
+- **Network or server issues**: Check [spawn.ctrl-alt-gg.hu](https://spawn.ctrl-alt-gg.hu) and [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu) first, then ask staff.
 
-- **Astronomy Insights**: Dive deep into the universe with articles and guides that cover everything from the basics of stargazing to the latest discoveries in astrophysics.
+## The community part
 
-- **Stunning Visuals**: Explore our gallery of celestial images captured by professional astronomers and space agencies, as well as astrophotography from our community members.
+This isn't just a technical operation. A good LAN depends on good people. We expect everyone to be decent to each other, help out when they can, and not ruin the weekend for anyone else.
 
-- **Space Exploration Updates**: Stay informed about upcoming space missions, rocket launches, and groundbreaking discoveries in our ever-expanding cosmos.
+If you're new, welcome. If you've been before, help the new people feel at home.
 
-- **Interactive Tools**: Use our interactive sky maps and tools to plan your stargazing sessions and track celestial events.
-
-## Our Team
-
-We are a dedicated team of space enthusiasts, writers, astronomers, and scientists who are passionate about sharing the wonders of the universe. Our combined expertise in space science, astrophotography, and science communication allows us to bring you the best of the cosmos.
-
-## Join Our Cosmic Community
-
-We invite you to join us on this cosmic journey. Explore the depths of space with us, ask questions, share your own astronomical experiences, and become part of a community that looks to the stars with wonder and curiosity.
-
-Let's embark on this celestial adventure together. Welcome to **My Space Theme**—where the universe unfolds before your eyes.
+That's it. See you at the LAN.
