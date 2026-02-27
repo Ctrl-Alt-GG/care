@@ -8,35 +8,29 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-      <!-- Network -->
-      <a href="{{ "/categories/network/" | relLangURL }}" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
-        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">{{ i18n "cat_network_title" }}</h3>
-        <p class="text-zinc-600">{{ i18n "cat_network_desc" }}</p>
-      </a>
-
-      <!-- Hardware -->
-      <a href="{{ "/categories/hardware/" | relLangURL }}" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
-        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">{{ i18n "cat_hardware_title" }}</h3>
-        <p class="text-zinc-600">{{ i18n "cat_hardware_desc" }}</p>
-      </a>
-
-      <!-- Software -->
-      <a href="{{ "/categories/software/" | relLangURL }}" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
-        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">{{ i18n "cat_software_title" }}</h3>
-        <p class="text-zinc-600">{{ i18n "cat_software_desc" }}</p>
-      </a>
-
-      <!-- Wellness -->
-      <a href="{{ "/categories/wellness/" | relLangURL }}" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
-        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">{{ i18n "cat_wellness_title" }}</h3>
-        <p class="text-zinc-600">{{ i18n "cat_wellness_desc" }}</p>
-      </a>
-
-      <!-- Help -->
-      <a href="{{ "/categories/help/" | relLangURL }}" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300 md:col-span-2 lg:col-span-1">
-        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">{{ i18n "cat_help_title" }}</h3>
-        <p class="text-zinc-600">{{ i18n "cat_help_desc" }}</p>
-      </a>
+      {{ range .Site.Menus.main }}
+        {{ $url := .URL }}
+        {{ if in $url "/categories/" }}
+          {{ $catPath := index (split $url "/categories/") 1 }}
+          {{ $catSlug := strings.TrimSuffix "/" $catPath }}
+          {{ $titleKey := printf "cat_%s_title" $catSlug }}
+          {{ $descKey := printf "cat_%s_desc" $catSlug }}
+          {{ $title := T $titleKey }}
+          {{ if eq $title $titleKey }}
+            {{ $title = or (T .Identifier) .Name }}
+          {{ end }}
+          {{ $desc := T $descKey }}
+          {{ if eq $desc $descKey }}
+            {{ $desc = "" }}
+          {{ end }}
+          <a href="{{ $url }}" class="block group p-8 bg-zinc-100 rounded-3xl hover:bg-blue-100 transition duration-300">
+            <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-600">{{ $title }}</h3>
+            {{ if $desc }}
+              <p class="text-zinc-600">{{ $desc }}</p>
+            {{ end }}
+          </a>
+        {{ end }}
+      {{ end }}
 
     </div>
 

@@ -25,6 +25,12 @@ other = "Jólét és közösség"
 [cat_wellness_desc]
 other = "Házirend, higiénia, biztonság és tippek a hétvége túléléséhez."
 
+[cat_logistics_title]
+other = "Logisztika és érkezés"
+
+[cat_logistics_desc]
+other = "Utazás, telekocsi, érkezési idősáv és gördülékeny beléptetés."
+
 [cat_help_title]
 other = "Hogyan kérj segítséget"
 
@@ -48,6 +54,9 @@ other = "Szoftver"
 
 [menu_wellness]
 other = "Jólét"
+
+[menu_logistics]
+other = "Logisztika"
 
 [menu_help]
 other = "Segítség"

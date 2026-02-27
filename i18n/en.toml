@@ -25,6 +25,12 @@ other = "Wellness & Community"
 [cat_wellness_desc]
 other = "House rules, hygiene, safety, and how to survive the weekend."
 
+[cat_logistics_title]
+other = "Logistics & Arrival"
+
+[cat_logistics_desc]
+other = "Travel planning, carpooling, arrival windows, and smooth check-in."
+
 [cat_help_title]
 other = "How to Get Help"
 
@@ -48,6 +54,9 @@ other = "Software"
 
 [menu_wellness]
 other = "Wellness"
+
+[menu_logistics]
+other = "Logistics"
 
 [menu_help]
 other = "Get Help"
