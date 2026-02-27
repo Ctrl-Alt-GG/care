@@ -33,4 +33,4 @@ This isn't just a technical operation. A good LAN depends on good people. We exp
 
 If you're new, welcome. If you've been before, help the new people feel at home.
 
-That's it. See you at the LAN.
+See you at the LAN.

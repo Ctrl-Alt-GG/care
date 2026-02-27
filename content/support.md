@@ -30,7 +30,7 @@ Do **not** change network settings, swap cables between ports, or plug in your o
 
 - You get up to **two power outlets**. If you need more devices powered, bring a power strip.
 - Do **not** bring a UPS or plug in speakers.
-- Label your cables and gear. You're responsible for your own equipment — don't touch other people's machines.
+- Label your cables and gear. You're responsible for your own equipment, so don't touch other people's machines.
 - Don't block walkways with your setup. Ask staff if you need help routing cables.
 - If something breaks or sparks, unplug it and tell staff immediately.
 
@@ -38,7 +38,7 @@ Do **not** change network settings, swap cables between ports, or plug in your o
 
 Everyone handles their own meals. If people want to order together, that usually gets organized at the venue. Cold drinks and snacks are available at cost.
 
-Eat and drink **only in designated areas** — not at your rig.
+Eat and drink **only in designated areas**, not at your rig.
 
 ## Other help
 
@@ -53,4 +53,4 @@ Eat and drink **only in designated areas** — not at your rig.
 - Someone being a jerk
 - Anything that feels unsafe or seriously wrong
 
-Don't overthink it. If you're unsure, just ask.
+If you're unsure, ask.

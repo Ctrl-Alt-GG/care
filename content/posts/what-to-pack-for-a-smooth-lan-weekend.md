@@ -15,14 +15,14 @@ Here's what you need, what helps, and what to leave at home.
 
 ## Bring
 
-- Your **gaming PC** — desktop or laptop, your choice. You're responsible for getting it to and from the venue.
+- Your **gaming PC**, desktop or laptop, your choice. You're responsible for getting it to and from the venue.
 - **Power cable or charger** for your machine.
 - **Power strip** if your setup needs more than one outlet. You get up to **two power outlets per person**, so plan accordingly.
 - **Monitor** and the right video cable if you're on a desktop.
 - **Mouse, keyboard, mousepad, headset** and any other peripherals you use.
 - If your computer doesn't have an Ethernet port, bring the right **adapter**. Wi-Fi is primarily intended for mobile devices and web browsing, not for gaming.
 
-You do **not** need to bring a network cable — we provide those for everyone. Tables and chairs are also provided.
+You do **not** need to bring a network cable. We provide those for everyone. Tables and chairs are also provided.
 
 ## Do not bring
 
@@ -42,10 +42,10 @@ You probably won't need any of this. But when you do, it saves the whole session
 ## Comfort
 
 - Water bottle (refillable, there's a fridge)
-- A hoodie or light layer — venues swing between too warm and too cold
+- A hoodie or light layer, since venues swing between too warm and too cold
 - Basic meds if you tend to get headaches or eye strain
 
-Food and snacks are your own responsibility, but eating and drinking is only allowed in designated areas — not at your rig. Cold drinks and snacks are available at cost.
+Food and snacks are your own responsibility, but eating and drinking is only allowed in designated areas, not at your rig. Cold drinks and snacks are available at cost.
 
 ## Seating
 

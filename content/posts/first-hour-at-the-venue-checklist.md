@@ -24,7 +24,7 @@ Figure out where the essentials are: power outlets, exits, fridge, designated ea
 
 - You get up to **two power outlets**. If you need more, you should have brought a power strip.
 - Route your cables so they don't block the walkway.
-- Plug in power first. We provide the **network cable** — plug that in and check for a link light.
+- Plug in power first. We provide the **network cable**, so plug it in and check for a link light.
 - Boot up and open [spawn.ctrl-alt-gg.hu](https://spawn.ctrl-alt-gg.hu) to confirm you're online.
 
 If something doesn't work right away, check the [Network Troubleshooting guide](/network-troubleshooting/) before panicking. Don't swap cables or change network settings on your own.
@@ -32,7 +32,7 @@ If something doesn't work right away, check the [Network Troubleshooting guide](
 ## Get your games ready
 
 - Launch your game clients and let them update if needed (you did update at home, right?).
-- Check that voice chat works with your team — through your **headset**, not speakers.
+- Check that voice chat works with your team through your **headset**, not speakers.
 - Run a quick test on whatever you're playing first.
 
 If a game server isn't responding, check [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu) before assuming the worst.
@@ -45,4 +45,4 @@ If a game server isn't responding, check [servers.ctrl-alt-gg.hu](https://server
 
 ## Then play
 
-That's it. Setup done, problems caught early, ready to go. The rest of the weekend is yours.
+With setup done and early issues out of the way, you're ready to enjoy the weekend.
