@@ -9,7 +9,7 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 
 [params]
 	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
-	description = 'Don\'t worry, play happy!'
+	description = "Don't worry, play happy!"
 	mainSections = 'posts'
 
 [author]
