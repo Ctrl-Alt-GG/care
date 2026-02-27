@@ -25,6 +25,8 @@ A LAN is a social event. Don't make it awkward.
 - We have never had a major theft, because we look out for each other.
 - If you see someone messing with gear that isn't theirs, say something or tell staff.
 - Lock your PC (Win+L) when you walk away.
+- **Valuables:** Don't leave your phone or wallet on the table when sleeping or away. Keep them on you or lock them in your car.
+- **Storage:** There is no central secure storage; everyone is responsible for their own gear.
 
 ## Inclusion
 

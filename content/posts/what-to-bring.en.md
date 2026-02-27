@@ -30,6 +30,15 @@ You **don’t** need to bring an Ethernet cable — we provide those.
 
 If you’re unsure, see [What Not to Plug In](/posts/what-not-to-plug-in/).
 
+## Survival Kit
+
+It's not just your PC that needs to survive; you do too.
+
+- **Sleeping Gear:** Sleeping bag, camping mat, pillow. (Expect gym-floor conditions.)
+- **Hygiene Kit:** Toothbrush, toothpaste, deodorant, towel, shower gel.
+- **Earplugs:** Mandatory if you want to sleep. The hum of 100 PCs is not a lullaby.
+- **Comfortable Clothes:** Layered clothing is recommended.
+
 ## Getting your PC there
 
 If transport is a problem, ask in Discord ahead of time — someone usually has room in a car.

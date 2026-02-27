@@ -25,6 +25,8 @@ A LAN közösségi esemény. Ne tedd kínossá.
 - Eddig nem volt komoly lopás, mert figyelünk egymásra.
 - Ha valaki más felszerelését piszkálja, szólj neki vagy jelezd a staffnak.
 - Ha elmész a gépedtől, zárold le (Win+L).
+- **Értékek:** Ne hagyd a telefont, pénztárcát az asztalon, ha alszol vagy elmész. Tartsd magadnál, vagy zárd be a kocsiba.
+- **Tárolás:** Nincs központi értékmegőrző, mindenki a saját cuccáért felel.
 
 ## Befogadás
 

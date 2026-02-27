@@ -30,6 +30,15 @@ Arra csomagolj, amin valóban játszani akarsz. Egy hiányzó kábel simán elvi
 
 Ha bizonytalan vagy, nézd meg: [Mit ne dugj be](/posts/what-not-to-plug-in/).
 
+## Túlélőcsomag
+
+Nem csak a gépednek kell túlélnie, neked is.
+
+- **Alvófelszerelés:** Hálózsák, polifoam/matrac, kispárna. (Tornatermi körülményekre készülj.)
+- **Tisztasági csomag:** Fogkefe, fogkrém, dezodor, törölköző, tusfürdő.
+- **Füldugó:** Kötelező, ha aludni is akarsz. 100 gép zúgása nem altatódal.
+- **Kényelmes ruha:** Réteges öltözködés javasolt.
+
 ## Hogyan jut el a géped
 
 Ha gond a szállítás, írj előre Discordon - általában valaki tud helyet adni az autóban.
