@@ -17,7 +17,7 @@ A room full of gaming PCs generates heat. If your rig starts acting up, check te
 
 ## Quick fixes
 
-1. **Airflow:** Ensure your case fans aren't blocked by bags, walls, or other PCs. Give it breathing room.
+1. **Airflow:** Make sure your case fans aren't blocked by bags, walls, or other PCs. Give it breathing room.
 2. **Dust:** If your filters are clogged, clean them. Ask staff for compressed air (we might have some).
 3. **Open the side panel:** It's ugly, but it works in a pinch.
 4. **Check fan curves:** Use MSI Afterburner or BIOS to ramp up fans earlier.

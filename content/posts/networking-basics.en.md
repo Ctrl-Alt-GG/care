@@ -26,7 +26,7 @@ The protocol that automatically hands out IP addresses.
 
 The phonebook. It translates human-readable names (like `servers.ctrl-alt-gg.hu`) into machine-readable IP addresses.
 
-**Tip:** Use automatic DNS settings to ensure you can access local cache servers and internal services.
+**Tip:** Use automatic DNS settings so you can access local cache servers and internal services.
 
 ## Gateway
 

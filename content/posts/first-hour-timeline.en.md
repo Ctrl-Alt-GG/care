@@ -25,7 +25,7 @@ The first hour sets the tone. If you rush, you'll be fixing things all weekend. 
 ## 30-45 Minutes: Boot & Connect
 
 1. **Power On:** Boot up your machine.
-2. **DHCP Check:** Ensure your network adapter is set to Automatic IP.
+2. **DHCP Check:** Make sure your network adapter is set to Automatic IP.
 3. **Portal:** Open [spawn.ctrl-alt-gg.hu](https://spawn.ctrl-alt-gg.hu). If it loads, you're online.
 4. **Launchers:** Open Steam/Battle.net. Let them update (they should pull from our local cache).
 

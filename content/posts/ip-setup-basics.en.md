@@ -21,7 +21,7 @@ Our network uses dynamic addressing.
 1. Press `Win + R`, type `ncpa.cpl`, press Enter.
 2. Right-click your Ethernet adapter > Properties.
 3. Select **Internet Protocol Version 4 (TCP/IPv4)** > Properties.
-4. Ensure both are selected:
+4. Make sure both are selected:
    - **Obtain an IP address automatically**
    - **Obtain DNS server address automatically**
 

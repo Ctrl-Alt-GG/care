@@ -19,7 +19,7 @@ There will be internet access, but you'll have a much better start if you prep a
 ## Quick sanity checks
 
 - Plug in Ethernet and confirm your adapter/port works
-- Ensure your network is set to **Automatic (DHCP)**
+- Make sure your network is set to **Automatic (DHCP)**
 
 ## Tickets
 

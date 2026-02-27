@@ -29,4 +29,4 @@ We run a local caching server for:
 
 - **Download stuck at 0%?** Restart the launcher.
 - **Slow speeds?** The file might not be cached yet. Be the hero who caches it.
-- **DNS errors?** Ensure your DNS is set to Automatic (DHCP). Do not use 8.8.8.8 or 1.1.1.1, or you will bypass the cache.
+- **DNS errors?** Make sure your DNS is set to Automatic (DHCP). Do not use 8.8.8.8 or 1.1.1.1, or you will bypass the cache.

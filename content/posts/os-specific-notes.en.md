@@ -16,7 +16,7 @@ Different operating systems, same network.
 
 ## Linux
 
-- **Network Manager:** Ensure your wired connection is set to DHCP.
+- **Network Manager:** Make sure your wired connection is set to DHCP.
 - **Samba:** If you want to share files with Windows users, install and configure Samba (`smb`).
 - **Wine/Proton:** Test your games beforehand. Don't spend the first 4 hours configuring Lutris.
 

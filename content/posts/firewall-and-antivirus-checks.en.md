@@ -16,7 +16,7 @@ Windows Firewall loves to block LAN games on "Public" networks.
 
 ## Quick fix
 
-1. **Network Profile:** Ensure your network is set to **Private** (if you trust the LAN) or manually allow the game.
+1. **Network Profile:** Make sure your network is set to **Private** (if you trust the LAN) or manually allow the game.
    - Settings > Network & Internet > Ethernet > Network profile type.
 2. **Allow an app:**
    - Search "Allow an app through Windows Firewall".

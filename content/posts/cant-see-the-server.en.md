@@ -23,7 +23,7 @@ Open your browser and go to [spawn.ctrl-alt-gg.hu](https://spawn.ctrl-alt-gg.hu)
 
 ## 3. IP configuration
 
-Ensure your network adapter is set to **Obtain an IP address automatically (DHCP)**.
+Make sure your network adapter is set to **Obtain an IP address automatically (DHCP)**.
 
 - **Windows:** Settings > Network & Internet > Ethernet > IP assignment > Edit > Automatic (DHCP).
 - **Static IPs are not allowed** and will not work.
