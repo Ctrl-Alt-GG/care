@@ -11,7 +11,7 @@
       {{ range .Site.Menus.main }}
         {{ if ne .Identifier "menu_home" }}
           {{ $url := .URL }}
-          {{ $catSlug := strings.TrimSuffix "/" (strings.TrimPrefix "/" $url) }}
+          {{ $catSlug := strings.TrimPrefix "menu_" .Identifier }}
           {{ $titleKey := printf "cat_%s_title" $catSlug }}
           {{ $descKey := printf "cat_%s_desc" $catSlug }}
           {{ $title := T $titleKey }}
