@@ -2,7 +2,8 @@
 title: "Your First Hour at the Venue"
 slug: /first-hour-at-the-venue/
 description: Get set up fast so you can start playing instead of troubleshooting.
-image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1400&q=80"
+image: "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=1400&q=80"
+caption: Setting up at the venue - gaming desk
 categories:
   - lan-care
 tags:

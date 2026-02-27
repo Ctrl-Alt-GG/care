@@ -2,7 +2,7 @@
 title: "Network Troubleshooting"
 slug: /network-troubleshooting/
 description: Are your packets stuck in the door? Here's a quick guide to get back online.
-image: "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?auto=format&fit=crop&w=1400&q=80"
+image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1400&q=80"
 categories:
   - lan-care
 tags:

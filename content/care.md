@@ -1,6 +1,6 @@
 ---
 title: "Care & Community"
-image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1600&q=80"
+image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1600&q=80"
 draft: false
 ---
 

@@ -2,7 +2,8 @@
 title: "Playing Together"
 slug: /playing-together/
 description: Competition is the point. Being decent to each other is the price of admission.
-image: "https://images.unsplash.com/photo-1511882150382-421056c89033?auto=format&fit=crop&w=1400&q=80"
+image: "https://images.unsplash.com/photo-1542751110-97427bbecf20?auto=format&fit=crop&w=1400&q=80"
+caption: Competitive gaming - esports arena
 categories:
   - lan-care
 tags:

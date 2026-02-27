@@ -2,7 +2,7 @@
 title: "What to Bring (and What Not To)"
 slug: /what-to-bring/
 description: The packing list you wish someone gave you before your first LAN.
-image: "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=1400&q=80"
+image: "https://images.unsplash.com/photo-1593152167544-085d3b9c4938?auto=format&fit=crop&w=1400&q=80"
 categories:
   - lan-care
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "F.A.Q."
-image: "https://images.unsplash.com/photo-1511882150382-421056c89033?auto=format&fit=crop&w=1600&q=80"
+image: "https://images.unsplash.com/photo-1552820728-8b83bb6b2b28?auto=format&fit=crop&w=1600&q=80"
 draft: false
 ---
 
