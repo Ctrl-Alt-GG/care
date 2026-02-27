@@ -49,3 +49,17 @@ Minden második meccs után csináld meg ezt:
 
 **Vízvételi pontok:**
 A mosdókban és a konyhai részen találsz ivóvizet. Töltsd újra a kulacsodat.
+
+## Szemkímélés
+
+A monitor bámulása órákon át kiszárítja a szemed.
+
+- **20-20-20 szabály:** 20 percenként nézz egy 20 láb (6 méter) távolságra lévő tárgyat 20 másodpercig.
+- **Fényerő:** Állítsd be a monitor fényerejét a szoba fényviszonyaihoz. Ne legyen reflektor a sötétben.
+- **Éjszakai mód:** Ha éjfél után is játszol, kapcsold be a kékfény-szűrőt (Windows Night Light / f.lux).
+
+## Engedély a pihenésre
+
+- **Rendben van, ha szünetet tartasz.** Senki nem fog elítélni, ha kimegyel, alszol egyet, vagy kihagysz egy kört.
+- **Ha rosszul érzed magad:** Ha szédülsz, hányingered van, vagy csak furcsán érzed magad, hagyd abba a játékot. Igyál vizet, menj friss levegőre, vagy dőlj le.
+- **Ha nem javul:** Keresd meg a staffot a szervezői pultnál. Segítünk.

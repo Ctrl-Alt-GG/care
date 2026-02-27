@@ -37,6 +37,8 @@ A LAN nem csak monitorból áll. Ha szünetet akarsz tartani vagy váltanál:
 - Ha hostolsz, szólj a szomszédoknak, hogy csatlakozhatnak-e.
 - Ne foglald le a teljes sávszélességet egy 20 fős Minecraft szerverrel - tartsd kordában a forgalmat.
 - Ha vége a sessionnek, szólj a többieknek, mielőtt leállítod a szervert.
+- **Bármikor kiszállhatsz.** Ha megunod, nyugodtan lépj ki a meccs közepén vagy ülj ki egy körből. Senki nem vezeti a jelenléti ívet.
+- Ha eleged van a képernyőből, a pihenőzóna pont erre való.
 
 Versenyekre jelentkeznél? Lásd: [Versenyek és csapatjelentkezés](/logistics/tournaments/).
 Nem találod a Discord csatornákat? Lásd: [Kommunikáció](/help/communication-channels/).

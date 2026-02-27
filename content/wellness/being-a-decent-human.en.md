@@ -7,6 +7,12 @@ draft: false
 
 A LAN is a social event. Don't make it awkward.
 
+## Personal Space and Noise
+
+- **Respect boundaries.** Don't spread your gear onto your neighbor's desk. That is their space.
+- **Quiet hours.** If people are trying to sleep nearby after midnight, lower your voice.
+- **Don't touch.** Never touch someone else's gear, chair, or food without asking.
+
 ## Trash Talk vs. Harassment
 
 The difference is intent and reaction.
@@ -35,6 +41,8 @@ If someone crosses the line with you or someone else:
 3. **What happens next:**
    - We listen to both sides.
    - If rules were broken, we issue a warning or an immediate ban from the event.
+
+**Low-barrier reporting:** If someone makes you uncomfortable, tell staff. You don't need a reason or proof.
 
 ## Helping Newbies
 

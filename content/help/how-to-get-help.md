@@ -12,6 +12,7 @@ Segíteni akarunk, de közben az eseményt is üzemeltetjük. Így érsz el mink
 - **Ne várj 3 órát** abban reménykedve, hogy majd magától megjavul.
 - Ha nem tudsz csatlakozni, jelezd most.
 - Ha villog az áram, azonnal jelezd.
+- **Nem zavarsz minket.** Ezért vagyunk itt.
 
 ## 2. Hol kérdezz
 

@@ -7,6 +7,12 @@ draft: false
 
 A LAN közösségi esemény. Ne tedd kínossá.
 
+## Személyes tér és zaj
+
+- **Tartsd tiszteletben a határokat.** Ne pakolj át a szomszédod asztalára. Az az ő területe.
+- **Éjfél után csend.** Ha mások aludni próbálnak a közelben, vedd lejjebb a hangerőt (a beszédedet is).
+- **Ne nyúlj hozzá.** Soha ne nyúlj más felszereléséhez, székéhez vagy ételéhez kérdés nélkül.
+
 ## Trash talk vagy zaklatás
 
 A különbség a szándék és a fogadó fél reakciója.
@@ -35,6 +41,8 @@ Ha valaki átlépi a határt veled vagy mással szemben:
 3. **Mi történik ezután:**
    - Meghallgatjuk mindkét felet.
    - Ha szabályszegés történt, figyelmeztetjük az illetőt, vagy azonnal kizárjuk a rendezvényről.
+
+**Egyszerűsített jelentés:** Ha valaki kényelmetlen helyzetbe hoz, szólj a staffnak. Nem kell indokolnod vagy bizonyítanod.
 
 ## Újoncok segítése
 

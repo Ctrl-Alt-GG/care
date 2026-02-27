@@ -49,3 +49,17 @@ Do this after every second match:
 
 **Hydration Points:**
 You can find drinking water in the restrooms and the kitchen area. Refill your bottle.
+
+## Eye Strain
+
+Staring at a monitor for hours dries out your eyes.
+
+- **20-20-20 Rule:** Every 20 minutes, look at something 20 feet (6 meters) away for 20 seconds.
+- **Brightness:** Adjust your monitor brightness to match the room. Don't stare into a floodlight in the dark.
+- **Night Mode:** If you play past midnight, turn on a blue light filter (Windows Night Light / f.lux).
+
+## Permission to Step Away
+
+- **It is okay to take a break.** Nobody will judge you for stepping outside, napping, or skipping a round.
+- **If you feel unwell:** If you feel dizzy, nauseous, or just off, stop playing. Drink water, get fresh air, or lie down.
+- **If it doesn't get better:** Talk to staff at the Organizer Desk. We will help.

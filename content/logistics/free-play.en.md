@@ -37,6 +37,8 @@ The LAN is not screens only. If you want a break or a change of pace:
 - If you're hosting, let nearby players know they can join.
 - Don't hog bandwidth with a 20-player Minecraft server - keep the traffic reasonable.
 - If you're shutting down a session, give the others a heads-up first.
+- **Opt out anytime.** It is fine to leave a game mid-session or sit out a round. Nobody tracks attendance.
+- If you need a break from screens, the chill zone is there for that.
 
 Looking for a tournament instead? See [Tournaments & Team Sign-up](/logistics/tournaments/).
 Can't find the Discord channels? See [Communication Channels](/help/communication-channels/).

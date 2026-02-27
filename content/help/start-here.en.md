@@ -7,6 +7,8 @@ draft: false
 
 What's wrong? Click the one that matches your problem.
 
+(If something isn't working, you probably didn't do anything wrong. We'll fix it.)
+
 ## 1. I can't connect / No Internet
 "Plugged in cable, no net", "Google won't load", "No IP address".
 👉 **[Network Troubleshooting](/network/network-troubleshooting/)**

@@ -7,6 +7,8 @@ draft: false
 
 Mi a gond? Kattints arra, ami a legjobban hasonlít a problémádra.
 
+(Ha valami nem működik, valószínűleg nem te rontottad el. Segítünk.)
+
 ## 1. Nincs internet / Nem csatlakozik
 "Bedugtam a kábelt, de nincs net", "Nem tölt be a Google", "Nincs IP címem".
 👉 **[Hálózati hibakeresés](/network/network-troubleshooting/)**

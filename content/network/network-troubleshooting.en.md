@@ -63,3 +63,5 @@ sudo dhclient -r && sudo dhclient -v
 - Where you are sitting
 
 For the common culprits, see: [IP Setup Basics](/network/ip-setup-basics/), [Firewall and Antivirus Checks](/network/firewall-and-antivirus-checks/), and [Reporting Network Issues](/network/reporting-network-issues/).
+
+We would rather help early than fix things after they break. If you are stuck, ask.

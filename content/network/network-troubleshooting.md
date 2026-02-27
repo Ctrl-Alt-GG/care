@@ -63,3 +63,5 @@ sudo dhclient -r && sudo dhclient -v
 - Hol ülsz
 
 A gyakori okokhoz nézd meg: [IP beállítás alapok](/network/ip-setup-basics/), [Tűzfal és antivírus ellenőrzés](/network/firewall-and-antivirus-checks/), [Hálózati hibák jelentése](/network/reporting-network-issues/).
+
+Inkább segítünk most, mint hogy később kelljen tüzet oltani. Ha elakadtál, szólj.

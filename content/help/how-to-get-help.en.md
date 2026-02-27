@@ -12,6 +12,7 @@ We want to help, but we are running the event at the same time. Here is how to r
 - **Do not wait 3 hours** hoping the problem fixes itself.
 - If you can't connect, tell us now.
 - If your power is flickering, tell us immediately.
+- **You are not bothering us.** That is why we are here.
 
 ## 2. Where to Ask
 
