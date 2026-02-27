@@ -6,7 +6,8 @@
 
 		<h2 class="font-bold text-xl mb-8">{{ i18n "aside_other_articles" }}</h2>
 
-		{{ range where .Site.RegularPages "Type" "posts" | first 5}}
+		{{ $otherPages := where .Site.RegularPages "RelPermalink" "ne" .RelPermalink }}
+		{{ range first 5 $otherPages.ByDate.Reverse }}
 
 			{{- partial "content/list-post.html" . -}}
 
