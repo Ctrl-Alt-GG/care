@@ -9,7 +9,7 @@
     "dev": "run-p dev:*",
     "build:generate": "npx tailwindcss -i ./input.css -o ./assets/css/main.css",
     "build:hugo": "hugo",
-    "build": "run-p build:*"
+    "build": "run-s build:generate build:hugo"
   },
   "keywords": ["hugo", "tailwindcss"],
   "author": "Fauzan My",

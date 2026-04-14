@@ -6,11 +6,12 @@
 		</li>
 
 		{{- if .IsPage -}}
-			{{- with .Params.categories -}}
-				{{- $cat := index . 0 -}}
-				<li class="after:content-['❯'] after:ml-4 after:opacity-30 last:after:content-none uppercase">
-					<a href="{{ printf "/categories/%s/" (urlize $cat) | relURL }}">{{ $cat }}</a>
-				</li>
+			{{- with .CurrentSection -}}
+				{{- if not .IsHome -}}
+					<li class="after:content-['❯'] after:ml-4 after:opacity-30 last:after:content-none uppercase">
+						<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+					</li>
+				{{- end -}}
 			{{- end -}}
 		{{- else -}}
 			<li class="after:content-['❯'] after:ml-4 after:opacity-30 last:after:content-none uppercase">
