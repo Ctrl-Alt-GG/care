@@ -27,7 +27,19 @@ Mi a gond? Kattints arra, ami a legjobban hasonlít a problémádra.
 "Nem kapcsol be a PC", "Fekete a monitor", "Szikrázik az elosztó".
 👉 **[Nem indul a gép](/hardware/pc-wont-start/)**
 
-## 5. Valami elromlott, és nem tudom mi
+## 5. Nincs hang / Fejhallgató nem érzékelhető
+"Nem működik a fejhallgatóm", "Nincs hang", "Nem érzékeli a mikrofont".
+👉 **[Hang beállítása és nincs hang javítások](/hardware/audio-setup/)**
+
+## 6. Anti-cheat hiba / A játék nem indul
+"EAC failed", "BattlEye failed", "Vanguard not initialized".
+👉 **[Anti-Cheat problémák](/software/anti-cheat-issues/)**
+
+## 7. Valami elromlott, és nem tudom mi
 "Furcsa hibaüzenet", "Kékhalál", "Nem találom a megoldást".
 1. Nézd meg az **[Ismert hibák](/help/known-issues/)** listát (lehet, hogy globális gond).
 2. Ha nincs ott, kérj segítséget: **[Hogyan kérj segítséget](/help/how-to-get-help/)**.
+
+---
+
+Nem tudod, hol kezdd? Nézd meg a **[GYIK](/help/faq/)** oldalt a leggyakoribb kérdések gyors megválaszolásáért.

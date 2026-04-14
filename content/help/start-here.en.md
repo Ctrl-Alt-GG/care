@@ -27,7 +27,19 @@ What's wrong? Click the one that matches your problem.
 "PC won't turn on", "Black screen", "Power strip sparking".
 👉 **[PC Won't Start](/hardware/pc-wont-start/)**
 
-## 5. Something is broken and I don't know what
+## 5. No sound / Headset not detected
+"My headset isn't working", "No audio", "Mic not detected".
+👉 **[Audio Setup & No Sound Fixes](/hardware/audio-setup/)**
+
+## 6. Anti-cheat error / Game won't launch
+"EAC failed", "BattlEye failed", "Vanguard not initialized".
+👉 **[Anti-Cheat Issues](/software/anti-cheat-issues/)**
+
+## 7. Something is broken and I don't know what
 "Weird error message", "Blue screen", "Can't find a solution".
 1. Check **[Known Issues](/help/known-issues/)** (it might be a global problem).
 2. If not listed, ask for help: **[How to Get Help](/help/how-to-get-help/)**.
+
+---
+
+Not sure where to start? See the **[FAQ](/help/faq/)** for quick answers to the most common questions.
