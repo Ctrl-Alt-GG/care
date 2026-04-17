@@ -106,6 +106,9 @@ other = "Care"
 [family_spawn]
 other = "Spawn"
 
+[family_lobby]
+other = "Lobby"
+
 [pagination_prev]
 other = "Previous"
 

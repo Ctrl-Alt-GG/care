@@ -11,3 +11,11 @@
   --color-brand-400: #f14848;
   --color-brand-600: #aa0000;
 }
+
+@layer components {
+  /* Full-cover anchor used inside relatively-positioned card wrappers */
+  .insert-link {
+    position: absolute;
+    inset: 0;
+  }
+}
