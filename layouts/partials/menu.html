@@ -1,7 +1,7 @@
 {{- $menuID := .menuID -}}
 {{- $page := .page -}}
 <nav id="menu-bar" class="close border-t border-zinc-100 dark:border-zinc-800 mt-1">
-  <ul class="flex flex-col py-2 gap-0.5">
+  <ul class="flex flex-col md:flex-row md:flex-wrap py-2 gap-0.5">
     {{- range site.Menus.main -}}
       <li>
         <a href="{{ .URL }}"
