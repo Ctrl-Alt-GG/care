@@ -94,6 +94,18 @@ other = "Support and care hub for the Ctrl-Alt-GG LAN community. Guides, trouble
 [footer_all_rights_reserved]
 other = "All rights reserved."
 
+[footer_family_label]
+other = "Also in the Ctrl-Alt-GG family"
+
+[family_homepage]
+other = "Homepage"
+
+[family_care]
+other = "Care"
+
+[family_spawn]
+other = "Spawn"
+
 [pagination_prev]
 other = "Previous"
 

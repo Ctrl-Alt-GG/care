@@ -19,8 +19,6 @@ summaryLength = 20 # 20 words are approximately 160 characters
 
 		[languages.hu.author]
 			name = 'Ctrl-Alt-GG'
-			bio = 'Gyakorlati támogatás játékhoz, logisztikához és közösségi jóléthez.'
-			avatar = '/favicon.svg'
 
 		[[languages.hu.menu.main]]
 			name = 'Kezdőlap'
@@ -70,8 +68,6 @@ summaryLength = 20 # 20 words are approximately 160 characters
 
 		[languages.en.author]
 			name = 'Ctrl-Alt-GG'
-			bio = 'Practical support for gaming, logistics, and community wellbeing.'
-			avatar = '/favicon.svg'
 
 		[[languages.en.menu.main]]
 			name = 'Home'
@@ -109,10 +105,12 @@ summaryLength = 20 # 20 words are approximately 160 characters
 			pageRef = '/help'
 			weight = 20
 
+copyright = "2025-2026 Ctrl-Alt-GG"
+
 [module]
   [module.hugoVersion]
-    extended = false
-    min = "0.116.0"
+    extended = true
+    min = "0.160.0"
   [[module.mounts]] # Directing the assets folder to static.
 	source = 'assets'
 	target = 'static'
