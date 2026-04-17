@@ -8,8 +8,8 @@ summaryLength = 20 # 20 words are approximately 160 characters
 
 [languages]
 	[languages.hu]
-		languageCode = 'hu'
-		languageName = 'Magyar'
+		locale = 'hu'
+		label = 'Magyar'
 		title = 'Ctrl-Alt-GG Care'
 		weight = 1
 
@@ -57,8 +57,8 @@ summaryLength = 20 # 20 words are approximately 160 characters
 			weight = 20
 
 	[languages.en]
-		languageCode = 'en'
-		languageName = 'English'
+		locale = 'en'
+		label = 'English'
 		title = 'Ctrl-Alt-GG Care'
 		weight = 2
 
