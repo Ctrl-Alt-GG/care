@@ -25,7 +25,7 @@
   {{- $attrs := slice -}}
   {{- with $id }}{{ $attrs = $attrs | append (printf `id="%s"` .) }}{{ end -}}
   {{- with $class }}{{ $attrs = $attrs | append (printf `class="%s"` .) }}{{ end -}}
-  {{- with $size }}{{ $attrs = $attrs | append (printf `width="%s" height="%s"` . .) }}{{ end -}}
+  {{- with $size }}{{ $attrs = $attrs | append (printf `width="%v" height="%v"` . .) }}{{ end -}}
   {{- if $label -}}
     {{- $attrs = $attrs | append (printf `role="img" aria-label="%s"` $label) -}}
   {{- else -}}
