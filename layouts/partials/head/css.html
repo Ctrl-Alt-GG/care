@@ -1,4 +1,4 @@
-{{- with resources.Get "css/main.css" }}
+{{- with resources.Get "css/compiled/main.css" }}
   {{- if eq hugo.Environment "development" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{- else }}
@@ -7,5 +7,3 @@
     {{- end }}
   {{- end }}
 {{- end }}
-
-<link rel="stylesheet" href="{{ "css/overrides.css" | relURL }}">

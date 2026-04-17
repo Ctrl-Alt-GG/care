@@ -1,9 +1,53 @@
+{{- $page := . -}}
+
+{{- /* Build the page title as "<page title> · <site title>" on interior
+       pages, or just "<site title>" on the homepage, matching the sibling
+       Ctrl-Alt-GG sites. */ -}}
+{{- $title := site.Title | markdownify | plainify | htmlUnescape -}}
+{{- if and (not $page.IsHome) $page.Title -}}
+  {{- $title = printf "%s · %s" ($page.Title | markdownify | plainify | htmlUnescape) $title -}}
+{{- end -}}
+
+{{- $description := cond $page.IsHome (site.Params.description | default "") ($page.Params.description | default site.Params.description) -}}
+{{- $color := site.Params.color | default "#0d6efd" -}}
+
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
-<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.description }}{{ end }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+{{- with site.LanguageCode }}
+  <meta http-equiv="content-language" content="{{ . }}">
+{{- end }}
+
+<title>{{ $title }}</title>
+<meta name="title" content="{{ $title }}">
+{{- with $description }}
+  <meta name="description" content="{{ . | markdownify | plainify | htmlUnescape }}">
+{{- end }}
+{{- with site.Params.keywords }}
+  <meta name="keywords" content="{{ . }}">
+{{- end }}
+
+<meta name="theme-color" content="{{ $color }}">
+<meta name="apple-mobile-web-app-title" content="{{ site.Title | markdownify | plainify | htmlUnescape }}">
+
+<link rel="canonical" href="{{ $page.Permalink }}">
+
+{{- /* Typography — shared Ctrl-Alt-GG Inter font across all three sites. */ -}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-{{- partialCached "head/css.html" . -}}
-{{- partialCached "head/favicon.html" . -}}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+
+{{- partialCached "head/css.html" $page -}}
+{{- partialCached "head/favicon.html" $page -}}
+
+{{- /* Social */ -}}
+{{ template "_internal/opengraph.html" $page }}
+{{ template "_internal/twitter_cards.html" $page }}
+
+{{- /* RSS alternate link */ -}}
+{{ range $page.AlternativeOutputFormats }}
+  <link href="{{ .RelPermalink }}" rel="{{ .Rel }}" type="{{ .MediaType }}">
+{{ end }}
+
+{{- /* Generator */ -}}
+{{ hugo.Generator }}

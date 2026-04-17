@@ -1,21 +1,22 @@
 {{- $href := .Get "href" | default "#" -}}
-{{- $icon := .Get "icon" -}}
-{{- $icons := dict
-  "wifi"     `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1" fill="currentColor"/></svg>`
-  "hardware" `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></svg>`
-  "pc"       `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>`
-  "ping"     `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>`
-  "network"  `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="5" r="3"/><circle cx="5" cy="19" r="3"/><circle cx="19" cy="19" r="3"/><path d="M12 8v3M5 16l7-5M19 16l-7-5"/></svg>`
-  "question" `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`
-  "arrow"    `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>`
+{{- $icon := .Get "icon" | default "arrow-right" -}}
+{{- /* Map short problem-link slugs to assets/icons/*.svg file names. */ -}}
+{{- $iconMap := dict
+  "wifi"     "wifi"
+  "hardware" "hardware"
+  "pc"       "pc"
+  "ping"     "ping"
+  "network"  "network"
+  "question" "question-circle"
+  "arrow"    "arrow-right"
 -}}
-{{- $iconSvg := index $icons $icon | default (index $icons "arrow") -}}
+{{- $iconName := index $iconMap $icon | default "arrow-right" -}}
 <a href="{{ $href }}" class="problem-link group flex items-center gap-4 w-full my-3 px-5 py-4 rounded-xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 hover:border-blue-400 dark:hover:border-blue-500 hover:bg-blue-50 dark:hover:bg-blue-950/30 transition-all duration-200 no-underline not-prose">
   <span class="flex-shrink-0 text-blue-500 dark:text-blue-400">
-    {{ $iconSvg | safeHTML }}
+    {{ partial "icon.html" (dict "name" $iconName "size" 22) }}
   </span>
   <span class="flex-1 text-zinc-800 dark:text-zinc-200 font-medium text-base">{{ .Inner | markdownify | plainify }}</span>
   <span class="flex-shrink-0 text-zinc-400 group-hover:text-blue-500 dark:group-hover:text-blue-400 transition-colors duration-200">
-    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    {{ partial "icon.html" (dict "name" "arrow-right" "size" 18) }}
   </span>
 </a>

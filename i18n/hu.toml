@@ -94,6 +94,21 @@ other = "Támogatási és információs központ a Ctrl-Alt-GG LAN közösségne
 [footer_all_rights_reserved]
 other = "Minden jog fenntartva."
 
+[footer_family_label]
+other = "A Ctrl-Alt-GG család további oldalai"
+
+[family_homepage]
+other = "Főoldal"
+
+[family_care]
+other = "Care"
+
+[family_spawn]
+other = "Spawn"
+
+[family_lobby]
+other = "Lobby"
+
 [pagination_prev]
 other = "Előző"
 

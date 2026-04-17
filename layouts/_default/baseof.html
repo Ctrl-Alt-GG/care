@@ -20,6 +20,8 @@
   {{ partial "head.html" . }}
 </head>
 <body class="font-sans antialiased bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
+  {{- /* Ctrl-Alt-GG family hairline — the shared brand signature across all three CAG sites. */ -}}
+  <div class="h-1 bg-brand-600" aria-hidden="true"></div>
   <header class="sticky top-0 z-50 bg-white/80 dark:bg-zinc-950/80 backdrop-blur-sm border-b border-zinc-200 dark:border-zinc-800">
     {{- partial "header.html" . -}}
   </header>

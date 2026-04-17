@@ -1,6 +1,11 @@
 {{- $menuID := .menuID -}}
 {{- $page := .page -}}
-<nav id="menu-bar" class="close md:block border-t border-zinc-100 dark:border-zinc-800 mt-1">
+{{- /*
+  Mobile disclosure: visible on md+ by default, or whenever any <details open>
+  ancestor inside the shared `group/menu` wrapper in header.html is toggled open
+  by the user. This keeps the menu entirely JS-free.
+*/ -}}
+<nav id="menu-bar" class="hidden md:block group-has-[details[open]]/menu:block border-t border-zinc-100 dark:border-zinc-800 mt-1">
   <ul class="flex flex-col md:flex-row md:flex-wrap py-2 gap-0.5">
     {{- range site.Menus.main -}}
       <li>

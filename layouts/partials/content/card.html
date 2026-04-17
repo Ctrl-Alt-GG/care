@@ -5,7 +5,7 @@
     <p class="text-sm text-zinc-500 dark:text-zinc-400 line-clamp-2 leading-relaxed flex-1">{{ .Params.description }}</p>
     <div class="mt-4 flex items-center text-xs font-medium text-zinc-400 dark:text-zinc-500 group-hover:text-blue-500 dark:group-hover:text-blue-400 transition-colors">
       <span>{{ i18n "read_more" | default "Read more" }}</span>
-      <svg class="ml-1 w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      {{ partial "icon.html" (dict "name" "arrow-right" "class" "ml-1 w-3.5 h-3.5") }}
     </div>
   </div>
 </article>

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ctrl-Alt-GG community
+    url: https://ctrl-alt-gg.hu
+    about: General questions, event info, or anything not specific to the Care site.
+  - name: Care site (live)
+    url: https://care.ctrl-alt-gg.hu
+    about: Check the live guides before opening an issue — the answer may already be there.

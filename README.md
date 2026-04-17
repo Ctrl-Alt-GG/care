@@ -1,30 +1,28 @@
-# care
+# Ctrl-Alt-GG Care
 
-Support and care hub for the [Ctrl-Alt-GG](https://ctrl-alt-gg.hu) LAN community. Guides, troubleshooting, house rules, and everything you need for a smooth weekend.
+Support and care hub for the [Ctrl-Alt-GG](https://ctrl-alt-gg.hu) LAN community — troubleshooting guides, house rules, arrival info, and wellness tips. Bilingual (Hungarian / English). Live at <https://care.ctrl-alt-gg.hu/>.
 
-Built with [Hugo](https://gohugo.io/) and [Tailwind CSS](https://tailwindcss.com/), deployed to [Azure Static Web Apps](https://azure.microsoft.com/en-us/products/app-service/static).
+The site exists so nobody has to DM an organiser at 2 AM to ask why the Wi-Fi is slow or where the kitchen is. Content is short, practical, and written for tired gamers.
 
-## Prerequisites
+## Stack
 
-- [Hugo](https://gohugo.io/installation/) v0.116.0+
-- [Node.js](https://nodejs.org/) (for Tailwind CSS)
-- Git (with submodule support)
+Hugo (extended) + Tailwind CSS v4 + Node.js, deployed to Azure Static Web Apps.
+
+Tool versions and build commands are pinned in the repo — don't copy them into docs. Read them from:
+
+- `.nvmrc` and `engines.node` in `package.json` — Node version
+- `module.hugoVersion` in `hugo.toml` — Hugo version floor
+- `scripts` in `package.json` — dev and build commands
 
 ## Local development
 
 ```bash
-# Clone with the theme submodule
-git clone --recurse-submodules https://github.com/Ctrl-Alt-GG/care.git
-cd care
-
-# Install Node dependencies
-npm install
-
-# Start the dev server (Tailwind watch + Hugo server in parallel)
+nvm use
+npm ci
 npm run dev
 ```
 
-The site will be available at `http://localhost:1313/`.
+The dev server runs Tailwind in watch mode alongside `hugo server` and serves the site at <http://localhost:1313/>.
 
 ## Build
 
@@ -32,11 +30,18 @@ The site will be available at `http://localhost:1313/`.
 npm run build
 ```
 
-This runs the Tailwind CSS build first, then the Hugo build. The output is in the `public/` directory.
+This builds the Tailwind stylesheet first, then runs Hugo. Output is written to `public/`. Never run `hugo` directly without `npm run build:css` first — templates reference classes that only exist in the compiled stylesheet.
 
-## Content structure
+## Project layout
 
-Content is organised by section under `content/`:
+- `content/<section>/` — bilingual Markdown pairs: `<slug>.md` (Hungarian) + `<slug>.en.md` (English). `weight`, `draft`, `date`, and slugs must match across the pair.
+- `layouts/` — Hugo templates. `shortcodes/` contains the authoring API (`callout`, `problem-link`); `partials/` holds reusable fragments.
+- `assets/css/main.css` — Tailwind v4 source. The compiled output in `assets/css/compiled/` is git-ignored.
+- `assets/icons/` — SVG set referenced by the `icon.html` partial.
+- `i18n/hu.toml`, `i18n/en.toml` — per-locale string tables. Every user-facing string goes through `{{ i18n "key" }}`.
+- `static/` — files copied verbatim to the site root.
+
+Sections (whitelisted in `mainSections` per language in `hugo.toml`):
 
 | Section | Description |
 |---------|-------------|
@@ -47,8 +52,14 @@ Content is organised by section under `content/`:
 | `logistics/` | Logistics & arrival |
 | `help/` | How to get help |
 
-Each section has bilingual content: Hungarian (`.md`) and English (`.en.md`).
+## Contributing and working with AI agents
+
+The canonical contributor guide — for humans and AI agents alike — is [`AGENTS.md`](AGENTS.md). It covers bilingual parity rules, templating conventions, the Tailwind setup, and the "do-not-touch" list.
+
+Path-scoped rules for Copilot and other agents live under `.github/instructions/` and are auto-applied by glob. Reusable slash-command scaffolds (new guide, new shortcode, new partial) live under `.github/prompts/`.
+
+When opening a PR, follow [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md). The most important checks are that `npm run build` is clean, no generated artefacts are committed, and bilingual parity is maintained.
 
 ## Deployment
 
-Pushes to `main` are automatically built and deployed to Azure Static Web Apps via GitHub Actions.
+Pushes and PRs targeting `main` are built and deployed to Azure Static Web Apps via the workflow in `.github/workflows/`. The required build order (`npm ci` → `npm run build:css` → `hugo`) is encoded there and mirrors the npm scripts.

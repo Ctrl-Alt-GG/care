@@ -17,14 +17,14 @@
       <div class="flex items-center mt-10 gap-4">
         {{- if .Paginator.HasPrev -}}
           <a class="inline-flex items-center gap-2 border border-zinc-200 dark:border-zinc-700 rounded-xl px-5 py-2.5 text-sm font-medium hover:bg-zinc-100 dark:hover:bg-zinc-800 transition duration-200 mr-auto" href="{{ .Paginator.Prev.URL }}">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            {{ partial "icon.html" (dict "name" "arrow-left" "size" 16) }}
             {{ i18n "pagination_prev" }}
           </a>
         {{- end -}}
         {{- if .Paginator.HasNext -}}
           <a class="inline-flex items-center gap-2 border border-zinc-200 dark:border-zinc-700 rounded-xl px-5 py-2.5 text-sm font-medium hover:bg-zinc-100 dark:hover:bg-zinc-800 transition duration-200 ml-auto" href="{{ .Paginator.Next.URL }}">
             {{ i18n "pagination_next" }}
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            {{ partial "icon.html" (dict "name" "arrow-right" "size" 16) }}
           </a>
         {{- end -}}
       </div>

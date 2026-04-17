@@ -1,0 +1,38 @@
+{{- /*
+  icon.html — Render an inline SVG icon from assets/icons/<name>.svg.
+
+  Usage:
+    {{ partial "icon.html" (dict "name" "arrow-right" "class" "w-4 h-4") }}
+    {{ partial "icon.html" (dict "name" "moon" "label" "Toggle dark mode") }}
+
+  Params (dict keys):
+    name   (required) — file stem under assets/icons/, e.g. "arrow-right".
+    class  (optional) — space-separated CSS classes applied to <svg>.
+    id     (optional) — id attribute applied to <svg>.
+    label  (optional) — accessible name; when set, renders role="img"
+                        aria-label; otherwise the icon is aria-hidden.
+    size   (optional) — width/height in pixels (applied as attributes).
+*/ -}}
+
+{{- $name := .name -}}
+{{- $class := .class | default "" -}}
+{{- $id := .id -}}
+{{- $label := .label -}}
+{{- $size := .size -}}
+
+{{- with resources.Get (printf "icons/%s.svg" $name) -}}
+  {{- $svg := .Content -}}
+  {{- $attrs := slice -}}
+  {{- with $id }}{{ $attrs = $attrs | append (printf `id="%s"` .) }}{{ end -}}
+  {{- with $class }}{{ $attrs = $attrs | append (printf `class="%s"` .) }}{{ end -}}
+  {{- with $size }}{{ $attrs = $attrs | append (printf `width="%v" height="%v"` . .) }}{{ end -}}
+  {{- if $label -}}
+    {{- $attrs = $attrs | append (printf `role="img" aria-label="%s"` $label) -}}
+  {{- else -}}
+    {{- $attrs = $attrs | append `aria-hidden="true" focusable="false"` -}}
+  {{- end -}}
+  {{- $replacement := printf "<svg %s" (delimit $attrs " ") -}}
+  {{- $svg | replaceRE `^<svg` $replacement | safeHTML -}}
+{{- else -}}
+  {{- errorf "icon.html: asset icons/%s.svg not found" $name -}}
+{{- end -}}
