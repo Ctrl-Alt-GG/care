@@ -22,8 +22,10 @@ A room full of gaming PCs generates heat. If your rig starts acting up, check te
 
 ## Check your temps
 
-- **Modern CPUs** throttle at 90-100°C.
-- **GPUs** throttle at 83-90°C depending on model.
+| Component | Throttle starts | Danger zone |
+|-----------|----------------|-------------|
+| CPU (modern) | ~90 °C | 100 °C+ |
+| GPU (most models) | ~83 °C | 90 °C+ |
 
 **Tools:**
 - **Windows 11:** Open Task Manager (Ctrl+Shift+Esc) > Performance > GPU to see GPU temperature.

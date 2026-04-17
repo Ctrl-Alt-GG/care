@@ -11,31 +11,22 @@ A magas ping általában azt jelenti, hogy valami a gépeden éppen sávszéless
 
 Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
 
-{{< mermaid >}}
-flowchart LR
-    A([Magas ping / lag]) --> B[Állíts le minden letöltést\nSteam, Windows Update, böngésző, torrent]
-    B --> C{Wifi-n vagy?}
-    C -->|Igen| D[Csatlakozz Ethernet kábellel]
-    C -->|Nem| E[Nyisd meg a Resource Monitort\nWin+R > resmon > Network fül]
-    D --> E
-    E --> F{Magas hálózati\nhasználat a háttérben?}
-    F -->|Igen| G[Öld meg a folyamatot]
-    F -->|Nem| H{Az egész sor laggol?}
-    H -->|Igen| I([Szólj a staffnak - switch uplink gond])
-    H -->|Nem| J[Indítsd újra\na hálózati adaptert]
-    G --> K{Megoldódott?}
-    J --> K
-    K -->|Igen| L([Kész!])
-    K -->|Nem| M([Írj a #support csatornára])
-{{< /mermaid >}}
+{{< callout type="tip" >}}
+**Gyors ellenőrzőlista — először ezeket csináld:**
 
-Nézd meg:
+1. **Wifin vagy?** Csatlakozz az Ethernet kábelre a helyednél.
+2. **Állíts le minden letöltést:** Steam / Epic / Battle.net, Windows Update, böngésző tabok (YouTube, Twitch), torrent kliensek.
+3. **Nyisd meg a Resource Monitort** (`Win+R` → `resmon` → Network fül), és öld meg a nagy forgalmat okozó folyamatot.
+4. **Az egész sor laggol?** Szólj a staffnak — ellenőrizni fogjuk a switch uplinket.
+{{< /callout >}}
+
+## 1. Letöltések leállítása
+
+Keress aktív letöltéseket és szüneteltess mindent:
 - Steam / Epic / Battle.net (auto frissítések)
 - Windows Update
 - Böngésző tabok (YouTube, Twitch)
 - Fájlmegosztó kliensek (torrent, DC++)
-
-Mindent szüneteltess.
 
 ## 2. Vezetékes vagy wifi
 

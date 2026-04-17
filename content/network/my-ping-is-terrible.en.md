@@ -11,31 +11,22 @@ High ping usually means something on your machine is eating bandwidth.
 
 First, check **[Known Issues](/help/known-issues/)**.
 
-{{< mermaid >}}
-flowchart LR
-    A([High ping / lag]) --> B[Pause all downloads\nSteam, Windows Update, browser, torrents]
-    B --> C{On Wi-Fi?}
-    C -->|Yes| D[Switch to Ethernet cable]
-    C -->|No| E[Open Resource Monitor\nWin+R > resmon > Network tab]
-    D --> E
-    E --> F{High background\nnetwork usage?}
-    F -->|Yes| G[Kill the process causing it]
-    F -->|No| H{Whole row lagging?}
-    H -->|Yes| I([Tell staff - switch uplink issue])
-    H -->|No| J[Reboot your\nnetwork adapter]
-    G --> K{Fixed?}
-    J --> K
-    K -->|Yes| L([Done!])
-    K -->|No| M([Post in #support on Discord])
-{{< /mermaid >}}
+{{< callout type="tip" >}}
+**Quick checklist — do these first:**
 
-Check:
+1. **On Wi-Fi?** Switch to the Ethernet cable at your seat.
+2. **Pause all downloads:** Steam / Epic / Battle.net, Windows Update, browser tabs (YouTube, Twitch), torrent clients.
+3. **Open Resource Monitor** (`Win+R` → `resmon` → Network tab) and kill any process with unexpectedly high throughput.
+4. **Whole row lagging?** Tell staff — we'll check the switch uplink.
+{{< /callout >}}
+
+## 1. Stop downloads
+
+Check for active downloads and pause everything:
 - Steam / Epic / Battle.net (auto-updates)
 - Windows Update
 - Browser tabs (YouTube, Twitch)
 - File sharing clients (torrent, DC++)
-
-Pause everything.
 
 ## 2. Wired vs Wireless
 

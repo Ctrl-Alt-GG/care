@@ -22,8 +22,10 @@ Egy teremben sok játékos PC sok hőt termel. Ha a géped furcsán viselkedik, 
 
 ## Hőmérséklet ellenőrzés
 
-- **Modern CPU-k** 90-100°C-nál veszik vissza az órajelet (throttling).
-- **GPU-k** 83-90°C-nál, modelltől függően.
+| Komponens | Throttling kezdete | Veszélyzóna |
+|-----------|-------------------|-------------|
+| CPU (modern) | ~90 °C | 100 °C+ |
+| GPU (legtöbb modell) | ~83 °C | 90 °C+ |
 
 **Eszközök:**
 - **Windows 11:** Feladatkezelő (Ctrl+Shift+Esc) > Teljesítmény > GPU mutatja a hőfokot.

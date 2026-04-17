@@ -11,6 +11,17 @@ Steam won't start? Battle.net stuck? Try these.
 
 First, check **[Known Issues](/help/known-issues/)**.
 
+| Launcher | Problem | Jump to |
+|----------|---------|---------|
+| Steam | Won't start | [Steam — Won't start](#steam) |
+| Steam | Game won't update/verify | [Steam — Update/verify](#steam) |
+| Epic Games Store | Won't start | [Epic — Won't start](#epic-games-store) |
+| Epic Games Store | Game won't verify | [Epic — Verify](#epic-games-store) |
+| Battle.net | Won't start | [Battle.net — Won't start](#battlenet) |
+| Battle.net | Game won't scan/repair | [Battle.net — Scan and repair](#battlenet) |
+| GOG Galaxy | Verify/repair | [GOG Galaxy](#gog-galaxy) |
+| Any launcher | Game crashes on launch | [Game crashes on launch](#game-crashes-on-launch) |
+
 ## Steam
 
 ### Won't start

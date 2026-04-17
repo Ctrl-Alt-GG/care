@@ -19,10 +19,12 @@ We usually run the latest version on the LAN. If you didn't update at home, or y
 
 Most games display the version number in the corner of the main menu.
 
-- **Counter-Strike 2:** Bottom-left corner of the main menu.
-- **Minecraft (Java):** Bottom-left of the title screen.
-- **League of Legends:** Bottom-right of the login screen, or Settings > About.
-- **Call of Duty:** Usually top-right of the main menu.
+| Game | Where to find the version |
+|------|--------------------------|
+| Counter-Strike 2 | Bottom-left corner of the main menu |
+| Minecraft (Java) | Bottom-left of the title screen |
+| League of Legends | Bottom-right of login screen, or Settings → About |
+| Call of Duty | Usually top-right of the main menu |
 
 - **Compare with others.** Ask your neighbor: "What version do you have?"
 - **Check the server browser.** If all servers are greyed out or red, the problem is on your end.

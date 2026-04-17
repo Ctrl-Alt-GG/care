@@ -13,9 +13,13 @@ First, check **[Known Issues](/help/known-issues/)**.
 
 ## The symptoms
 
+{{< callout type="warning" >}}
+**Your firewall is probably the issue if you see any of these:**
+
 - You can see the server list but can't join.
 - You can't host a local lobby.
 - You can't see other players in LAN browsers.
+{{< /callout >}}
 
 ## Quick fix
 

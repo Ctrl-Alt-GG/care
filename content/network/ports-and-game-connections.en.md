@@ -13,27 +13,28 @@ First, check **[Known Issues](/help/known-issues/)**.
 
 ## What is NAT?
 
-NAT (Network Address Translation) translates your internal IP to the outside world. On a LAN, this is usually fine, but some games (especially older P2P ones) hate it.
+NAT (Network Address Translation) maps your internal IP to the outside world. Some games (especially older P2P titles) care a lot about your NAT type.
 
-- **Open NAT:** Everything works, anyone can join you.
-- **Moderate NAT:** You can join others, but hosting might fail.
-- **Strict NAT:** You can only join players with Open NAT.
+| NAT Type | Can join others | Others can join you | Notes |
+|----------|:--------------:|:-------------------:|-------|
+| **Open** | ✅ | ✅ | Best |
+| **Moderate** | ✅ | ⚠️ Hosting may fail | Common |
+| **Strict** | ⚠️ Open NAT only | ❌ | Almost always your firewall |
 
-Our event network uses enterprise-grade NAT. You cannot change this. If you see Strict NAT, it is almost always your local firewall blocking the traffic.
+Our event network uses enterprise-grade NAT. **You cannot change the network NAT.** If you see Strict NAT, it is almost always your **local firewall** blocking traffic.
 
 ## Which ports to check?
 
-If a game can't find the server, check if your firewall allows traffic on these ports.
+If a game can't find the server, make sure your firewall allows traffic on these ports.
 
-**General:**
-- **Web / HTTP:** 80, 443 (TCP)
-- **DNS:** 53 (UDP)
-- **Steam:** 27015-27030 (UDP/TCP)
-
-**Game specific examples:**
-- **Minecraft:** 25565 (TCP)
-- **Call of Duty:** 3074 (UDP/TCP)
-- **Counter-Strike 2:** 27015 (UDP/TCP)
+| Service / Game | Port(s) | Protocol |
+|---|---|---|
+| Web / HTTP | 80, 443 | TCP |
+| DNS | 53 | UDP |
+| Steam | 27015–27030 | UDP + TCP |
+| Counter-Strike 2 | 27015 | UDP + TCP |
+| Call of Duty | 3074 | UDP + TCP |
+| Minecraft (Java) | 25565 | TCP |
 
 ## How to fix connection issues?
 

@@ -29,13 +29,9 @@ flowchart TD
     L -->|Nem| N([Írj a #support csatornára])
 {{< /mermaid >}}
 
-Először fuss át a [Hálózati hibakeresés](/network/network-troubleshooting/) lépésein.
+## 1. Hálózat ellenőrzése
 
-- **Kábel bedugva?**
-- **Linkfény világít?**
-- **Portál betölt?**
-
-Ha a portál betölt, de a játékszerver nem, folytasd itt.
+Fuss át a [Hálózati hibakeresés](/network/network-troubleshooting/) lépésein, ha még nem tetted (kábel, linkfény, portál).
 
 ## 2. IP beállítás
 

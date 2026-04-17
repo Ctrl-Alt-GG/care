@@ -24,15 +24,6 @@ flowchart TD
     H -->|Nem| J([Keress egy szervezőt])
 {{< /mermaid >}}
 
-## Gyors diagnózis
-
-- **Nincs fény, nincs ventilátor, semmi:** Tápkapcsoló, tápkábel vagy halott táp. Nézd meg a kapcsolót hátul (I = be). Próbálj másik kábelt. Próbálj másik konnektort.
-- **Alaplapi LED világít, de nem indul:** Nézd meg az előlapi bekapcsológomb csatlakozóját. Próbáld rövidre zárni a power pineket egy csavarhúzóval (staff segít).
-- **Ventilátorok forognak, de nincs kép:** GPU kábel (a videókártyába dugd, ne az alaplapba). Próbálj másik videó kimenetet. Vedd ki és tedd vissza a videókártyát.
-- **Ventilátorok felpörögnek, majd leáll (boot loop):** RAM hiba. Vedd ki és tedd vissza a modulokat. Próbáld egy modullal.
-- **Sípolás indításkor:** 1 hosszú + 2 rövid = GPU. Folyamatos = RAM. Nézd meg az alaplapod kézikönyvét a többi kódért.
-- **BIOS bejön, de Windows nem:** Boot meghajtó kábele kilazult, vagy elállítódott a sorrend. Ellenőrizd a BIOS-ban a Boot Priority-t.
-
 ## 1. Áramellátás (PSU)
 
 - **Kapcsoló:** Nézd meg a tápegységed hátulján a kapcsolót. "I" állásban van?

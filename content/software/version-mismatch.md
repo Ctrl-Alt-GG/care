@@ -19,10 +19,12 @@ A LAN-on általában a legfrissebb verziót használjuk. Ha te otthon nem friss�
 
 A legtöbb játék kiírja a verziószámot a főmenü sarkában.
 
-- **Counter-Strike 2:** Főmenü bal alsó sarka.
-- **Minecraft (Java):** Címsor bal alsó sarka.
-- **League of Legends:** Login képernyő jobb alsó sarka, vagy Beállítások > Névjegy.
-- **Call of Duty:** Általában a főmenü jobb felső sarka.
+| Játék | Hol találod a verziószámot |
+|-------|---------------------------|
+| Counter-Strike 2 | Főmenü bal alsó sarka |
+| Minecraft (Java) | Címsor bal alsó sarka |
+| League of Legends | Login képernyő jobb alsó sarka, vagy Beállítások → Névjegy |
+| Call of Duty | Általában a főmenü jobb felső sarka |
 
 - **Hasonlítsd össze a többiekkel.** Kérdezd meg a szomszédodat: "Neked mi a verziószámod?"
 - **Nézd meg a szerver böngészőt.** Ha minden szerver szürke vagy piros, akkor nálad van a baj.

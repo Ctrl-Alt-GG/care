@@ -13,9 +13,13 @@ Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
 
 ## Tünetek
 
+{{< callout type="warning" >}}
+**Valószínűleg a tűzfal az ok, ha:**
+
 - Látod a szerverlistát, de nem tudsz csatlakozni.
 - Nem tudsz helyi lobbyt hostolni.
 - Nem látod a többi játékost LAN böngészőben.
+{{< /callout >}}
 
 ## Gyors javítás
 

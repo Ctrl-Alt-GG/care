@@ -29,13 +29,9 @@ flowchart TD
     L -->|No| N([Post in #support on Discord])
 {{< /mermaid >}}
 
-Run through the basics in [Network Troubleshooting](/network/network-troubleshooting/) first.
+## 1. Check network first
 
-- **Cable plugged in?**
-- **Link light on?**
-- **Portal loads?**
-
-If the portal loads but the game server doesn't, continue here.
+Run through [Network Troubleshooting](/network/network-troubleshooting/) if you haven't already (cable, link light, portal).
 
 ## 2. IP configuration
 

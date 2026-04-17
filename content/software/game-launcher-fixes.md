@@ -11,6 +11,17 @@ A Steam nem indul? A Battle.net beragadt? Próbáld ezeket.
 
 Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
 
+| Launcher | Probléma | Ugrás |
+|----------|----------|-------|
+| Steam | Nem indul | [Steam — Nem indul](#steam) |
+| Steam | Játék nem frissül/sérült | [Steam — Frissítés/ellenőrzés](#steam) |
+| Epic Games Store | Nem indul | [Epic — Nem indul](#epic-games-store) |
+| Epic Games Store | Játék nem ellenőrizhető | [Epic — Ellenőrzés](#epic-games-store) |
+| Battle.net | Nem indul | [Battle.net — Nem indul](#battlenet) |
+| Battle.net | Scan and Repair | [Battle.net — Scan and Repair](#battlenet) |
+| GOG Galaxy | Ellenőrzés/javítás | [GOG Galaxy](#gog-galaxy) |
+| Bármelyik | Összeomlik indításkor | [A játék összeomlik indításkor](#a-jatek-osszeomlik-inditaskor) |
+
 ## Steam
 
 ### Nem indul

@@ -24,13 +24,6 @@ flowchart TD
     H -->|No| J([Find an organizer])
 {{< /mermaid >}}
 
-- **No lights, no fans, nothing:** PSU switch, PSU cable, or dead PSU. Check the switch on the back (I = on). Try a different power cable. Try a different outlet.
-- **Motherboard LED on, but no fans spin:** Check the front panel power button connector. Try shorting the power pins with a screwdriver (staff can help).
-- **Fans spin, but no display:** GPU cable (make sure it's in the GPU, not motherboard). Try a different video output. Reseat the GPU.
-- **Fans spin briefly then stop (boot loop):** RAM not seated. Remove and reseat all sticks. Try one stick at a time.
-- **Beeps on startup:** 1 long + 2 short = GPU. Continuous = RAM. Refer to your motherboard manual for other codes.
-- **Gets to BIOS but won't boot OS:** Boot drive cable loose, or boot order changed. Check BIOS > Boot Priority.
-
 ## 1. Power Supply (PSU)
 
 - **Switch:** Check the switch on the back of your PSU. Is it set to "I"?
