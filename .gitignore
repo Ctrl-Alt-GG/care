@@ -1,4 +1,6 @@
 public/
 resources/
 .hugo_build.lock
-hugo_stats.jsonassets/css/main.css
+hugo_stats.json
+assets/css/main.css
+node_modules/
