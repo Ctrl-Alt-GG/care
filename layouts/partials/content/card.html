@@ -1,5 +1,5 @@
 <article class="relative group flex flex-col bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-2xl hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-sm hover:-translate-y-0.5 transition-all duration-200">
-  <a class="insert-link" href="{{ .Permalink }}" aria-label="{{ .LinkTitle }}"></a>
+  <a class="absolute inset-0" href="{{ .Permalink }}" aria-label="{{ .LinkTitle | markdownify | plainify | htmlUnescape }}"></a>
   <div class="p-5 flex flex-col flex-1">
     <h3 class="font-semibold text-zinc-900 dark:text-zinc-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2 text-base leading-snug">{{ .LinkTitle }}</h3>
     <p class="text-sm text-zinc-500 dark:text-zinc-400 line-clamp-2 leading-relaxed flex-1">{{ .Params.description }}</p>
