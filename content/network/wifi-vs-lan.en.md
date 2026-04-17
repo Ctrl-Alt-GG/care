@@ -23,11 +23,16 @@ We provide both, but they are for different things.
 - Shared bandwidth.
 - Higher latency and jitter.
 - Subject to interference from hundreds of other devices.
-- **Do not game on Wi-Fi.** You will lag, and you will blame the network, but it's physics.
+
+{{< callout type="warning" >}}
+**Do not game on Wi-Fi.** You will lag, and you will blame the network, but it's physics. Ethernet is mandatory for tournaments.
+{{< /callout >}}
 
 ## No Ethernet port?
 
+{{< callout type="tip" >}}
 If your laptop has no Ethernet port:
-- Use a USB-to-Ethernet adapter.
+- Use a **USB-to-Ethernet adapter**.
 - Ask around if you didn't bring one; someone might have a spare.
 - Use Wi-Fi as a last resort, but expect lag.
+{{< /callout >}}

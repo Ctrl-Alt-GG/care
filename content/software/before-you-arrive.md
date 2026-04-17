@@ -9,11 +9,15 @@ Lesz internet, de sokkal jobban indulsz, ha otthon felkészülsz.
 
 ## Előző este
 
+{{< callout type="tip" >}}
+**Csináld meg ezeket, mielőtt elindulsz:**
+
 - **Frissítsd az operációs rendszert** (Windows Update, disztró frissítések stb.)
 - **Frissítsd a launchereket** (Steam, Battle.net, Epic), és próbálj meg belépni
 - **Töltsd le és frissítsd** azokat a játékokat, amikkel valóban játszani fogsz
 - **Szabadíts fel tárhelyet** (a patchek nagyok, a hibák idegesítőek)
 - Ha használsz **VPN-t, hálózati optimalizálót vagy egyedi DNS-t**, kapcsold ki, vagy készülj fel a helyszíni kikapcsolásra
+{{< /callout >}}
 
 ## Gyors ellenőrzés
 

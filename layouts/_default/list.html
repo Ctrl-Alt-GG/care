@@ -1,43 +1,36 @@
 {{ define "main" }}
-
 {{- partial "content/breadcrumb.html" . -}}
-
-  <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-14">
-
-  <section class="md:col-span-3">
-
-    <h2 class="text-3xl font-bold mb-10">{{ .Title | humanize }}</h2>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-4">
-
-      {{ range .Paginator.Pages }}
-      
-        {{- partial "content/card.html" . -}}
-
-      {{ end }}
-    
-    </div>
-
-    <!-- Paginate here -->
-
-    <div class="flex items-center mt-10">
-      {{- if .Paginator.HasPrev -}}
-        <a class="border rounded-full px-6 py-2 hover:bg-zinc-200 dark:border-zinc-700 dark:hover:bg-zinc-700 mr-auto" href="{{ .Paginator.Prev.URL }}">← {{ i18n "pagination_prev" }}</a>
-      {{- end -}}
-
-      {{- if .Paginator.HasNext -}}
-        <a class="border rounded-full px-6 py-2 hover:bg-zinc-200 dark:border-zinc-700 dark:hover:bg-zinc-700" href="{{ .Paginator.Next.URL }}">{{ i18n "pagination_next" }} →</a>
-      {{- end -}}
-    </div>
-  
-  </section>
-
-  <aside class="md:col-span-1">
-
-    {{- partial "content/aside.html" . -}}
-    
-  </aside>
-
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
+    <section class="md:col-span-3">
+      <div class="mb-10">
+        <span class="inline-block text-xs font-semibold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-3">{{ i18n "category_label" | default "Category" }}</span>
+        <h1 class="text-3xl md:text-4xl font-bold text-zinc-900 dark:text-zinc-50 mb-3">{{ .Title | humanize }}</h1>
+        {{ with .Description }}
+          <p class="text-lg text-zinc-500 dark:text-zinc-400 leading-relaxed">{{ . }}</p>
+        {{ end }}
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        {{ range .Paginator.Pages }}
+          {{- partial "content/card.html" . -}}
+        {{ end }}
+      </div>
+      <div class="flex items-center mt-10 gap-4">
+        {{- if .Paginator.HasPrev -}}
+          <a class="inline-flex items-center gap-2 border border-zinc-200 dark:border-zinc-700 rounded-xl px-5 py-2.5 text-sm font-medium hover:bg-zinc-100 dark:hover:bg-zinc-800 transition duration-200 mr-auto" href="{{ .Paginator.Prev.URL }}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            {{ i18n "pagination_prev" }}
+          </a>
+        {{- end -}}
+        {{- if .Paginator.HasNext -}}
+          <a class="inline-flex items-center gap-2 border border-zinc-200 dark:border-zinc-700 rounded-xl px-5 py-2.5 text-sm font-medium hover:bg-zinc-100 dark:hover:bg-zinc-800 transition duration-200 ml-auto" href="{{ .Paginator.Next.URL }}">
+            {{ i18n "pagination_next" }}
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        {{- end -}}
+      </div>
+    </section>
+    <aside class="md:col-span-1">
+      {{- partial "content/aside.html" . -}}
+    </aside>
   </div>
-
 {{ end }}

@@ -9,10 +9,14 @@ Egy teremben sok játékos PC sok hőt termel. Ha a géped furcsán viselkedik, 
 
 ## Tünetek
 
+{{< callout type="warning" >}}
+**Magas hőmérséklet ezeket okozhatja:**
+
 - Hirtelen FPS esés (throttling).
 - Váratlan leállás vagy újraindulás.
 - Ventilátorok állandó 100%-on pörögnek.
 - Képhibák a kijelzőn (GPU túlmelegedés).
+{{< /callout >}}
 
 ## Hőmérséklet ellenőrzés
 
@@ -26,10 +30,14 @@ Egy teremben sok játékos PC sok hőt termel. Ha a géped furcsán viselkedik, 
 
 ## Gyors javítások
 
+{{< callout type="tip" >}}
+**Próbáld ezeket először:**
+
 1. **Légáramlás:** a ház ventijeit ne takarják táskák, fal vagy más gépek. Legyen helye lélegezni.
 2. **Por:** ha a szűrők eldugultak, tisztítsd ki őket. Kérj sűrített levegőt a stafftól (ha van).
 3. **Oldallap levétel:** nem szép, de szükségmegoldásként működik.
 4. **Fan curve ellenőrzés:** MSI Afterburnerben vagy BIOS-ban állíts agresszívebb ventilátor görbét.
+{{< /callout >}}
 
 ## Még mindig nem megy?
 

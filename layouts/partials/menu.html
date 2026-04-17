@@ -1,0 +1,15 @@
+{{- $menuID := .menuID -}}
+{{- $page := .page -}}
+<nav id="menu-bar" class="close border-t border-zinc-100 dark:border-zinc-800 mt-1">
+  <ul class="flex flex-col py-2 gap-0.5">
+    {{- range site.Menus.main -}}
+      <li>
+        <a href="{{ .URL }}"
+           class="flex items-center px-3 py-2 rounded-lg text-sm font-medium text-zinc-700 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors {{ if $page.IsMenuCurrent $menuID . }}bg-zinc-100 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100{{ end }}"
+           {{ if $page.IsMenuCurrent $menuID . }}aria-current="page"{{ end }}>
+          {{ .Name }}
+        </a>
+      </li>
+    {{- end -}}
+  </ul>
+</nav>

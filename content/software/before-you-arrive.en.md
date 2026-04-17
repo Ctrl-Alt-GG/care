@@ -9,11 +9,15 @@ There will be internet access, but you'll have a much better start if you prep a
 
 ## The night before
 
+{{< callout type="tip" >}}
+**Do these before you leave home:**
+
 - **Update your OS** (Windows Update, distro updates, etc.)
 - **Update your launchers** (Steam, Battle.net, Epic) and make sure you can log in
 - **Download and update the games** you actually plan to play
 - **Free up disk space** (patches are large and failures are annoying)
 - If you use **VPNs, "network optimizers", or custom DNS**, turn them off or be ready to disable them on-site
+{{< /callout >}}
 
 ## Quick sanity checks
 
