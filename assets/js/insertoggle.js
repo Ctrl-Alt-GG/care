@@ -3,7 +3,7 @@
     const toggleButtons = document.querySelectorAll(".toggle-button");
 
     function hideAllExcept(targetElement) {
-        document.querySelectorAll(".hidden").forEach((element) => {
+        document.querySelectorAll(".open").forEach((element) => {
             if (element !== targetElement) {
                 element.classList.add("close");
                 element.classList.remove("open");

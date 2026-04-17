@@ -7,7 +7,7 @@ still_stuck: true
 ---
 
 
-A legtöbb gond **kábel/port**, **DHCP** vagy **helyi gépes beállítás**. Menj végig a lenti részekon sorban.
+A legtöbb gond **kábel/port**, **DHCP** vagy **helyi gépes beállítás**. Menj végig a lenti részeken sorban.
 
 Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát. Ha globális a hiba, feleslegesen szerelsz.
 

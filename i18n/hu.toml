@@ -111,3 +111,6 @@ other = "A keresett oldal nem létezik, vagy lehet, hogy másik helyre került."
 
 [back_home]
 other = "Vissza a kezdőlapra"
+
+[tags_label]
+other = "Címkék"

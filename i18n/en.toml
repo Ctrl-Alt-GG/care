@@ -111,3 +111,6 @@ other = "The page you are looking for does not exist or may have moved."
 
 [back_home]
 other = "Back to homepage"
+
+[tags_label]
+other = "Tags"

@@ -11,7 +11,7 @@ Mi a gond? Kattints arra, ami a legjobban hasonlít a problémádra.
 
 *(Ha valami nem működik, valószínűleg nem te rontottad el. Segítünk.)*
 
-{{< problem-link href="/network/network-troubleshooting/" icon="wifi" >}}Nincs internet. A kábel be van dugva, de semmi sem tölt be, vagy nincs IP-cimed.{{< /problem-link >}}
+{{< problem-link href="/network/network-troubleshooting/" icon="wifi" >}}Nincs internet. A kábel be van dugva, de semmi sem tölt be, vagy nincs IP-címed.{{< /problem-link >}}
 
 {{< problem-link href="/network/cant-see-the-server/" icon="network" >}}Nem tudsz csatlakozni a játékhoz. Látod a szervert, de nem enged be, vagy "Strict NAT" hibát kapsz.{{< /problem-link >}}
 
