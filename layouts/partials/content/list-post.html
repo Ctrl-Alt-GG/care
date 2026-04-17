@@ -4,11 +4,11 @@
 	{{- if .Params.image }}
 	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-800">
 		{{- if (strings.HasPrefix .Params.image "http") }}
-		<img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover;">
+		<img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ .Params.image }}" alt="{{ .Title }}">
 		{{- else }}
 		{{- with $imglist := resources.Get .Params.image -}}
-		{{- $imglist := $imglist.Crop "250x250 Center" -}}
-		<img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ $imglist.Permalink }}" alt="{{ $.Title }}" width="{{ $imglist.Width }}" height="{{ $imglist.Height }}">
+		{{- $croppedImg := $imglist.Crop "250x250 Center" -}}
+		<img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ $croppedImg.Permalink }}" alt="{{ $.Title }}" width="{{ $croppedImg.Width }}" height="{{ $croppedImg.Height }}">
 		{{- end }}
 		{{- end }}
 	</figure>
