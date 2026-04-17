@@ -7,28 +7,9 @@ still_stuck: true
 ---
 
 
-A legtöbb gond **kábel/port**, **DHCP** vagy **helyi gépes beállítás**. A fenti ábra mutatja az utat — a részletek lent.
+A legtöbb gond **kábel/port**, **DHCP** vagy **helyi gépes beállítás**. Menj végig a lenti részekon sorban.
 
 Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát. Ha globális a hiba, feleslegesen szerelsz.
-
-{{< mermaid >}}
-flowchart TD
-    A([Nincs internet]) --> B[Nézd meg az Ismert hibák listát]
-    B --> C{Globális hiba van?}
-    C -->|Igen| D([Várd meg a staff javítását])
-    C -->|Nem| E[Kábel bedugva + van linkfény?]
-    E -->|Nem| F[Dugd be rendesen, próbálj másik portot]
-    E -->|Igen| G[Betölt a LAN portál?\nspawn.ctrl-alt-gg.hu]
-    G -->|Igen| H[Ellenőrizd a szerver állapotot]
-    H --> I{Mindenkinél le van?}
-    I -->|Igen| J([Szólj a staffnak])
-    I -->|Nem| K([Tűzfal / játék beállítások])
-    G -->|Nem| L[IP-megújítás\nipconfig /release + /renew\nDHCP legyen beállítva]
-    L --> M{Megoldódott?}
-    F --> M
-    M -->|Igen| N([Csatlakozva!])
-    M -->|Nem| O([Írj a #support csatornára])
-{{< /mermaid >}}
 
 ## Alapok
 

@@ -11,18 +11,16 @@ A szállítás rázkódása gyakran kilazít dolgokat. Ne pánikolj, valószín�
 
 Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
 
-{{< mermaid >}}
-flowchart TD
-    A([Nem indul a gép]) --> B{Mit látsz?}
-    B -->|Semmi se reagál| C[Tápkapcsoló: I = be\nPróbálj másik kábelt és konnektort]
-    B -->|Alaplapi LED világít, de nem indul| D[Nézd meg az előlapi csatlakozót\nRövid zárlat csavarhúzóval]
-    B -->|Ventilátorok forognak, nincs kép| E[A GPU-ba dugtad a monitort?\nPróbálj másik kimenetet\nTelepítsd újra a GPU-t]
-    B -->|Boot loop vagy sípolás| F[RAM újracsatlakoztatás\nPróbáld egy modullal]
-    B -->|BIOS elindul, Windows nem| G[Boot sorrend ellenőrzése BIOS-ban\nBoot meghajtó kábele]
-    C & D & E & F & G --> H{Megoldódott?}
-    H -->|Igen| I([Kész!])
-    H -->|Nem| J([Keress egy szervezőt])
-{{< /mermaid >}}
+**Mit látsz?** Keresd meg a tünetedet, és ugorj a megfelelő részhez.
+
+| Tünet | Legvalószínűbb ok | Ugrás |
+|---|---|---|
+| Semmi — nincs fény, nincs ventilátor | Táp ki van kapcsolva vagy kihúzva | [Áramellátás](#1-aramellatas-psu) |
+| Alaplapi LED világít, de nem indul | Előlapi bekapcsológomb csatlakozó | [Áramellátás](#1-aramellatas-psu) |
+| Ventilátorok forognak, kép nincs / "no signal" | Monitor az alaplapba van dugva a GPU helyett | [Monitor](#2-monitor-no-signal) |
+| Ventilátorok rövid ideig forognak, majd leáll (loop) | RAM nincs rendesen bedugva | [Újracsatlakoztatás](#3-alkatreszek-ujracsatlakoztatasa-reseating) |
+| Sípolás indításkor | RAM (folyamatos) vagy GPU (1 hosszú + 2 rövid) | [Újracsatlakoztatás](#3-alkatreszek-ujracsatlakoztatasa-reseating) |
+| BIOS bejön, Windows nem indul | Boot sorrend vagy kilazult meghajtó kábel | [Áramellátás](#1-aramellatas-psu) 3. pont |
 
 ## 1. Áramellátás (PSU)
 

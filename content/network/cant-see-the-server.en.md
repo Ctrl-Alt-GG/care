@@ -11,24 +11,6 @@ If you can't see a game server or the LAN portal, start here.
 
 First, check **[Known Issues](/help/known-issues/)**.
 
-{{< mermaid >}}
-flowchart TD
-    A([Can't see game server]) --> B[Run basic network check\nnetwork-troubleshooting guide]
-    B --> C{LAN portal loads?}
-    C -->|No| D([Fix network first])
-    C -->|Yes| E[Check servers.ctrl-alt-gg.hu]
-    E --> F{Server status?}
-    F -->|Red - down| G([Server down for everyone\nTell staff])
-    F -->|Green| H[Disable Windows Firewall temporarily]
-    H --> I{Server visible now?}
-    I -->|Yes| J[Add game .exe as firewall exception\nRe-enable firewall]
-    I -->|No| K[Check adapter: set to DHCP\nncpa.cpl > IPv4 > Automatic]
-    J --> L{Fixed?}
-    K --> L
-    L -->|Yes| M([Done!])
-    L -->|No| N([Post in #support on Discord])
-{{< /mermaid >}}
-
 ## 1. Check network first
 
 Run through [Network Troubleshooting](/network/network-troubleshooting/) if you haven't already (cable, link light, portal).

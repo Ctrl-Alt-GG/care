@@ -7,28 +7,9 @@ still_stuck: true
 ---
 
 
-Most issues are either **cable/port**, **DHCP**, or **something on your PC**. Follow the chart above — the steps below have the details.
+Most issues are either **cable/port**, **DHCP**, or **something on your PC**. Work through the sections below in order.
 
 First, check **[Known Issues](/help/known-issues/)**. If it's a global outage, you can't fix it locally.
-
-{{< mermaid >}}
-flowchart TD
-    A([No internet]) --> B[Check Known Issues page]
-    B --> C{Global outage listed?}
-    C -->|Yes| D([Wait for staff fix])
-    C -->|No| E[Cable plugged in + link light on?]
-    E -->|No| F[Plug cable in firmly, try a different port]
-    E -->|Yes| G[Does LAN portal load?\nspawn.ctrl-alt-gg.hu]
-    G -->|Yes| H[Check server status page]
-    H --> I{Server down for everyone?}
-    I -->|Yes| J([Tell staff])
-    I -->|No| K([Check firewall / game settings])
-    G -->|No| L[Renew IP\nipconfig /release + /renew\nSet to DHCP]
-    L --> M{Fixed?}
-    F --> M
-    M -->|Yes| N([You are online!])
-    M -->|No| O([Post in #support on Discord])
-{{< /mermaid >}}
 
 ## Basics
 

@@ -11,18 +11,16 @@ Transport vibration often loosens components. Don't panic, it's probably just a 
 
 First, check **[Known Issues](/help/known-issues/)**.
 
-{{< mermaid >}}
-flowchart TD
-    A([PC won't start]) --> B{What do you see?}
-    B -->|Nothing at all| C[Check PSU switch: I = On\nTry different cable and outlet]
-    B -->|Motherboard LED on, no fans| D[Check front panel header\nShort power pins with a screwdriver]
-    B -->|Fans spin, no display| E[Cable in the GPU, not motherboard?\nTry different video output\nReseat GPU]
-    B -->|Boot loop or beeps| F[Reseat RAM\nTry one stick at a time]
-    B -->|BIOS loads, no OS| G[Check Boot Priority in BIOS\nCheck boot drive cable]
-    C & D & E & F & G --> H{Fixed?}
-    H -->|Yes| I([Done!])
-    H -->|No| J([Find an organizer])
-{{< /mermaid >}}
+**What do you see?** Find your symptom and jump to the relevant section.
+
+| Symptom | Most likely cause | Go to |
+|---|---|---|
+| Nothing at all — no lights, no fans | PSU off or unplugged | [PSU](#1-power-supply-psu) |
+| Motherboard LED on, but no fans spin | Front-panel power button header | [PSU](#1-power-supply-psu) |
+| Fans spin, screen black / no signal | Monitor plugged into motherboard instead of GPU | [Monitor](#2-monitor-no-signal) |
+| Fans spin briefly, then stop (loop) | RAM not seated | [Reseating](#3-reseating-components) |
+| Beeps on startup | RAM (continuous) or GPU (1 long + 2 short) | [Reseating](#3-reseating-components) |
+| BIOS loads, Windows won't boot | Boot order or loose drive cable | [Power Supply](#1-power-supply-psu) section 3 |
 
 ## 1. Power Supply (PSU)
 

@@ -11,24 +11,6 @@ Ha nem látod a játékszervert vagy a LAN portált, itt kezdd.
 
 Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
 
-{{< mermaid >}}
-flowchart TD
-    A([Nem látom a szervert]) --> B[Fuss át a hálózati hibakeresés lépésein]
-    B --> C{Betölt a LAN portál?}
-    C -->|Nem| D([Először a hálózatot javítsd])
-    C -->|Igen| E[Ellenőrizd a servers.ctrl-alt-gg.hu oldalt]
-    E --> F{Szerver állapota?}
-    F -->|Piros - le van| G([Mindenkinél le van\nSzólj a staffnak])
-    F -->|Zöld| H[Ideiglenesen tiltsd le a Windows tűzfalat]
-    H --> I{Így látod a szervert?}
-    I -->|Igen| J[Add hozzá a játék .exe-t kivételként\nEngedélyezd újra a tűzfalat]
-    I -->|Nem| K[Ellenőrizd az IP beállítást: DHCP\nncpa.cpl > IPv4 > Automatikus]
-    J --> L{Megoldódott?}
-    K --> L
-    L -->|Igen| M([Kész!])
-    L -->|Nem| N([Írj a #support csatornára])
-{{< /mermaid >}}
-
 ## 1. Hálózat ellenőrzése
 
 Fuss át a [Hálózati hibakeresés](/network/network-troubleshooting/) lépésein, ha még nem tetted (kábel, linkfény, portál).
