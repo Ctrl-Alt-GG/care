@@ -3,13 +3,31 @@ title: "I Can't See the Server"
 date: 2026-02-27T10:00:00+01:00
 description: "Cable check, portal check, and what to do when nothing loads."
 draft: false
+still_stuck: true
 ---
+
 
 If you can't see a game server or the LAN portal, start here.
 
 First, check **[Known Issues](/help/known-issues/)**.
 
-## 1. Basics check
+{{< mermaid >}}
+flowchart TD
+    A([Can't see game server]) --> B[Run basic network check\nnetwork-troubleshooting guide]
+    B --> C{LAN portal loads?}
+    C -->|No| D([Fix network first])
+    C -->|Yes| E[Check servers.ctrl-alt-gg.hu]
+    E --> F{Server status?}
+    F -->|Red - down| G([Server down for everyone\nTell staff])
+    F -->|Green| H[Disable Windows Firewall temporarily]
+    H --> I{Server visible now?}
+    I -->|Yes| J[Add game .exe as firewall exception\nRe-enable firewall]
+    I -->|No| K[Check adapter: set to DHCP\nncpa.cpl > IPv4 > Automatic]
+    J --> L{Fixed?}
+    K --> L
+    L -->|Yes| M([Done!])
+    L -->|No| N([Post in #support on Discord])
+{{< /mermaid >}}
 
 Run through the basics in [Network Troubleshooting](/network/network-troubleshooting/) first.
 
@@ -43,13 +61,3 @@ Temporarily disable your Windows Firewall or third-party antivirus firewall to t
 
 - If the server appears, re-enable the firewall and add an exception for the game executable.
 - Do not leave your firewall disabled for the entire event.
-
-## Still stuck?
-
-1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
-2. Post in `#support` on Discord with this info:
-   - Seat number (e.g. Row 4, Seat 12)
-   - What's broken, one sentence
-   - What you already tried
-   - Screenshot or error message
-3. If no reply in 15 minutes, come to the organizer desk.

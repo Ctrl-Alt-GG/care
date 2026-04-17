@@ -3,7 +3,9 @@ title: "Verzió eltérés"
 date: 2026-02-27T10:00:00+01:00
 description: "Hogyan ellenőrizd a játék verzióját, hol találsz helyi javításokat."
 draft: false
+still_stuck: true
 ---
+
 
 "Server runs a different version of the game." Ismerős?
 
@@ -52,13 +54,3 @@ Ha olyan játékkal játszunk, ami nincs Steamen (pl. Minetest, Xonotic, OpenAre
 1. **Nézd meg a Discordot.** A `#announcements` vagy a játék csatornáján ott lesz a link a szükséges patch-hez.
 2. **Helyi fájlszerver.** Nézz rá a [files.ctrl-alt-gg.hu](https://files.ctrl-alt-gg.hu) oldalra, ott szoktuk tárolni a "LAN Pack" csomagokat.
 3. **Kérj segítséget.** Ha nem találod, kérdezz rá a Discordon. Valakinek biztos megvan pendrive-on.
-
-## Még mindig nem megy?
-
-1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
-2. Írj a `#support` csatornára Discordon ezzel az infóval:
-   - Ülésed helye (pl. 4. sor, 12. szék)
-   - Mi a baj (egy mondatban)
-   - Mit próbáltál eddig
-   - Képernyőkép vagy hibaüzenet
-3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.

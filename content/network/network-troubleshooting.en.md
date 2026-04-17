@@ -3,11 +3,32 @@ title: "Network Troubleshooting (Start Here)"
 date: 2026-02-27T10:00:00+01:00
 description: "A quick checklist for getting online and reaching LAN services."
 draft: false
+still_stuck: true
 ---
+
 
 Most issues are either **cable/port**, **DHCP**, or **something on your PC**. Do these in order.
 
 First, check **[Known Issues](/help/known-issues/)**. If it's a global outage, you can't fix it locally.
+
+{{< mermaid >}}
+flowchart TD
+    A([No internet]) --> B[Check Known Issues page]
+    B --> C{Global outage listed?}
+    C -->|Yes| D([Wait for staff fix])
+    C -->|No| E[Cable plugged in + link light on?]
+    E -->|No| F[Plug cable in firmly, try a different port]
+    E -->|Yes| G[Does LAN portal load?\nspawn.ctrl-alt-gg.hu]
+    G -->|Yes| H[Check server status page]
+    H --> I{Server down for everyone?}
+    I -->|Yes| J([Tell staff])
+    I -->|No| K([Check firewall / game settings])
+    G -->|No| L[Renew IP\nipconfig /release + /renew\nSet to DHCP]
+    L --> M{Fixed?}
+    F --> M
+    M -->|Yes| N([You are online!])
+    M -->|No| O([Post in #support on Discord])
+{{< /mermaid >}}
 
 ## Step 1: Check the basics
 
@@ -57,13 +78,3 @@ sudo dhclient -r && sudo dhclient -v
 
 - Make sure your device is set to **Automatic IP (DHCP)**
 - If your port goes dead after working, you may have connected too many devices - ask staff to re-enable it
-
-## Still stuck?
-
-1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
-2. Post in `#support` on Discord with this info:
-   - Seat number (e.g. Row 4, Seat 12)
-   - What's broken, one sentence
-   - What you already tried
-   - Screenshot or error message
-3. If no reply in 15 minutes, come to the organizer desk.

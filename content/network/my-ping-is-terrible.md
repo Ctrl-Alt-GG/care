@@ -3,13 +3,31 @@ title: "Nagyon rossz a pingem"
 date: 2026-02-27T10:00:00+01:00
 description: "Lag spike vagy magas késleltetés? Először a háttérben futó appokat nézd meg."
 draft: false
+still_stuck: true
 ---
+
 
 A magas ping általában azt jelenti, hogy valami a gépeden éppen sávszélességet eszik.
 
 Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
 
-## 1. Letöltések leállítása
+{{< mermaid >}}
+flowchart LR
+    A([Magas ping / lag]) --> B[Állíts le minden letöltést\nSteam, Windows Update, böngésző, torrent]
+    B --> C{Wifi-n vagy?}
+    C -->|Igen| D[Csatlakozz Ethernet kábellel]
+    C -->|Nem| E[Nyisd meg a Resource Monitort\nWin+R > resmon > Network fül]
+    D --> E
+    E --> F{Magas hálózati\nhasználat a háttérben?}
+    F -->|Igen| G[Öld meg a folyamatot]
+    F -->|Nem| H{Az egész sor laggol?}
+    H -->|Igen| I([Szólj a staffnak - switch uplink gond])
+    H -->|Nem| J[Indítsd újra\na hálózati adaptert]
+    G --> K{Megoldódott?}
+    J --> K
+    K -->|Igen| L([Kész!])
+    K -->|Nem| M([Írj a #support csatornára])
+{{< /mermaid >}}
 
 Nézd meg:
 - Steam / Epic / Battle.net (auto frissítések)
@@ -42,13 +60,3 @@ Vagy használd a Resource Monitort a részletekért:
 Ha az egész sor laggol:
 - Kérdezd meg a szomszédokat, fut-e náluk nagy letöltés.
 - Ha mindenki laggol és senki sem tölt, **szólj a staffnak**. Ellenőrizni tudjuk a switch uplinket.
-
-## Még mindig nem megy?
-
-1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
-2. Írj a `#support` csatornára Discordon ezzel az infóval:
-   - Ülésed helye (pl. 4. sor, 12. szék)
-   - Mi a baj (egy mondatban)
-   - Mit próbáltál eddig
-   - Képernyőkép vagy hibaüzenet
-3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.

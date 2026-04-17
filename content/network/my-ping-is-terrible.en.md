@@ -3,13 +3,31 @@ title: "My Ping is Terrible"
 date: 2026-02-27T10:00:00+01:00
 description: "Lag spikes? High latency? Check your background apps first."
 draft: false
+still_stuck: true
 ---
+
 
 High ping usually means something on your machine is eating bandwidth.
 
 First, check **[Known Issues](/help/known-issues/)**.
 
-## 1. Stop downloads
+{{< mermaid >}}
+flowchart LR
+    A([High ping / lag]) --> B[Pause all downloads\nSteam, Windows Update, browser, torrents]
+    B --> C{On Wi-Fi?}
+    C -->|Yes| D[Switch to Ethernet cable]
+    C -->|No| E[Open Resource Monitor\nWin+R > resmon > Network tab]
+    D --> E
+    E --> F{High background\nnetwork usage?}
+    F -->|Yes| G[Kill the process causing it]
+    F -->|No| H{Whole row lagging?}
+    H -->|Yes| I([Tell staff - switch uplink issue])
+    H -->|No| J[Reboot your\nnetwork adapter]
+    G --> K{Fixed?}
+    J --> K
+    K -->|Yes| L([Done!])
+    K -->|No| M([Post in #support on Discord])
+{{< /mermaid >}}
 
 Check:
 - Steam / Epic / Battle.net (auto-updates)
@@ -42,13 +60,3 @@ Or use Resource Monitor for more detail:
 If your whole row is lagging:
 - Ask your neighbors if they are running heavy downloads.
 - If everyone is lagging and nobody is downloading, **tell staff**. We can check the switch uplink.
-
-## Still stuck?
-
-1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
-2. Post in `#support` on Discord with this info:
-   - Seat number (e.g. Row 4, Seat 12)
-   - What's broken, one sentence
-   - What you already tried
-   - Screenshot or error message
-3. If no reply in 15 minutes, come to the organizer desk.

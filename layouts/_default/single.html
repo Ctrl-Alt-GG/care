@@ -19,6 +19,9 @@
       {{- .Content -}}
       {{- partial "terms.html" (dict "taxonomy" "tags" "page" .) -}}
     </div>
+    {{- if .Params.still_stuck -}}
+      {{- partial "content/still-stuck.html" . -}}
+    {{- end -}}
     {{- if or .PrevInSection .NextInSection -}}
     <nav class="pt-8 border-t border-zinc-100 dark:border-zinc-800 grid grid-cols-1 sm:grid-cols-2 gap-3" aria-label="Article navigation">
       {{- with .PrevInSection -}}

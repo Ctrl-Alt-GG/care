@@ -3,7 +3,9 @@ title: "Version Mismatch"
 date: 2026-02-27T10:00:00+01:00
 description: "How to check game version, where to find local patch mirrors."
 draft: false
+still_stuck: true
 ---
+
 
 "Server runs a different version of the game." Familiar?
 
@@ -52,13 +54,3 @@ If we play a game not on Steam (e.g., Minetest, Xonotic, OpenArena):
 1. **Check Discord.** The link to the required patch will be in `#announcements` or the game's channel.
 2. **Local File Server.** Check [files.ctrl-alt-gg.hu](https://files.ctrl-alt-gg.hu), we usually keep "LAN Pack" bundles there.
 3. **Ask for help.** If you can't find it, ask on Discord. Someone definitely has it on a flash drive.
-
-## Still stuck?
-
-1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
-2. Post in `#support` on Discord with this info:
-   - Seat number (e.g. Row 4, Seat 12)
-   - What's broken, one sentence
-   - What you already tried
-   - Screenshot or error message
-3. If no reply in 15 minutes, come to the organizer desk.

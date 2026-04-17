@@ -3,7 +3,9 @@ title: "Ports & Game Connections"
 date: 2026-02-27T10:00:00+01:00
 description: "Which ports to check, NAT basics, why a game won't connect."
 draft: false
+still_stuck: true
 ---
+
 
 If your game won't connect or screams "Strict NAT", read this.
 
@@ -46,13 +48,3 @@ If a game can't find the server, check if your firewall allows traffic on these 
 
 4. **IPv6:**
    Some older games get confused if IPv6 is enabled but there is no IPv6 internet connectivity. Try disabling IPv6 in your adapter settings.
-
-## Still stuck?
-
-1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
-2. Post in `#support` on Discord with this info:
-   - Seat number (e.g. Row 4, Seat 12)
-   - What's broken, one sentence
-   - What you already tried
-   - Screenshot or error message
-3. If no reply in 15 minutes, come to the organizer desk.

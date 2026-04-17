@@ -3,13 +3,31 @@ title: "Nem látom a szervert"
 date: 2026-02-27T10:00:00+01:00
 description: "Kábel ellenőrzés, portál teszt, és mit tegyél, ha semmi nem tölt be."
 draft: false
+still_stuck: true
 ---
+
 
 Ha nem látod a játékszervert vagy a LAN portált, itt kezdd.
 
 Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
 
-## 1. Alapok ellenőrzése
+{{< mermaid >}}
+flowchart TD
+    A([Nem látom a szervert]) --> B[Fuss át a hálózati hibakeresés lépésein]
+    B --> C{Betölt a LAN portál?}
+    C -->|Nem| D([Először a hálózatot javítsd])
+    C -->|Igen| E[Ellenőrizd a servers.ctrl-alt-gg.hu oldalt]
+    E --> F{Szerver állapota?}
+    F -->|Piros - le van| G([Mindenkinél le van\nSzólj a staffnak])
+    F -->|Zöld| H[Ideiglenesen tiltsd le a Windows tűzfalat]
+    H --> I{Így látod a szervert?}
+    I -->|Igen| J[Add hozzá a játék .exe-t kivételként\nEngedélyezd újra a tűzfalat]
+    I -->|Nem| K[Ellenőrizd az IP beállítást: DHCP\nncpa.cpl > IPv4 > Automatikus]
+    J --> L{Megoldódott?}
+    K --> L
+    L -->|Igen| M([Kész!])
+    L -->|Nem| N([Írj a #support csatornára])
+{{< /mermaid >}}
 
 Először fuss át a [Hálózati hibakeresés](/network/network-troubleshooting/) lépésein.
 
@@ -43,13 +61,3 @@ Tesztként ideiglenesen kapcsold ki a Windows Tűzfalat vagy a külső antivíru
 
 - Ha megjelenik a szerver, kapcsold vissza a tűzfalat, és adj kivételt a játék futtatható fájljára.
 - Ne hagyd kikapcsolva az esemény teljes idejére.
-
-## Még mindig nem megy?
-
-1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
-2. Írj a `#support` csatornára Discordon ezzel az infóval:
-   - Ülésed helye (pl. 4. sor, 12. szék)
-   - Mi a baj (egy mondatban)
-   - Mit próbáltál eddig
-   - Képernyőkép vagy hibaüzenet
-3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.

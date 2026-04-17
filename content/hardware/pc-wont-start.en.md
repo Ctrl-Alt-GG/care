@@ -3,13 +3,26 @@ title: "PC Won't Start"
 date: 2026-02-27T10:00:00+01:00
 description: "PSU LED check, reseat GPU/RAM, monitor 'no signal' fixes."
 draft: false
+still_stuck: true
 ---
+
 
 Transport vibration often loosens components. Don't panic, it's probably just a loose cable.
 
 First, check **[Known Issues](/help/known-issues/)**.
 
-## Quick diagnosis
+{{< mermaid >}}
+flowchart TD
+    A([PC won't start]) --> B{What do you see?}
+    B -->|Nothing at all| C[Check PSU switch: I = On\nTry different cable and outlet]
+    B -->|Motherboard LED on, no fans| D[Check front panel header\nShort power pins with a screwdriver]
+    B -->|Fans spin, no display| E[Cable in the GPU, not motherboard?\nTry different video output\nReseat GPU]
+    B -->|Boot loop or beeps| F[Reseat RAM\nTry one stick at a time]
+    B -->|BIOS loads, no OS| G[Check Boot Priority in BIOS\nCheck boot drive cable]
+    C & D & E & F & G --> H{Fixed?}
+    H -->|Yes| I([Done!])
+    H -->|No| J([Find an organizer])
+{{< /mermaid >}}
 
 - **No lights, no fans, nothing:** PSU switch, PSU cable, or dead PSU. Check the switch on the back (I = on). Try a different power cable. Try a different outlet.
 - **Motherboard LED on, but no fans spin:** Check the front panel power button connector. Try shorting the power pins with a screwdriver (staff can help).
@@ -43,13 +56,3 @@ If the PC beeps or loops on startup:
 ## 4. If nothing works
 
 Ask a neighbor to test with their power cable or monitor. If it still fails, find an organizer. We have some spare parts for testing, but we can't promise miracles.
-
-## Still stuck?
-
-1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
-2. Post in `#support` on Discord with this info:
-   - Seat number (e.g. Row 4, Seat 12)
-   - What's broken, one sentence
-   - What you already tried
-   - Screenshot or error message
-3. If no reply in 15 minutes, come to the organizer desk.

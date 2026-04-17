@@ -3,7 +3,9 @@ title: "Túlmelegedés: tünetek és gyors javítások"
 date: 2026-02-27T10:00:00+01:00
 description: "Itt meleg lesz. Tartsd hűvösen a gépedet."
 draft: false
+still_stuck: true
 ---
+
 
 Egy teremben sok játékos PC sok hőt termel. Ha a géped furcsán viselkedik, nézd meg a hőmérsékleteket.
 
@@ -38,13 +40,3 @@ Egy teremben sok játékos PC sok hőt termel. Ha a géped furcsán viselkedik, 
 3. **Oldallap levétel:** nem szép, de szükségmegoldásként működik.
 4. **Fan curve ellenőrzés:** MSI Afterburnerben vagy BIOS-ban állíts agresszívebb ventilátor görbét.
 {{< /callout >}}
-
-## Még mindig nem megy?
-
-1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
-2. Írj a `#support` csatornára Discordon ezzel az infóval:
-   - Ülésed helye (pl. 4. sor, 12. szék)
-   - Mi a baj (egy mondatban)
-   - Mit próbáltál eddig
-   - Képernyőkép vagy hibaüzenet
-3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.

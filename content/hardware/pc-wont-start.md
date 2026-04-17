@@ -3,11 +3,26 @@ title: "Nem indul a gép"
 date: 2026-02-27T10:00:00+01:00
 description: "PSU LED, GPU/RAM újracsatlakoztatás, monitor 'no signal' javítása."
 draft: false
+still_stuck: true
 ---
+
 
 A szállítás rázkódása gyakran kilazít dolgokat. Ne pánikolj, valószínűleg csak egy kábel csúszott ki.
 
 Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
+
+{{< mermaid >}}
+flowchart TD
+    A([Nem indul a gép]) --> B{Mit látsz?}
+    B -->|Semmi se reagál| C[Tápkapcsoló: I = be\nPróbálj másik kábelt és konnektort]
+    B -->|Alaplapi LED világít, de nem indul| D[Nézd meg az előlapi csatlakozót\nRövid zárlat csavarhúzóval]
+    B -->|Ventilátorok forognak, nincs kép| E[A GPU-ba dugtad a monitort?\nPróbálj másik kimenetet\nTelepítsd újra a GPU-t]
+    B -->|Boot loop vagy sípolás| F[RAM újracsatlakoztatás\nPróbáld egy modullal]
+    B -->|BIOS elindul, Windows nem| G[Boot sorrend ellenőrzése BIOS-ban\nBoot meghajtó kábele]
+    C & D & E & F & G --> H{Megoldódott?}
+    H -->|Igen| I([Kész!])
+    H -->|Nem| J([Keress egy szervezőt])
+{{< /mermaid >}}
 
 ## Gyors diagnózis
 
@@ -43,13 +58,3 @@ Ha a gép sípol, vagy elindul-leáll ciklusban ragad:
 ## 4. Ha semmi sem segít
 
 Kérj meg egy szomszédot, hogy teszteljétek le az ő tápkábelével vagy monitorával. Ha így sem megy, keress meg egy szervezőt. Van néhány tartalék alkatrészünk tesztelésre, de nem ígérünk csodát.
-
-## Még mindig nem megy?
-
-1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
-2. Írj a `#support` csatornára Discordon ezzel az infóval:
-   - Ülésed helye (pl. 4. sor, 12. szék)
-   - Mi a baj (egy mondatban)
-   - Mit próbáltál eddig
-   - Képernyőkép vagy hibaüzenet
-3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.

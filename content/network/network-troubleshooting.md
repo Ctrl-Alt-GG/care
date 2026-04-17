@@ -3,11 +3,32 @@ title: "Hálózati hibakeresés (itt kezdd)"
 date: 2026-02-27T10:00:00+01:00
 description: "Gyors ellenőrző lista az online kapcsolathoz és a LAN szolgáltatásokhoz."
 draft: false
+still_stuck: true
 ---
+
 
 A legtöbb gond **kábel/port**, **DHCP** vagy **helyi gépes beállítás**. Menj sorban.
 
 Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát. Ha globális a hiba, feleslegesen szerelsz.
+
+{{< mermaid >}}
+flowchart TD
+    A([Nincs internet]) --> B[Nézd meg az Ismert hibák listát]
+    B --> C{Globális hiba van?}
+    C -->|Igen| D([Várd meg a staff javítását])
+    C -->|Nem| E[Kábel bedugva + van linkfény?]
+    E -->|Nem| F[Dugd be rendesen, próbálj másik portot]
+    E -->|Igen| G[Betölt a LAN portál?\nspawn.ctrl-alt-gg.hu]
+    G -->|Igen| H[Ellenőrizd a szerver állapotot]
+    H --> I{Mindenkinél le van?}
+    I -->|Igen| J([Szólj a staffnak])
+    I -->|Nem| K([Tűzfal / játék beállítások])
+    G -->|Nem| L[IP-megújítás\nipconfig /release + /renew\nDHCP legyen beállítva]
+    L --> M{Megoldódott?}
+    F --> M
+    M -->|Igen| N([Csatlakozva!])
+    M -->|Nem| O([Írj a #support csatornára])
+{{< /mermaid >}}
 
 ## 1. lépés: alapok ellenőrzése
 
@@ -57,13 +78,3 @@ sudo dhclient -r && sudo dhclient -v
 
 - Legyen **Automatikus IP (DHCP)** beállítva
 - Ha egy idő után meghal a port, lehet, hogy túl sok eszközt kötöttél rá - kérd a staffot újraengedélyezésre
-
-## Még mindig nem megy?
-
-1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
-2. Írj a `#support` csatornára Discordon ezzel az infóval:
-   - Ülésed helye (pl. 4. sor, 12. szék)
-   - Mi a baj (egy mondatban)
-   - Mit próbáltál eddig
-   - Képernyőkép vagy hibaüzenet
-3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.

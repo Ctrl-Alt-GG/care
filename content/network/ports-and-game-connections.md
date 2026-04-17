@@ -3,7 +3,9 @@ title: "Portok és játék kapcsolatok"
 date: 2026-02-27T10:00:00+01:00
 description: "Melyik portot ellenőrizd, NAT alapok, és miért nem csatlakozik a játék."
 draft: false
+still_stuck: true
 ---
+
 
 Ha a játék nem csatlakozik, vagy "Strict NAT" hibát dob, itt a megoldás.
 
@@ -46,13 +48,3 @@ Ha egy játék nem látja a szervert, ellenőrizd, hogy a tűzfalad engedi-e a k
 
 4. **IPv6:**
    Néhány játék (pl. régebbi címek) megzavarodhat, ha az IPv6 be van kapcsolva, de nincs IPv6 internet. Próbáld meg kikapcsolni az adapter beállításaiban.
-
-## Még mindig nem megy?
-
-1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
-2. Írj a `#support` csatornára Discordon ezzel az infóval:
-   - Ülésed helye (pl. 4. sor, 12. szék)
-   - Mi a baj (egy mondatban)
-   - Mit próbáltál eddig
-   - Képernyőkép vagy hibaüzenet
-3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.
