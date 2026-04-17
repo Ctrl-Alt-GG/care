@@ -24,6 +24,38 @@
   .problem-link {
     text-decoration: none !important;
   }
+
+  /* Blockquotes: colored left accent with subtle tinted background */
+  .prose blockquote {
+    @apply not-italic border-l-4 border-blue-400 dark:border-blue-500 bg-blue-50/60 dark:bg-blue-950/25 rounded-r-lg;
+  }
+  .prose blockquote p::before,
+  .prose blockquote p::after {
+    content: '' !important;
+  }
+
+  /* h2 headings with a subtle bottom separator */
+  .prose h2 {
+    @apply pb-2 border-b border-zinc-100 dark:border-zinc-800;
+  }
+
+  /* Table: header background and alternate row shading */
+  .prose thead th {
+    @apply bg-zinc-100 dark:bg-zinc-800;
+  }
+  .prose tbody tr:nth-child(even) td {
+    @apply bg-zinc-50 dark:bg-zinc-900/40;
+  }
+
+  /* Images: rounded corners and soft shadow */
+  .prose img {
+    @apply rounded-xl shadow-sm;
+  }
+
+  /* Horizontal rule: gradient fade instead of a hard line */
+  .prose hr {
+    @apply border-0 h-px bg-gradient-to-r from-transparent via-zinc-200 dark:via-zinc-700 to-transparent my-10;
+  }
 }
 
 @layer utilities {

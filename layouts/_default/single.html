@@ -14,14 +14,47 @@
       {{ with .Params.description }}
         <p id="lead" class="text-lg text-zinc-500 dark:text-zinc-400 leading-relaxed italic">{{ . }}</p>
       {{ end }}
-      {{ with .ReadingTime }}
-        <p class="mt-4 text-xs text-zinc-400 dark:text-zinc-500 font-medium">{{ . }} {{ i18n "reading_time" | default "min read" }}</p>
-      {{ end }}
+      <div class="mt-4 flex flex-wrap items-center gap-4 text-xs text-zinc-400 dark:text-zinc-500 font-medium">
+        {{ with .Date }}
+          <span class="flex items-center gap-1.5">
+            <svg class="w-3.5 h-3.5 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            {{ .Format "Jan 2, 2006" }}
+          </span>
+        {{ end }}
+        {{ with .ReadingTime }}
+          <span class="flex items-center gap-1.5">
+            <svg class="w-3.5 h-3.5 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            {{ . }} {{ i18n "reading_time" | default "min read" }}
+          </span>
+        {{ end }}
+      </div>
     </header>
     <div id="content" class="prose prose-zinc lg:prose-lg dark:prose-invert prose-headings:font-bold prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline prose-code:text-sm prose-pre:rounded-xl mb-14">
       {{- .Content -}}
       {{- partial "terms.html" (dict "taxonomy" "tags" "page" .) -}}
     </div>
+    {{- if or .PrevInSection .NextInSection -}}
+    <nav class="pt-8 border-t border-zinc-100 dark:border-zinc-800 grid grid-cols-1 sm:grid-cols-2 gap-3" aria-label="Article navigation">
+      {{- with .PrevInSection -}}
+      <a href="{{ .Permalink }}" class="group flex flex-col gap-1.5 p-4 rounded-xl border border-zinc-200 dark:border-zinc-800 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-sm transition-all">
+        <span class="flex items-center gap-1 text-xs text-zinc-400 dark:text-zinc-500 font-medium">
+          <svg class="w-3.5 h-3.5 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"/></svg>
+          {{ i18n "pagination_prev" | default "Previous" }}
+        </span>
+        <span class="text-sm font-semibold text-zinc-700 dark:text-zinc-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2">{{ .Title }}</span>
+      </a>
+      {{- else -}}<div></div>{{- end -}}
+      {{- with .NextInSection -}}
+      <a href="{{ .Permalink }}" class="group flex flex-col gap-1.5 p-4 rounded-xl border border-zinc-200 dark:border-zinc-800 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-sm transition-all sm:text-right sm:items-end">
+        <span class="flex items-center gap-1 text-xs text-zinc-400 dark:text-zinc-500 font-medium">
+          {{ i18n "pagination_next" | default "Next" }}
+          <svg class="w-3.5 h-3.5 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+        </span>
+        <span class="text-sm font-semibold text-zinc-700 dark:text-zinc-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2">{{ .Title }}</span>
+      </a>
+      {{- else -}}<div></div>{{- end -}}
+    </nav>
+    {{- end -}}
   </article>
   <aside class="md:col-span-1">
     {{- partial "content/aside.html" . -}}
