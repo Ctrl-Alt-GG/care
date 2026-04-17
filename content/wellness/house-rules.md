@@ -21,7 +21,7 @@ Azért vagyunk itt, hogy jól érezzük magunkat, de 100 ember egy térben szab�
 ## 3. Higiénia
 
 {{< callout type="warning" >}}
-**Napi fürdés.** Ez nem javaslat. Használj dezodort. Tartsd tisztán a helyed — a szemét a kukába megy, nem a padlóra.
+**Napi fürdés.** Ez nem javaslat. Használj dezodort. Tartsd tisztán a helyed: a szemét a kukába megy, nem a padlóra.
 {{< /callout >}}
 
 ## 4. Alkohol és szerek

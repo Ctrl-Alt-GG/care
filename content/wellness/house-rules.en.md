@@ -21,7 +21,7 @@ We are here to have fun, but 100 people in one room requires some ground rules.
 ## 3. Hygiene
 
 {{< callout type="warning" >}}
-**Shower daily.** This is not a request. Use deodorant. Keep your area clean — throw your trash in the bins, not on the floor.
+**Shower daily.** This is not a request. Use deodorant. Keep your area clean. Trash goes in the bins, not on the floor.
 {{< /callout >}}
 
 ## 4. Alcohol & Substances
