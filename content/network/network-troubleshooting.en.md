@@ -3,46 +3,42 @@ title: "Network Troubleshooting (Start Here)"
 date: 2026-02-27T10:00:00+01:00
 description: "A quick checklist for getting online and reaching LAN services."
 draft: false
+still_stuck: true
 ---
 
-Most issues are either **cable/port**, **DHCP**, or **something on your PC**. Do these in order.
+
+Most issues are either **cable/port**, **DHCP**, or **something on your PC**. Work through the sections below in order.
 
 First, check **[Known Issues](/help/known-issues/)**. If it's a global outage, you can't fix it locally.
 
-## Step 1: Check the basics
+## Basics
 
-- Ethernet cable plugged in firmly (both ends)
-- Link light on your PC/laptop
-- Disable VPNs and "network tools"
+- Ethernet cable plugged in firmly (both ends), link light visible on your NIC
+- VPNs and "network tools" disabled
 
-Please don't:
-- Plug in your own switches/routers/access points
-- Share internet from your device
-- Run DHCP servers or network "scanners" that spam the LAN
+{{< callout type="warning" >}}
+**Please don't bring your own network hardware:**
+- No personal switches, routers, or Wi-Fi access points
+- No internet sharing from your device
+- No DHCP servers or network scanners
+{{< /callout >}}
 
-## Step 2: Check if you're online
+## Diagnose connectivity
 
 Open the LAN portal: [spawn.ctrl-alt-gg.hu](https://spawn.ctrl-alt-gg.hu)
 
-- **It loads:** You are online. Check server status: [servers.ctrl-alt-gg.hu](https://servers.ctrl-alt-gg.hu). Go to Step 3.
-- **It doesn't load:**
-  - Unplug/replug the cable.
-  - Try a different port (or ask staff).
-  - Try Wi‑Fi as a temporary fallback.
-  - Go to Step 4.
+| Portal loads? | What it means | Next step |
+|---|---|---|
+| ✅ Yes | You have LAN access | Check [server status](https://servers.ctrl-alt-gg.hu) |
+| ❌ No | IP / cable issue | Follow IP fix below |
+| Server green, game broken | Firewall / port issue | See Firewall guide |
+| Server red / down | Global outage | Tell staff |
 
-Advanced users: if you know how, ping your gateway. If that works, your local link is fine.
+If everything is broken for many people simultaneously, tell staff first — don't spend time fixing locally.
 
-## Step 3: Can you reach LAN services?
+## Renew your IP address
 
-- One game server unreachable? It may be restarting or full.
-- Everything broken for you but not for others? It's likely local (PC/firewall/DNS).
-- Everything broken for many people? Tell staff.
-
-## Step 4: Quick local fixes
-
-- Restart your network adapter (or reboot)
-- Renew your IP address:
+If the portal doesn't load after replugging the cable:
 
 **Windows:**
 ```cmd
@@ -55,15 +51,6 @@ ipconfig /renew
 sudo dhclient -r && sudo dhclient -v
 ```
 
-- Make sure your device is set to **Automatic IP (DHCP)**
-- If your port goes dead after working, you may have connected too many devices - ask staff to re-enable it
+Make sure your adapter is set to **Automatic IP (DHCP)** — static IPs will not work on our network.
 
-## Still stuck?
-
-1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
-2. Post in `#support` on Discord with this info:
-   - Seat number (e.g. Row 4, Seat 12)
-   - What's broken, one sentence
-   - What you already tried
-   - Screenshot or error message
-3. If no reply in 15 minutes, come to the organizer desk.
+If your port goes dead after working for a while, you may have connected too many devices. Ask staff to re-enable it.

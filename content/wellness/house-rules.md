@@ -20,15 +20,18 @@ Azért vagyunk itt, hogy jól érezzük magunkat, de 100 ember egy térben szab�
 
 ## 3. Higiénia
 
-- **Napi fürdés.** Ez nem javaslat.
-- Használj dezodort.
-- Tartsd tisztán a helyed. A szemét a kukába megy.
+{{< callout type="warning" >}}
+**Napi fürdés.** Ez nem javaslat. Használj dezodort. Tartsd tisztán a helyed: a szemét a kukába megy, nem a padlóra.
+{{< /callout >}}
 
 ## 4. Alkohol és szerek
 
 - **Alkohol:** mértékkel (jogszabályi korhatár felett). Részeg, rendetlen viselkedés nem elfogadott.
 - **Dohányzás/vape:** csak kint. Az asztalnál tilos.
-- **Illegális szerek:** zéró tolerancia. Azonnali kizárás és rendőrségi ügy.
+
+{{< callout type="danger" >}}
+**Illegális szerek: zéró tolerancia.** Azonnali kizárás és rendőrségi ügy. Kivétel nincs.
+{{< /callout >}}
 
 ## 5. Hálózat
 

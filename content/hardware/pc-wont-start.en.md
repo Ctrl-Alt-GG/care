@@ -3,20 +3,24 @@ title: "PC Won't Start"
 date: 2026-02-27T10:00:00+01:00
 description: "PSU LED check, reseat GPU/RAM, monitor 'no signal' fixes."
 draft: false
+still_stuck: true
 ---
+
 
 Transport vibration often loosens components. Don't panic, it's probably just a loose cable.
 
 First, check **[Known Issues](/help/known-issues/)**.
 
-## Quick diagnosis
+**What do you see?** Find your symptom and jump to the relevant section.
 
-- **No lights, no fans, nothing:** PSU switch, PSU cable, or dead PSU. Check the switch on the back (I = on). Try a different power cable. Try a different outlet.
-- **Motherboard LED on, but no fans spin:** Check the front panel power button connector. Try shorting the power pins with a screwdriver (staff can help).
-- **Fans spin, but no display:** GPU cable (make sure it's in the GPU, not motherboard). Try a different video output. Reseat the GPU.
-- **Fans spin briefly then stop (boot loop):** RAM not seated. Remove and reseat all sticks. Try one stick at a time.
-- **Beeps on startup:** 1 long + 2 short = GPU. Continuous = RAM. Refer to your motherboard manual for other codes.
-- **Gets to BIOS but won't boot OS:** Boot drive cable loose, or boot order changed. Check BIOS > Boot Priority.
+| Symptom | Most likely cause | Go to |
+|---|---|---|
+| Nothing at all — no lights, no fans | PSU off or unplugged | [PSU](#1-power-supply-psu) |
+| Motherboard LED on, but no fans spin | Front-panel power button header | [PSU](#1-power-supply-psu) |
+| Fans spin, screen black / no signal | Monitor plugged into motherboard instead of GPU | [Monitor](#2-monitor-no-signal) |
+| Fans spin briefly, then stop (loop) | RAM not seated | [Reseating](#3-reseating-components) |
+| Beeps on startup | RAM (continuous) or GPU (1 long + 2 short) | [Reseating](#3-reseating-components) |
+| BIOS loads, Windows won't boot | Boot order or loose drive cable | [Power Supply](#1-power-supply-psu) section 3 |
 
 ## 1. Power Supply (PSU)
 
@@ -43,13 +47,3 @@ If the PC beeps or loops on startup:
 ## 4. If nothing works
 
 Ask a neighbor to test with their power cable or monitor. If it still fails, find an organizer. We have some spare parts for testing, but we can't promise miracles.
-
-## Still stuck?
-
-1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
-2. Post in `#support` on Discord with this info:
-   - Seat number (e.g. Row 4, Seat 12)
-   - What's broken, one sentence
-   - What you already tried
-   - Screenshot or error message
-3. If no reply in 15 minutes, come to the organizer desk.

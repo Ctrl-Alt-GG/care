@@ -1,5 +1,4 @@
 baseURL = 'https://care.ctrl-alt-gg.hu/'
-theme = 'pehtheme-hugo'
 defaultContentLanguage = 'hu'
 
 summaryLength = 20 # 20 words are approximately 160 characters

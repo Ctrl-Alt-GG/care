@@ -3,21 +3,17 @@ title: "I Can't See the Server"
 date: 2026-02-27T10:00:00+01:00
 description: "Cable check, portal check, and what to do when nothing loads."
 draft: false
+still_stuck: true
 ---
+
 
 If you can't see a game server or the LAN portal, start here.
 
 First, check **[Known Issues](/help/known-issues/)**.
 
-## 1. Basics check
+## 1. Check network first
 
-Run through the basics in [Network Troubleshooting](/network/network-troubleshooting/) first.
-
-- **Cable plugged in?**
-- **Link light on?**
-- **Portal loads?**
-
-If the portal loads but the game server doesn't, continue here.
+Run through [Network Troubleshooting](/network/network-troubleshooting/) if you haven't already (cable, link light, portal).
 
 ## 2. IP configuration
 
@@ -43,13 +39,3 @@ Temporarily disable your Windows Firewall or third-party antivirus firewall to t
 
 - If the server appears, re-enable the firewall and add an exception for the game executable.
 - Do not leave your firewall disabled for the entire event.
-
-## Still stuck?
-
-1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
-2. Post in `#support` on Discord with this info:
-   - Seat number (e.g. Row 4, Seat 12)
-   - What's broken, one sentence
-   - What you already tried
-   - Screenshot or error message
-3. If no reply in 15 minutes, come to the organizer desk.

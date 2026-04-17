@@ -23,11 +23,16 @@ Mindkettőt biztosítjuk, de nem ugyanarra valók.
 - Megosztott sávszélesség.
 - Magasabb késleltetés és jitter.
 - Érzékeny a több száz eszköz okozta interferenciára.
-- **Ne játssz wifin.** Laggolni fogsz, és a hálózatot okolod majd, pedig fizika.
+
+{{< callout type="warning" >}}
+**Ne játssz wifin.** Laggolni fogsz, és a hálózatot okolod majd, pedig fizika. Versenyeken kötelező az Ethernet.
+{{< /callout >}}
 
 ## Nincs Ethernet port?
 
+{{< callout type="tip" >}}
 Ha a laptopodon nincs Ethernet:
-- Használj USB -> Ethernet adaptert.
+- Használj **USB → Ethernet adaptert**.
 - Kérdezz körbe, ha nem hoztál; lehet valakinek van tartalék.
 - Végszükségként használhatsz wifit, de számíts lagra.
+{{< /callout >}}

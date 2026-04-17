@@ -3,21 +3,17 @@ title: "Nem látom a szervert"
 date: 2026-02-27T10:00:00+01:00
 description: "Kábel ellenőrzés, portál teszt, és mit tegyél, ha semmi nem tölt be."
 draft: false
+still_stuck: true
 ---
+
 
 Ha nem látod a játékszervert vagy a LAN portált, itt kezdd.
 
 Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
 
-## 1. Alapok ellenőrzése
+## 1. Hálózat ellenőrzése
 
-Először fuss át a [Hálózati hibakeresés](/network/network-troubleshooting/) lépésein.
-
-- **Kábel bedugva?**
-- **Linkfény világít?**
-- **Portál betölt?**
-
-Ha a portál betölt, de a játékszerver nem, folytasd itt.
+Fuss át a [Hálózati hibakeresés](/network/network-troubleshooting/) lépésein, ha még nem tetted (kábel, linkfény, portál).
 
 ## 2. IP beállítás
 
@@ -43,13 +39,3 @@ Tesztként ideiglenesen kapcsold ki a Windows Tűzfalat vagy a külső antivíru
 
 - Ha megjelenik a szerver, kapcsold vissza a tűzfalat, és adj kivételt a játék futtatható fájljára.
 - Ne hagyd kikapcsolva az esemény teljes idejére.
-
-## Még mindig nem megy?
-
-1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
-2. Írj a `#support` csatornára Discordon ezzel az infóval:
-   - Ülésed helye (pl. 4. sor, 12. szék)
-   - Mi a baj (egy mondatban)
-   - Mit próbáltál eddig
-   - Képernyőkép vagy hibaüzenet
-3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.

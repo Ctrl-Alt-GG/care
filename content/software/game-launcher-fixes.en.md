@@ -3,11 +3,24 @@ title: "Game Launcher Fixes"
 date: 2026-02-27T10:00:00+01:00
 description: "Steam/EGS/GOG: clear cache, verify files, offline install."
 draft: false
+still_stuck: true
 ---
+
 
 Steam won't start? Battle.net stuck? Try these.
 
 First, check **[Known Issues](/help/known-issues/)**.
+
+| Launcher | Problem | Jump to |
+|----------|---------|---------|
+| Steam | Won't start | [Steam — Won't start](#steam) |
+| Steam | Game won't update/verify | [Steam — Update/verify](#steam) |
+| Epic Games Store | Won't start | [Epic — Won't start](#epic-games-store) |
+| Epic Games Store | Game won't verify | [Epic — Verify](#epic-games-store) |
+| Battle.net | Won't start | [Battle.net — Won't start](#battlenet) |
+| Battle.net | Game won't scan/repair | [Battle.net — Scan and repair](#battlenet) |
+| GOG Galaxy | Verify/repair | [GOG Galaxy](#gog-galaxy) |
+| Any launcher | Game crashes on launch | [Game crashes on launch](#game-crashes-on-launch) |
 
 ## Steam
 
@@ -73,13 +86,3 @@ If the game closes immediately:
 3. **Run as Administrator:** Right-click the .exe > Run as administrator.
 4. **Visual C++:** Install the Redistributables (usually in the game folder `_CommonRedist` or download from file server).
 5. **Windowed mode:** Add `-windowed` to launch options.
-
-## Still stuck?
-
-1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
-2. Post in `#support` on Discord with this info:
-   - Seat number (e.g. Row 4, Seat 12)
-   - What's broken, one sentence
-   - What you already tried
-   - Screenshot or error message
-3. If no reply in 15 minutes, come to the organizer desk.

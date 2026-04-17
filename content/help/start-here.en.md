@@ -9,25 +9,21 @@ _build:
 
 What's wrong? Click the one that matches your problem.
 
-(If something isn't working, you probably didn't do anything wrong. We'll fix it.)
+*(If something isn't working, you probably didn't do anything wrong. We'll fix it.)*
 
-## 1. I can't connect / No Internet
-"Plugged in cable, no net", "Google won't load", "No IP address".
-👉 **[Network Troubleshooting](/network/network-troubleshooting/)**
+{{< problem-link href="/en/network/network-troubleshooting/" icon="wifi" >}}No internet. Cable is in but nothing loads, or you can't get an IP address.{{< /problem-link >}}
 
-## 2. I can't join a game
-"I see the server but can't join", "Connection failed", "Strict NAT".
-👉 **[I Can't See the Server](/network/cant-see-the-server/)**
+{{< problem-link href="/en/network/cant-see-the-server/" icon="network" >}}Can't join the game. You can see the server but it won't let you in, or you're getting "Strict NAT".{{< /problem-link >}}
 
-## 3. My ping is bad / Lagging
-"Ping spikes", "Rubberbanding", "Slow download".
-👉 **[My Ping is Terrible](/network/my-ping-is-terrible/)**
+{{< problem-link href="/en/network/my-ping-is-terrible/" icon="ping" >}}Lag and ping spikes. The game runs but it's stuttery, slow, or keeps rubberbanding.{{< /problem-link >}}
 
-## 4. My PC/Monitor won't work
-"PC won't turn on", "Black screen", "Power strip sparking".
-👉 **[PC Won't Start](/hardware/pc-wont-start/)**
+{{< problem-link href="/en/hardware/pc-wont-start/" icon="pc" >}}PC or monitor not working. Won't turn on, black screen, or something is sparking.{{< /problem-link >}}
 
 ## 5. Something is broken and I don't know what
+
+{{< callout type="note" >}}
 "Weird error message", "Blue screen", "Can't find a solution".
-1. Check **[Known Issues](/help/known-issues/)** (it might be a global problem).
-2. If not listed, ask for help: **[How to Get Help](/help/how-to-get-help/)**.
+
+1. Check **[Known Issues](/en/help/known-issues/)** first, it might be a global problem.
+2. If not listed, ask for help: **[How to Get Help](/en/help/how-to-get-help/)**.
+{{< /callout >}}

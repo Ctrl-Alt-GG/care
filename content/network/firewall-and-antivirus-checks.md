@@ -3,7 +3,9 @@ title: "Tűzfal és antivírus ellenőrzés"
 date: 2026-02-27T10:00:00+01:00
 description: "Ha pingelhető, de nem tudsz csatlakozni, valószínűleg a tűzfal az ok."
 draft: false
+still_stuck: true
 ---
+
 
 A Windows Tűzfal gyakran blokkolja a LAN-játékokat, főleg ha a hálózat „Nyilvános" profilra van állítva.
 
@@ -11,9 +13,13 @@ Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
 
 ## Tünetek
 
+{{< callout type="warning" >}}
+**Valószínűleg a tűzfal az ok, ha:**
+
 - Látod a szerverlistát, de nem tudsz csatlakozni.
 - Nem tudsz helyi lobbyt hostolni.
 - Nem látod a többi játékost LAN böngészőben.
+{{< /callout >}}
 
 ## Gyors javítás
 
@@ -38,15 +44,3 @@ Ha Norton, McAfee, Bitdefender stb. fut:
 - Gyakran felülírják a Windows beállításokat.
 - Keresd a "Game Mode" opciót, vagy teszthez ideiglenesen állítsd le a tűzfalat.
 - **Ne felejtsd visszakapcsolni.**
-
-## Még mindig nem megy?
-
-1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
-2. Írj a `#support` csatornára Discordon ezzel az infóval:
-   - Ülésed helye (pl. 4. sor, 12. szék)
-   - Mi a baj (egy mondatban)
-   - Mit próbáltál eddig
-   - Képernyőkép vagy hibaüzenet
-3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.
-
-**Fontos:** Mielőtt segítséget kérsz, **kapcsold ki a VPN-t!**

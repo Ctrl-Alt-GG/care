@@ -1,0 +1,17 @@
+{{- $type := .Get "type" | default "note" -}}
+{{- $types := dict
+  "note"    (dict "bg" "bg-blue-50 dark:bg-blue-950/40" "border" "border-blue-400" "text" "text-blue-800 dark:text-blue-300" "label_color" "text-blue-700 dark:text-blue-400" "icon" `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg>` "label" "Note")
+  "tip"     (dict "bg" "bg-emerald-50 dark:bg-emerald-950/40" "border" "border-emerald-400" "text" "text-emerald-800 dark:text-emerald-300" "label_color" "text-emerald-700 dark:text-emerald-400" "icon" `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg>` "label" "Tip")
+  "warning" (dict "bg" "bg-amber-50 dark:bg-amber-950/40" "border" "border-amber-400" "text" "text-amber-800 dark:text-amber-300" "label_color" "text-amber-700 dark:text-amber-400" "icon" `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>` "label" "Warning")
+  "danger"  (dict "bg" "bg-red-50 dark:bg-red-950/40" "border" "border-red-400" "text" "text-red-800 dark:text-red-300" "label_color" "text-red-700 dark:text-red-400" "icon" `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/></svg>` "label" "Danger")
+-}}
+{{- $cfg := index $types $type | default (index $types "note") -}}
+<div class="callout my-6 rounded-xl border-l-4 {{ $cfg.bg }} {{ $cfg.border }} px-5 py-4 not-prose">
+  <div class="flex items-center gap-2 mb-2 {{ $cfg.label_color }} font-semibold text-sm">
+    {{ $cfg.icon | safeHTML }}
+    <span>{{ $cfg.label }}</span>
+  </div>
+  <div class="{{ $cfg.text }} text-sm leading-relaxed prose prose-sm dark:prose-invert max-w-none">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

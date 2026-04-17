@@ -3,11 +3,24 @@ title: "Játék indító javítások"
 date: 2026-02-27T10:00:00+01:00
 description: "Steam/EGS/GOG: gyorsítótár törlés, fájlok ellenőrzése, offline telepítés."
 draft: false
+still_stuck: true
 ---
+
 
 A Steam nem indul? A Battle.net beragadt? Próbáld ezeket.
 
 Először nézd meg az **[Ismert hibák](/help/known-issues/)** listát.
+
+| Launcher | Probléma | Ugrás |
+|----------|----------|-------|
+| Steam | Nem indul | [Steam — Nem indul](#steam) |
+| Steam | Játék nem frissül/sérült | [Steam — Frissítés/ellenőrzés](#steam) |
+| Epic Games Store | Nem indul | [Epic — Nem indul](#epic-games-store) |
+| Epic Games Store | Játék nem ellenőrizhető | [Epic — Ellenőrzés](#epic-games-store) |
+| Battle.net | Nem indul | [Battle.net — Nem indul](#battlenet) |
+| Battle.net | Scan and Repair | [Battle.net — Scan and Repair](#battlenet) |
+| GOG Galaxy | Ellenőrzés/javítás | [GOG Galaxy](#gog-galaxy) |
+| Bármelyik | Összeomlik indításkor | [A játék összeomlik indításkor](#a-jatek-osszeomlik-inditaskor) |
 
 ## Steam
 
@@ -73,13 +86,3 @@ Ha azonnal bezáródik:
 3. **Futtatás rendszergazdaként:** Jobb klikk az .exe-re > Run as administrator.
 4. **Visual C++:** Telepítsd a Redistributable csomagokat (általában a játék mappájában `_CommonRedist` alatt, vagy töltsd le a fájlszerverről).
 5. **Ablakos mód:** Adj hozzá `-windowed` kapcsolót az indítási opciókhoz.
-
-## Még mindig nem megy?
-
-1. Nézd meg az [Ismert hibák](/help/known-issues/) listát -- ha ott van, már dolgozunk rajta.
-2. Írj a `#support` csatornára Discordon ezzel az infóval:
-   - Ülésed helye (pl. 4. sor, 12. szék)
-   - Mi a baj (egy mondatban)
-   - Mit próbáltál eddig
-   - Képernyőkép vagy hibaüzenet
-3. Ha 15 percig nincs válasz, gyere a szervezői pulthoz.

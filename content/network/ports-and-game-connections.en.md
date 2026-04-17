@@ -3,7 +3,9 @@ title: "Ports & Game Connections"
 date: 2026-02-27T10:00:00+01:00
 description: "Which ports to check, NAT basics, why a game won't connect."
 draft: false
+still_stuck: true
 ---
+
 
 If your game won't connect or screams "Strict NAT", read this.
 
@@ -11,27 +13,28 @@ First, check **[Known Issues](/help/known-issues/)**.
 
 ## What is NAT?
 
-NAT (Network Address Translation) translates your internal IP to the outside world. On a LAN, this is usually fine, but some games (especially older P2P ones) hate it.
+NAT (Network Address Translation) maps your internal IP to the outside world. Some games (especially older P2P titles) care a lot about your NAT type.
 
-- **Open NAT:** Everything works, anyone can join you.
-- **Moderate NAT:** You can join others, but hosting might fail.
-- **Strict NAT:** You can only join players with Open NAT.
+| NAT Type | Can join others | Others can join you | Notes |
+|----------|:--------------:|:-------------------:|-------|
+| **Open** | ✅ | ✅ | Best |
+| **Moderate** | ✅ | ⚠️ Hosting may fail | Common |
+| **Strict** | ⚠️ Open NAT only | ❌ | Almost always your firewall |
 
-Our event network uses enterprise-grade NAT. You cannot change this. If you see Strict NAT, it is almost always your local firewall blocking the traffic.
+Our event network uses enterprise-grade NAT. **You cannot change the network NAT.** If you see Strict NAT, it is almost always your **local firewall** blocking traffic.
 
 ## Which ports to check?
 
-If a game can't find the server, check if your firewall allows traffic on these ports.
+If a game can't find the server, make sure your firewall allows traffic on these ports.
 
-**General:**
-- **Web / HTTP:** 80, 443 (TCP)
-- **DNS:** 53 (UDP)
-- **Steam:** 27015-27030 (UDP/TCP)
-
-**Game specific examples:**
-- **Minecraft:** 25565 (TCP)
-- **Call of Duty:** 3074 (UDP/TCP)
-- **Counter-Strike 2:** 27015 (UDP/TCP)
+| Service / Game | Port(s) | Protocol |
+|---|---|---|
+| Web / HTTP | 80, 443 | TCP |
+| DNS | 53 | UDP |
+| Steam | 27015–27030 | UDP + TCP |
+| Counter-Strike 2 | 27015 | UDP + TCP |
+| Call of Duty | 3074 | UDP + TCP |
+| Minecraft (Java) | 25565 | TCP |
 
 ## How to fix connection issues?
 
@@ -46,13 +49,3 @@ If a game can't find the server, check if your firewall allows traffic on these 
 
 4. **IPv6:**
    Some older games get confused if IPv6 is enabled but there is no IPv6 internet connectivity. Try disabling IPv6 in your adapter settings.
-
-## Still stuck?
-
-1. Check [Known Issues](/help/known-issues/) first -- if it's listed, we already know.
-2. Post in `#support` on Discord with this info:
-   - Seat number (e.g. Row 4, Seat 12)
-   - What's broken, one sentence
-   - What you already tried
-   - Screenshot or error message
-3. If no reply in 15 minutes, come to the organizer desk.

@@ -20,15 +20,18 @@ We are here to have fun, but 100 people in one room requires some ground rules.
 
 ## 3. Hygiene
 
-- **Shower daily.** This is not a request.
-- Use deodorant.
-- Keep your area clean. Throw your trash in the bins, not on the floor.
+{{< callout type="warning" >}}
+**Shower daily.** This is not a request. Use deodorant. Keep your area clean. Trash goes in the bins, not on the floor.
+{{< /callout >}}
 
 ## 4. Alcohol & Substances
 
 - **Alcohol:** Allowed in moderation (if legal age). Being drunk and disorderly is not allowed.
 - **Smoking/Vaping:** Outside only. No vaping at your desk.
-- **Illegal substances:** Zero tolerance. Immediate ban and police involvement.
+
+{{< callout type="danger" >}}
+**Illegal substances: Zero tolerance.** Immediate ban and police involvement. No exceptions.
+{{< /callout >}}
 
 ## 5. Network
 
