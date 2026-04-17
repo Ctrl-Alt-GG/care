@@ -7,7 +7,14 @@
             if (element !== targetElement) {
                 element.classList.add("close");
                 element.classList.remove("open");
+                updateAriaExpanded(element.id, false);
             }
+        });
+    }
+
+    function updateAriaExpanded(targetId, isExpanded) {
+        document.querySelectorAll(`.toggle-button[data-target~="${targetId}"]`).forEach((btn) => {
+            btn.setAttribute("aria-expanded", isExpanded ? "true" : "false");
         });
     }
 
@@ -16,6 +23,7 @@
         hideAllExcept(targetElement);
         targetElement.classList.toggle("close", !isHidden);
         targetElement.classList.toggle("open", isHidden);
+        updateAriaExpanded(targetElement.id, isHidden);
     }
 
     toggleButtons.forEach((button) => {
@@ -40,6 +48,7 @@
             targetElements.forEach((element) => {
                 element.classList.remove("open");
                 element.classList.add("close");
+                updateAriaExpanded(element.id, false);
             });
         }
     });
