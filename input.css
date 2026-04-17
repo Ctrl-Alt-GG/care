@@ -34,9 +34,27 @@
     content: '' !important;
   }
 
-  /* h2 headings with a subtle bottom separator */
-  .prose h2 {
-    @apply pb-2 border-b border-zinc-100 dark:border-zinc-800;
+  /* Heading anchor links — don't inherit the standard link colour */
+  .prose :is(h1, h2, h3, h4, h5, h6) a {
+    @apply text-zinc-300 dark:text-zinc-600 no-underline;
+  }
+  .prose :is(h1, h2, h3, h4, h5, h6) a:hover {
+    @apply text-zinc-500 dark:text-zinc-400 no-underline;
+  }
+
+  /* Inline code pill: background badge instead of raw backtick quotes */
+  .prose :not(pre) > code {
+    @apply bg-zinc-100 dark:bg-zinc-800 rounded px-1.5 py-0.5 text-zinc-700 dark:text-zinc-300 border border-zinc-200 dark:border-zinc-700 font-medium;
+  }
+  .prose :not(pre) > code::before,
+  .prose :not(pre) > code::after {
+    content: '' !important;
+  }
+
+  /* Bold-first list labels (e.g. **Term:** description) rendered as a subtle badge */
+  .prose ul > li > strong:first-child,
+  .prose ul > li > p > strong:first-child {
+    @apply inline-block bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 rounded px-1.5 py-0.5 text-sm font-semibold ring-1 ring-inset ring-zinc-200 dark:ring-zinc-700 mr-0.5;
   }
 
   /* Table: header background and alternate row shading */
