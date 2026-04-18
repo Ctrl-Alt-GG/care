@@ -132,3 +132,6 @@ other = "Tags"
 
 [read_more]
 other = "Read more"
+
+[toggle_menu]
+other = "Toggle menu"

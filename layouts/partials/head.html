@@ -34,19 +34,20 @@
 {{- /* Typography — shared Ctrl-Alt-GG Inter font across all three sites. */ -}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 
 {{- partialCached "head/css.html" $page -}}
 {{- partialCached "head/favicon.html" $page -}}
 
 {{- /* Social */ -}}
-{{ template "_internal/opengraph.html" $page }}
-{{ template "_internal/twitter_cards.html" $page }}
+{{- template "_internal/opengraph.html" $page }}
+{{- template "_internal/twitter_cards.html" $page }}
 
 {{- /* RSS alternate link */ -}}
-{{ range $page.AlternativeOutputFormats }}
+{{- range $page.AlternativeOutputFormats }}
   <link href="{{ .RelPermalink }}" rel="{{ .Rel }}" type="{{ .MediaType }}" title="{{ .Name }}">
-{{ end }}
+{{- end }}
 
 {{- /* Generator */ -}}
-{{ hugo.Generator }}
+{{- hugo.Generator }}

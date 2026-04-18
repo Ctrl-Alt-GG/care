@@ -132,3 +132,6 @@ other = "Címkék"
 
 [read_more]
 other = "Tovább"
+
+[toggle_menu]
+other = "Menü megjelenítése"
