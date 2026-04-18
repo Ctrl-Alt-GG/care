@@ -3,7 +3,7 @@
     <!-- Mobile menu toggle + Logo -->
     <div class="flex items-center gap-2">
       <details class="md:hidden">
-        <summary class="list-none flex items-center justify-center w-9 h-9 rounded-lg text-zinc-500 hover:text-zinc-700 hover:bg-zinc-100 dark:text-zinc-400 dark:hover:text-zinc-200 dark:hover:bg-zinc-800 transition-colors cursor-pointer" aria-label="{{ i18n "toggle_menu" }}">
+        <summary class="list-none flex items-center justify-center w-9 h-9 rounded-lg text-zinc-500 hover:text-zinc-700 hover:bg-zinc-100 dark:text-zinc-400 dark:hover:text-zinc-200 dark:hover:bg-zinc-800 transition-colors cursor-pointer" role="button" aria-label="{{ i18n "toggle_menu" }}">
           {{ partial "icon.html" (dict "name" "menu" "size" 18) }}
         </summary>
       </details>
@@ -12,7 +12,7 @@
         {{ if .IsHome }}
           <h1>{{ $logoLink | safeHTML }}</h1>
         {{ else }}
-          <h2>{{ $logoLink | safeHTML }}</h2>
+          <div>{{ $logoLink | safeHTML }}</div>
         {{ end }}
       </div>
     </div>
