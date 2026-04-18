@@ -30,7 +30,8 @@
 .care-card::before {
     content: '';
     /* z-index 1 keeps the line below the z-[2] click-overlay in card.html */
-    @apply absolute top-0 inset-x-0 h-[2px] z-[1] [background:var(--gradient-brand)];
+    @apply absolute top-0 inset-x-0 h-[2px] z-[1];
+    background: var(--gradient-brand);
 }
 
 /* ── .prose-care: typography for long-form article content ──────
