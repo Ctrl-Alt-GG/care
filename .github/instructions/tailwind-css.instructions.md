@@ -12,7 +12,6 @@ applyTo: 'assets/css/**/*.css'
 ```css
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
-@custom-variant dark (&:where(.dark, .dark *, [data-theme="dark"], [data-theme="dark"] *));
 ```
 
 The compiled output lives under `assets/css/compiled/` and is **git-ignored**.
@@ -34,9 +33,9 @@ properties stay visually coherent.
 
 - Prefer utility classes in templates; lift patterns into `@layer components`
   in `main.css` once they repeat.
-- Dark mode is expressed with the `dark:` variant. It is keyed off the
-  `.dark` class / `[data-theme="dark"]` attribute via the `@custom-variant`
-  declaration — do not introduce `prefers-color-scheme` media queries.
+- Dark mode is expressed with the `dark:` variant. It uses Tailwind v4's
+  built-in behaviour, which activates via `prefers-color-scheme: dark`. Do not
+  re-introduce a `@custom-variant dark` override or class-based toggling.
 - Typography plugin is enabled; style Markdown output via `.prose` selectors
   under `@layer components`, not by decorating individual elements.
 - If you need a new Tailwind plugin, register it with `@plugin "name"` in

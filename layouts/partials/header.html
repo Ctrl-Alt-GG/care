@@ -34,10 +34,6 @@
           <a class="flex items-center rounded-lg px-3 py-1.5 text-xs font-semibold text-zinc-600 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" href="{{ .RelPermalink }}">{{ upper .Lang }}</a>
         {{- end -}}
       {{- end -}}
-      <button id="theme-toggle" type="button" aria-label="Toggle dark mode" class="flex items-center justify-center w-9 h-9 rounded-lg text-zinc-500 hover:text-zinc-700 hover:bg-zinc-100 dark:text-zinc-400 dark:hover:text-zinc-200 dark:hover:bg-zinc-800 transition-colors">
-        {{ partial "icon.html" (dict "name" "sun" "id" "theme-toggle-sun" "class" "hidden" "size" 18) }}
-        {{ partial "icon.html" (dict "name" "moon" "id" "theme-toggle-moon" "class" "block" "size" 18) }}
-      </button>
     </div>
   </div>
   {{- partial "menu.html" (dict "menuID" "main" "page" .) -}}
