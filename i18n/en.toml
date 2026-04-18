@@ -129,3 +129,6 @@ other = "Back to homepage"
 
 [tags_label]
 other = "Tags"
+
+[read_more]
+other = "Read more"

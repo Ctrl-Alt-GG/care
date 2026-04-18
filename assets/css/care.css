@@ -1,0 +1,60 @@
+/* ──────────────────────────────────────────────────────────────────
+   care.css — Ctrl-Alt-GG Care component CSS.
+
+   Two kinds of rules live here:
+   1. .care-card — a shared @layer components class that groups the
+      repeated card pattern (top gradient line, lift, glow) used by
+      card.html and the home category grid.  @apply keeps templates
+      readable while keeping the hover logic in one place.
+   2. .prose-care — typography for long-form article content.
+      Targets bare markdown-rendered elements (h2::after, h3, hr)
+      that have no Tailwind class handle — CSS selectors are
+      mandatory here.
+   ────────────────────────────────────────────────────────────────── */
+
+/* ── .care-card: shared interactive card base ───────────────────
+   Both card.html (list cards) and home.html (category cards) apply
+   this class, then each adds its own background/layout utilities.
+   ─────────────────────────────────────────────────────────────── */
+.care-card {
+    /* Structure & default surface */
+    @apply relative overflow-hidden rounded-2xl border border-zinc-200 dark:border-zinc-800;
+    /* Transition the properties that animate on hover */
+    @apply transition-[transform,box-shadow,border-color] duration-[250ms];
+    /* Hover: lift + brand glow shadow + brand border tint */
+    @apply hover:-translate-y-[3px] hover:[box-shadow:var(--shadow-card-hover)] hover:[border-color:var(--border-card-hover)];
+}
+
+/* Brand top-gradient line — rendered via ::before so it works on
+   both <article> and <a> elements without extra markup. */
+.care-card::before {
+    content: '';
+    /* z-index 1 keeps the line below the z-[2] click-overlay in card.html */
+    @apply absolute top-0 inset-x-0 h-[2px] z-[1];
+    background: var(--gradient-brand);
+}
+
+/* ── .prose-care: typography for long-form article content ──────
+   Applied to the #content div in single.html.  Targets bare
+   markdown-rendered elements (h2, h3, hr) that cannot receive
+   Tailwind classes directly — CSS selectors are mandatory here.
+   ─────────────────────────────────────────────────────────────── */
+
+.prose-care h2 {
+    @apply relative pb-2;
+}
+
+.prose-care h2::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-9 h-[2px] rounded-[1px];
+    background: var(--gradient-brand);
+}
+
+.prose-care h3 {
+    @apply pl-3 border-l-[3px] border-l-brand-700;
+}
+
+.prose-care hr {
+    @apply border-none h-px;
+    background: var(--gradient-brand-hr);
+}

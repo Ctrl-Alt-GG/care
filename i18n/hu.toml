@@ -129,3 +129,6 @@ other = "Vissza a kezdőlapra"
 
 [tags_label]
 other = "Címkék"
+
+[read_more]
+other = "Tovább"

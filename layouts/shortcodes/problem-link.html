@@ -11,12 +11,12 @@
   "arrow"    "arrow-right"
 -}}
 {{- $iconName := index $iconMap $icon | default "arrow-right" -}}
-<a href="{{ $href }}" class="problem-link group flex items-center gap-4 w-full my-3 px-5 py-4 rounded-xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 hover:border-blue-400 dark:hover:border-blue-500 hover:bg-blue-50 dark:hover:bg-blue-950/30 transition-all duration-200 no-underline not-prose">
-  <span class="flex-shrink-0 text-blue-500 dark:text-blue-400">
+<a href="{{ $href }}" class="relative overflow-hidden group flex items-center gap-4 w-full my-3 px-5 py-4 rounded-xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 transition-[transform,box-shadow,border-color,background-color] duration-[250ms] hover:-translate-y-[2px] hover:bg-blue-50 dark:hover:bg-blue-950/30 hover:[box-shadow:var(--shadow-link-hover)] hover:[border-color:var(--border-link-hover)] no-underline not-prose before:content-[''] before:absolute before:top-0 before:inset-x-0 before:h-[2px] before:[background:var(--gradient-brand)]">
+  <span class="flex-shrink-0 text-brand-600 dark:text-brand-400">
     {{ partial "icon.html" (dict "name" $iconName "size" 22) }}
   </span>
   <span class="flex-1 text-zinc-800 dark:text-zinc-200 font-medium text-base">{{ .Inner | markdownify | plainify }}</span>
-  <span class="flex-shrink-0 text-zinc-400 group-hover:text-blue-500 dark:group-hover:text-blue-400 transition-colors duration-200">
+  <span class="flex-shrink-0 text-zinc-400 group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors duration-200">
     {{ partial "icon.html" (dict "name" "arrow-right" "size" 18) }}
   </span>
 </a>
