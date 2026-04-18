@@ -115,8 +115,9 @@ parameter contract before inventing new markup.
 - **Never** edit anything under `assets/css/compiled/` — it is generated.
 - Prefer utility classes in templates. When a pattern repeats, lift it into
   `@layer components` in `main.css`.
-- Dark mode is expressed via the `dark` class; the custom variant is declared
-  with `@custom-variant dark (&:where(.dark, .dark *, ...))`.
+- Dark mode uses Tailwind v4's built-in `dark:` variant, which activates via
+  the `prefers-color-scheme: dark` media query. No custom variant or JS toggle
+  is required.
 - Brand colours are the `--color-brand-*` CSS custom properties in `@theme`.
   Do not introduce ad-hoc hexes in templates.
 
