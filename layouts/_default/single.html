@@ -15,7 +15,7 @@
         <p id="lead" class="text-lg text-zinc-500 dark:text-zinc-400 leading-relaxed italic">{{ . }}</p>
       {{ end }}
     </header>
-    <div id="content" class="prose prose-zinc lg:prose-lg dark:prose-invert prose-headings:font-bold prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline prose-code:text-sm prose-pre:rounded-xl mb-14">
+    <div id="content" class="prose-care prose prose-zinc lg:prose-lg dark:prose-invert prose-headings:font-bold prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline prose-code:text-sm prose-pre:rounded-xl mb-14">
       {{- .Content -}}
       {{- partial "terms.html" (dict "taxonomy" "tags" "page" .) -}}
     </div>
@@ -25,21 +25,21 @@
     {{- if or .PrevInSection .NextInSection -}}
     <nav class="pt-8 border-t border-zinc-100 dark:border-zinc-800 grid grid-cols-1 sm:grid-cols-2 gap-3" aria-label="Article navigation">
       {{- with .PrevInSection -}}
-      <a href="{{ .Permalink }}" class="group flex flex-col gap-1.5 p-4 rounded-xl border border-zinc-200 dark:border-zinc-800 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-sm transition-all">
+      <a href="{{ .Permalink }}" class="group flex flex-col gap-1.5 p-4 rounded-xl border border-zinc-200 dark:border-zinc-800 transition-[transform,box-shadow,border-color] duration-[250ms] hover:-translate-y-[2px] hover:[box-shadow:var(--shadow-link-hover)] hover:[border-color:var(--border-link-hover)]">
         <span class="flex items-center gap-1 text-xs text-zinc-400 dark:text-zinc-500 font-medium">
           {{ partial "icon.html" (dict "name" "arrow-left" "class" "w-3.5 h-3.5 shrink-0") }}
           {{ i18n "pagination_prev" | default "Previous" }}
         </span>
-        <span class="text-sm font-semibold text-zinc-700 dark:text-zinc-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2">{{ .Title }}</span>
+        <span class="text-sm font-semibold text-zinc-700 dark:text-zinc-300 group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors line-clamp-2">{{ .Title }}</span>
       </a>
       {{- else -}}<div></div>{{- end -}}
       {{- with .NextInSection -}}
-      <a href="{{ .Permalink }}" class="group flex flex-col gap-1.5 p-4 rounded-xl border border-zinc-200 dark:border-zinc-800 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-sm transition-all sm:text-right sm:items-end">
+      <a href="{{ .Permalink }}" class="group flex flex-col gap-1.5 p-4 rounded-xl border border-zinc-200 dark:border-zinc-800 transition-[transform,box-shadow,border-color] duration-[250ms] hover:-translate-y-[2px] hover:[box-shadow:var(--shadow-link-hover)] hover:[border-color:var(--border-link-hover)] sm:text-right sm:items-end">
         <span class="flex items-center gap-1 text-xs text-zinc-400 dark:text-zinc-500 font-medium">
           {{ i18n "pagination_next" | default "Next" }}
           {{ partial "icon.html" (dict "name" "arrow-right" "class" "w-3.5 h-3.5 shrink-0") }}
         </span>
-        <span class="text-sm font-semibold text-zinc-700 dark:text-zinc-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2">{{ .Title }}</span>
+        <span class="text-sm font-semibold text-zinc-700 dark:text-zinc-300 group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors line-clamp-2">{{ .Title }}</span>
       </a>
       {{- else -}}<div></div>{{- end -}}
     </nav>

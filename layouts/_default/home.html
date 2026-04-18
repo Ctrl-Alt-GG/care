@@ -3,14 +3,14 @@
   <!-- Hero Section -->
   <section class="py-16 md:py-24 border-b border-zinc-100 dark:border-zinc-800 mb-12">
     <div class="max-w-3xl">
-      <p class="text-sm font-semibold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4">Ctrl-Alt-GG</p>
+      <p class="text-sm font-semibold uppercase tracking-widest text-brand-600 dark:text-brand-400 mb-4">Ctrl-Alt-GG</p>
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-6 leading-tight">
         {{ i18n "home_hero_title" | default .Site.Title }}
       </h1>
       <p class="text-xl text-zinc-500 dark:text-zinc-400 mb-10 leading-relaxed max-w-xl">
         {{ .Site.Params.description }}
       </p>
-      <a href="{{ "help/start-here" | relLangURL }}" class="inline-flex items-center gap-2 px-7 py-3.5 bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-800 text-white font-semibold rounded-xl transition duration-200 shadow-sm shadow-blue-200 dark:shadow-none text-base">
+      <a href="{{ "help/start-here" | relLangURL }}" class="inline-flex items-center gap-2 px-7 py-3.5 bg-brand-600 hover:bg-brand-700 text-white font-semibold rounded-xl transition-colors duration-200 shadow-sm text-base">
         {{ i18n "start_here_title" }}
         {{ partial "icon.html" (dict "name" "arrow-right" "size" 18) }}
       </a>
@@ -47,12 +47,12 @@
             {{ $desc = "" }}
           {{ end }}
           {{ $iconName := index $iconMap $catSlug | default "question-circle" }}
-          <a href="{{ $url }}" class="group flex flex-col gap-4 p-6 bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-2xl hover:border-blue-300 dark:hover:border-blue-700 hover:bg-white dark:hover:bg-zinc-800/80 transition-all duration-200 hover:shadow-sm">
-            <div class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center flex-shrink-0">
+          <a href="{{ $url }}" class="relative overflow-hidden rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900 group flex flex-col gap-4 p-6 transition-[transform,box-shadow,border-color,background-color] duration-[250ms] hover:-translate-y-[3px] hover:bg-white dark:hover:bg-zinc-800/80 hover:[box-shadow:var(--shadow-card-hover)] hover:[border-color:var(--border-card-hover)] before:content-[''] before:absolute before:top-0 before:inset-x-0 before:h-[2px] before:z-[1] before:[background:var(--gradient-brand)]">
+            <div class="w-10 h-10 rounded-xl bg-brand-50 dark:bg-brand-950/50 text-brand-600 dark:text-brand-400 flex items-center justify-center flex-shrink-0">
               {{ partial "icon.html" (dict "name" $iconName "size" 24) }}
             </div>
             <div>
-              <h3 class="text-base font-semibold text-zinc-900 dark:text-zinc-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200 mb-1">{{ $title }}</h3>
+              <h3 class="text-base font-semibold text-zinc-900 dark:text-zinc-100 group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors duration-200 mb-1">{{ $title }}</h3>
               {{ if $desc }}
                 <p class="text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed">{{ $desc }}</p>
               {{ end }}

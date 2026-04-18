@@ -1,12 +1,111 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+@custom-variant dark {
+  /* Respect an explicit opt-in (class or data-theme attribute) */
+  &:where(.dark, .dark *, [data-theme="dark"], [data-theme="dark"] *) {
+    @slot;
+  }
+  /* Fall back to OS preference when the user hasn't set an explicit theme */
+  @media (prefers-color-scheme: dark) {
+    &:not([data-theme="light"], [data-theme="light"] *) {
+      @slot;
+    }
+  }
+}
+
+/* ── Ctrl-Alt-GG Care design tokens ──────────────────────────── */
 @theme {
+  --color-brand-50:  #fff1f1;
+  --color-brand-100: #ffd9d9;
+  --color-brand-200: #ffb3b3;
+  --color-brand-300: #ff7676;
+  --color-brand-400: #f14848;
+  --color-brand-500: #dd2525;
+  --color-brand-600: #aa0000;
+  --color-brand-700: #770000;
+  --color-brand-800: #560000;
+  --color-brand-900: #3d0000;
+  --color-brand-950: #160505;
+
   --font-sans: "Inter", "Inter var", ui-sans-serif, system-ui, -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
     "Liberation Sans", Arial, sans-serif;
 
-  --color-brand-400: #f14848;
-  --color-brand-600: #aa0000;
+  --radius-card:  0.875rem;
+  --radius-panel: 1.25rem;
 }
+
+/* ── Adaptive surface / border tokens ───────────────────────────
+   Custom properties that switch light ↔ dark.
+   Exposed as Tailwind utilities via @theme inline below.
+   ─────────────────────────────────────────────────────────────── */
+:root {
+  --surface:      var(--color-zinc-50);
+  --on-surface:   var(--color-zinc-900);
+  --surface-alt:  var(--color-zinc-100);
+  --surface-card: var(--color-white);
+  --border:       var(--color-zinc-200);
+
+  /* ── Reusable card / component effect values ── */
+  --gradient-brand:      linear-gradient(90deg, var(--color-brand-600), var(--color-brand-400));
+  --gradient-brand-hr:   linear-gradient(90deg, transparent, color-mix(in srgb, var(--color-brand-700) 35%, transparent), transparent);
+  --shadow-card-hover:   0 8px 24px color-mix(in srgb, var(--color-brand-600) 12%, transparent);
+  --shadow-link-hover:   0 6px 20px color-mix(in srgb, var(--color-brand-600) 10%, transparent);
+  --border-card-hover:   color-mix(in srgb, var(--color-brand-600) 30%, transparent);
+  --border-link-hover:   color-mix(in srgb, var(--color-brand-600) 25%, transparent);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --surface:      var(--color-zinc-950);
+    --on-surface:   var(--color-zinc-100);
+    --surface-alt:  var(--color-zinc-900);
+    --surface-card: var(--color-zinc-900);
+    --border:       var(--color-zinc-800);
+  }
+}
+
+.dark,
+[data-theme="dark"] {
+  --surface:      var(--color-zinc-950);
+  --on-surface:   var(--color-zinc-100);
+  --surface-alt:  var(--color-zinc-900);
+  --surface-card: var(--color-zinc-900);
+  --border:       var(--color-zinc-800);
+}
+
+@theme inline {
+  --color-surface:      var(--surface);
+  --color-on-surface:   var(--on-surface);
+  --color-surface-alt:  var(--surface-alt);
+  --color-surface-card: var(--surface-card);
+  --color-border:       var(--border);
+}
+
+/* ── Container utility ───────────────────────────────────────────
+   Fluid padding that grows with the viewport; max-width cap for
+   ultra-wide screens.  Use class="container" in templates.
+   ─────────────────────────────────────────────────────────────── */
+@utility container {
+  margin-inline: auto;
+  width: 100%;
+  padding-inline: 1rem;
+
+  @media (width >= theme(--breakpoint-sm)) {
+    padding-inline: 1.5rem;
+  }
+
+  @media (width >= theme(--breakpoint-lg)) {
+    padding-inline: 2rem;
+  }
+
+  @media (width >= theme(--breakpoint-xl)) {
+    max-width: 80rem;
+    padding-inline: 3rem;
+  }
+}
+
+/* ── Component styles (only rules that require CSS selectors) ── */
+@import "./care.css" layer(components);
 

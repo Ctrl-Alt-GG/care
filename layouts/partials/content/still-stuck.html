@@ -1,5 +1,5 @@
 {{- $lang := .Site.Language.Lang -}}
-<div class="mt-12 rounded-xl border-2 border-blue-200 dark:border-blue-800 bg-blue-50 dark:bg-blue-950/40 p-6">
+<div class="relative overflow-hidden mt-12 rounded-xl border-2 border-blue-200 dark:border-blue-800 bg-blue-50 dark:bg-blue-950/40 p-6 before:content-[''] before:absolute before:top-0 before:inset-x-0 before:h-[3px] before:[background:var(--gradient-brand)]">
   {{ if eq $lang "hu" }}
   <h2 class="text-lg font-bold text-blue-900 dark:text-blue-100 mb-3">Még mindig nem megy?</h2>
   <ol class="space-y-2 text-sm text-zinc-700 dark:text-zinc-300 list-decimal list-inside">

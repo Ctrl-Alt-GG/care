@@ -1,0 +1,32 @@
+/* ──────────────────────────────────────────────────────────────────
+   care.css — Ctrl-Alt-GG Care component CSS.
+
+   Only rules that require CSS selectors are kept here (e.g. ::after
+   on markdown-rendered elements that have no utility class handle).
+   Everything else uses Tailwind utility classes directly in templates.
+   ────────────────────────────────────────────────────────────────── */
+
+/* ── .prose-care: typography for long-form article content ──────
+   Applied to the #content div in single.html.  Targets bare
+   markdown-rendered elements (h2, h3, hr, a) that cannot receive
+   Tailwind classes directly — CSS selectors are mandatory here.
+   ─────────────────────────────────────────────────────────────── */
+
+.prose-care h2 {
+    @apply relative pb-2;
+}
+
+.prose-care h2::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-9 h-[2px] rounded-[1px];
+    background: var(--gradient-brand);
+}
+
+.prose-care h3 {
+    @apply pl-3 border-l-[3px] border-l-brand-700;
+}
+
+.prose-care hr {
+    @apply border-none h-px;
+    background: var(--gradient-brand-hr);
+}
