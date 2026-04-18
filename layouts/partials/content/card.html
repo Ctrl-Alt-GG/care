@@ -1,4 +1,5 @@
-<article class="relative overflow-hidden rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 group flex flex-col transition-[transform,box-shadow,border-color] duration-[250ms] hover:-translate-y-[3px] hover:[box-shadow:var(--shadow-card-hover)] hover:[border-color:var(--border-card-hover)] before:content-[''] before:absolute before:top-0 before:inset-x-0 before:h-[2px] before:z-[1] before:[background:var(--gradient-brand)]">
+<article class="care-card group flex flex-col bg-white dark:bg-zinc-900">
+  {{- /* z-[2]: sits above the before:z-[1] brand top line, making the whole card clickable */ -}}
   <a class="absolute inset-0 z-[2]" href="{{ .Permalink }}" aria-label="{{ .LinkTitle | markdownify | plainify | htmlUnescape }}"></a>
   <div class="p-5 flex flex-col flex-1">
     <h3 class="font-semibold text-zinc-900 dark:text-zinc-100 group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors mb-2 text-base leading-snug">{{ .LinkTitle }}</h3>

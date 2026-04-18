@@ -47,7 +47,7 @@
             {{ $desc = "" }}
           {{ end }}
           {{ $iconName := index $iconMap $catSlug | default "question-circle" }}
-          <a href="{{ $url }}" class="relative overflow-hidden rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900 group flex flex-col gap-4 p-6 transition-[transform,box-shadow,border-color,background-color] duration-[250ms] hover:-translate-y-[3px] hover:bg-white dark:hover:bg-zinc-800/80 hover:[box-shadow:var(--shadow-card-hover)] hover:[border-color:var(--border-card-hover)] before:content-[''] before:absolute before:top-0 before:inset-x-0 before:h-[2px] before:z-[1] before:[background:var(--gradient-brand)]">
+          <a href="{{ $url }}" class="care-card group flex flex-col gap-4 p-6 bg-zinc-50 dark:bg-zinc-900 hover:bg-white dark:hover:bg-zinc-800/80 transition-colors duration-[250ms]">
             <div class="w-10 h-10 rounded-xl bg-brand-50 dark:bg-brand-950/50 text-brand-600 dark:text-brand-400 flex items-center justify-center flex-shrink-0">
               {{ partial "icon.html" (dict "name" $iconName "size" 24) }}
             </div>
