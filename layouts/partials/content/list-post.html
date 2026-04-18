@@ -8,7 +8,7 @@
 		{{- else }}
 		{{- with $imageResource := resources.Get .Params.image -}}
 		{{- $croppedImg := $imageResource.Crop "250x250 Center" -}}
-		<img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ $croppedImg.Permalink }}" alt="{{ $.Title }}" width="{{ $croppedImg.Width }}" height="{{ $croppedImg.Height }}">
+		<img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ $croppedImg.Permalink }}" alt="{{ $.LinkTitle }}" width="{{ $croppedImg.Width }}" height="{{ $croppedImg.Height }}">
 		{{- end }}
 		{{- end }}
 	</figure>
