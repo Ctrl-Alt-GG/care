@@ -1,0 +1,38 @@
+{
+	"name": "Ctrl-Alt-GG Care (Hugo + Tailwind)",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-bookworm",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "lts"
+		},
+		"ghcr.io/devcontainers/features/hugo:1": {
+			"extended": true,
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/git:1": {}
+	},
+	"postCreateCommand": "npm ci",
+	"forwardPorts": [1313],
+	"portsAttributes": {
+		"1313": {
+			"label": "Hugo dev server",
+			"onAutoForward": "notify"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"budparr.language-hugo-vscode",
+				"bradlc.vscode-tailwindcss",
+				"tamasfe.even-better-toml",
+				"esbenp.prettier-vscode",
+				"editorconfig.editorconfig"
+			],
+			"settings": {
+				"files.eol": "\n",
+				"terminal.integrated.defaultProfile.linux": "bash"
+			}
+		}
+	},
+	"remoteUser": "node"
+}
