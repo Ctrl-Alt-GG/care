@@ -123,10 +123,12 @@ parameter contract before inventing new markup.
 
 ## 8. Deployment
 
-`main` pushes and PRs are built and deployed by the Azure Static Web Apps
-workflow under `.github/workflows/`. The required build order (`npm ci` →
-`npm run build:css` → `hugo`) is encoded there; keep it consistent with
-`package.json` scripts. The deploy uploads from `app_location: /public`.
+`main` pushes and PRs are built once by the workflow under `.github/workflows/`.
+The resulting artifact is deployed to Azure Static Web Apps, and `main` pushes
+also publish it as an OCI image to GitHub Container Registry. The required build
+order (`npm ci` → `npm run build:css` → `hugo`) is encoded there; keep it
+consistent with `package.json` scripts. The Azure deploy uploads from
+`app_location: /public`.
 
 Do not rename `public/`, do not commit it, and do not change the secret name
 without updating Azure.

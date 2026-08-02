@@ -5,8 +5,8 @@ applyTo: '.github/workflows/*.yml'
 
 # Workflow conventions
 
-Deployment to Azure Static Web Apps happens through the workflow file in
-this directory. Treat it as load-bearing.
+Deployment to Azure Static Web Apps and OCI publishing happen through the
+workflow file in this directory. Treat it as load-bearing.
 
 ## Build order (must not change)
 
@@ -17,9 +17,12 @@ runs `npm ci`, then builds Tailwind, then builds Hugo:
 2. `npm run build:css`
 3. `hugo --environment production --minify`
 
-If you add a new build step, insert it **before** the `Build And Deploy`
-step and do not reorder the three above. The npm scripts encode the same
-order locally (`package.json` → `scripts.build`); keep them consistent.
+The `build_site_job` runs these steps once and uploads `public/` as an
+intermediate artifact. Azure deployment and OCI publishing consume that
+artifact; do not rebuild the site in either job. If you add a new build step,
+insert it before the artifact upload and do not reorder the three above. The
+npm scripts encode the same order locally (`package.json` → `scripts.build`);
+keep them consistent.
 
 ## Azure Static Web Apps deploy
 
@@ -30,6 +33,14 @@ order locally (`package.json` → `scripts.build`); keep them consistent.
 - The API token secret name encodes the Azure-generated site slug. Do not
   rename it without rotating the secret on the Azure side.
 - The `close_pull_request_job` tears down preview environments; keep it.
+
+## OCI publishing
+
+- Pushes to `main` publish `ghcr.io/ctrl-alt-gg/care` with `latest` and
+  source-commit tags.
+- Build the image from the shared site artifact; do not duplicate the Hugo or
+  Tailwind build inside the container.
+- Keep the runtime unprivileged and pin its base image by digest.
 
 ## Versions
 
