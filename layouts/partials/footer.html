@@ -9,7 +9,8 @@
       <p class="text-sm font-medium text-zinc-700 dark:text-zinc-300 mb-2">{{ i18n "footer_tagline" }}</p>
       <p class="text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed">{{ i18n "footer_desc" }}</p>
     </div>
-    <div class="md:w-3/5">
+    <!-- Links -->
+    <div class="md:w-3/5 md:flex md:justify-end">
       <nav>
         <p class="text-xs font-semibold uppercase tracking-widest text-zinc-400 dark:text-zinc-500 mb-4">{{ i18n "footer_nav_label" | default "Navigation" }}</p>
         <ul class="flex flex-wrap gap-x-6 gap-y-3">
@@ -22,36 +23,13 @@
   </div>
   <div class="border-t border-zinc-200 dark:border-zinc-800 pt-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
     <p class="text-xs text-zinc-400 dark:text-zinc-500">Copyright &copy; {{ now.Year }} Ctrl-Alt-GG. {{ i18n "footer_all_rights_reserved" }}</p>
-    <nav aria-label="{{ i18n `footer_family_label` }}" class="family-links">
-      <span class="sr-only">{{ i18n "footer_family_label" }}</span>
-      <a class="family-link family-link--homepage" href="https://www.ctrl-alt-gg.hu/" target="_blank" rel="noopener noreferrer">
-        <img src="https://www.ctrl-alt-gg.hu/favicon.svg" alt="" aria-hidden="true">
-        <span>{{ i18n "family_homepage" }}</span>
-      </a>
-      <a class="family-link family-link--care" href="https://care.ctrl-alt-gg.hu/" target="_blank" rel="noopener noreferrer">
-        <img src="/favicon.svg" alt="" aria-hidden="true">
-        <span>{{ i18n "family_care" }}</span>
-      </a>
-      <a class="family-link family-link--spawn" href="https://spawn.ctrl-alt-gg.hu/" target="_blank" rel="noopener noreferrer">
-        <img src="https://spawn.ctrl-alt-gg.hu/favicon.svg" alt="" aria-hidden="true">
-        <span>{{ i18n "family_spawn" }}</span>
-      </a>
-      <a class="family-link family-link--lobby" href="https://lobby.ctrl-alt-gg.hu/" target="_blank" rel="noopener noreferrer">
-        <img src="https://lobby.ctrl-alt-gg.hu/static/favicon.svg" alt="" aria-hidden="true">
-        <span>{{ i18n "family_lobby" }}</span>
-      </a>
-      <a class="family-link family-link--bracket" href="https://bracket.ctrl-alt-gg.hu/" target="_blank" rel="noopener noreferrer">
-        <img src="https://bracket.ctrl-alt-gg.hu/favicon.svg" alt="" aria-hidden="true">
-        <span>{{ i18n "family_bracket" }}</span>
-      </a>
-      <a class="family-link family-link--streams" href="https://streams.ctrl-alt-gg.hu/" target="_blank" rel="noopener noreferrer">
-        <img src="https://minio.streams.ctrl-alt-gg.hu/streams-static/catalog/favicon.8a411497b28d.svg" alt="" aria-hidden="true">
-        <span>{{ i18n "family_streams" }}</span>
-      </a>
-      <a class="family-link family-link--filehost" href="https://filehost.ctrl-alt-gg.hu/" target="_blank" rel="noopener noreferrer">
-        <img src="https://filehost.ctrl-alt-gg.hu/public/static/favicon.svg" alt="" aria-hidden="true">
-        <span>{{ i18n "family_filehost" }}</span>
-      </a>
+    <nav aria-label="{{ i18n `footer_family_label` }}" class="flex items-center gap-3 text-xs">
+      <span class="text-zinc-400 dark:text-zinc-500">{{ i18n "footer_family_label" }}:</span>
+      <a class="text-zinc-500 hover:text-brand-600 dark:text-zinc-400 dark:hover:text-brand-400 font-medium transition-colors" href="https://www.ctrl-alt-gg.hu/">{{ i18n "family_homepage" }}</a>
+      <span aria-hidden="true" class="text-zinc-300 dark:text-zinc-700">·</span>
+      <a class="text-zinc-500 hover:text-brand-600 dark:text-zinc-400 dark:hover:text-brand-400 font-medium transition-colors" href="https://spawn.ctrl-alt-gg.hu/">{{ i18n "family_spawn" }}</a>
+      <span aria-hidden="true" class="text-zinc-300 dark:text-zinc-700">·</span>
+      <a class="text-zinc-500 hover:text-brand-600 dark:text-zinc-400 dark:hover:text-brand-400 font-medium transition-colors" href="https://lobby.ctrl-alt-gg.hu/">{{ i18n "family_lobby" }}</a>
     </nav>
   </div>
 </div>

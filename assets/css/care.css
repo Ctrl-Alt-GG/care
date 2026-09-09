@@ -58,35 +58,3 @@
     @apply border-none h-px;
     background: var(--gradient-brand-hr);
 }
-
-.family-links {
-    @apply flex flex-wrap justify-end gap-2;
-}
-
-.family-link {
-    --family-color: var(--color-brand-600);
-    @apply inline-flex items-center gap-2 rounded-lg px-3 py-2 text-xs font-semibold text-white transition-[transform,box-shadow,background-color] duration-200 hover:-translate-y-0.5 hover:shadow-md;
-    background: var(--family-color);
-}
-
-.family-link:hover {
-    background: color-mix(in srgb, var(--family-color) 82%, black);
-}
-
-.family-link img {
-    @apply size-5 rounded object-contain;
-}
-
-.family-link--homepage { --family-color: var(--color-family-homepage); }
-.family-link--care { --family-color: var(--color-family-care); }
-.family-link--spawn { --family-color: var(--color-family-spawn); }
-.family-link--lobby { --family-color: var(--color-family-lobby); }
-.family-link--bracket { --family-color: var(--color-family-bracket); }
-.family-link--streams { --family-color: var(--color-family-streams); }
-.family-link--filehost { --family-color: var(--color-family-filehost); }
-
-@media (max-width: 639px) {
-    .family-links {
-        @apply justify-start;
-    }
-}
