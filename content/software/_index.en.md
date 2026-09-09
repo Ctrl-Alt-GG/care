@@ -1,4 +1,5 @@
 ---
 title: "Software Basics"
-description: "File sharing, local downloads, and OS-specific setup tips."
+description: "Bracket tournaments, Streams broadcasts, file sharing, local downloads, and software setup."
+weight: 30
 ---

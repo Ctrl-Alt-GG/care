@@ -1,4 +1,5 @@
 ---
 title: "Szoftver alapok"
-description: "Fájlmegosztás, helyi letöltések és operációs rendszer specifikus beállítások."
+description: "Bracket-versenyek, Streams-közvetítések, fájlmegosztás, helyi letöltések és szoftverbeállítások."
+weight: 30
 ---
