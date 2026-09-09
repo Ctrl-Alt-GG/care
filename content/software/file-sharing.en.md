@@ -7,6 +7,31 @@ draft: false
 
 Sharing large files over the LAN is fast and saves internet bandwidth.
 
+## Ctrl-Alt-GG Filehost
+
+The event's file-sharing service is available in a browser and over SMB at [filehost.ctrl-alt-gg.hu](https://filehost.ctrl-alt-gg.hu/).
+
+**Login details:**
+
+- **Username:** `lanshare`
+- **Password:** `lanshare`
+
+### In a browser
+
+Open [filehost.ctrl-alt-gg.hu](https://filehost.ctrl-alt-gg.hu/) and sign in with the details above.
+
+### Over SMB
+
+In Windows, enter this in the File Explorer address bar:
+
+```text
+\\filehost.ctrl-alt-gg.hu
+```
+
+When prompted, enter the `lanshare` username and password. To use it as a mapped drive, choose **This PC > Map network drive** and enter the same SMB address.
+
+Do not reuse these credentials for another service, and do not upload personal or confidential files to a shared location.
+
 ## Allowed Tools
 
 - **DC++ (Direct Connect):** If we run a hub, use it.

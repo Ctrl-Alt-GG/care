@@ -7,6 +7,31 @@ draft: false
 
 A nagy fájlok LAN-on való megosztása gyors, és kíméli az internet sávszélességét.
 
+## Ctrl-Alt-GG Filehost
+
+A rendezvény saját fájlmegosztója a [filehost.ctrl-alt-gg.hu](https://filehost.ctrl-alt-gg.hu/) címen érhető el böngészőből és SMB-n keresztül is.
+
+**Belépési adatok:**
+
+- **Felhasználónév:** `lanshare`
+- **Jelszó:** `lanshare`
+
+### Böngészőből
+
+Nyisd meg a [filehost.ctrl-alt-gg.hu](https://filehost.ctrl-alt-gg.hu/) oldalt, majd jelentkezz be a fenti adatokkal.
+
+### SMB-n keresztül
+
+Windowsban a Fájlkezelő címsorába írd be:
+
+```text
+\\filehost.ctrl-alt-gg.hu
+```
+
+Amikor a rendszer kéri, add meg a `lanshare` felhasználónevet és jelszót. Ha meghajtóként szeretnéd használni, a **This PC > Map network drive** lehetőségnél ugyanezt az SMB-címet add meg.
+
+Ne használd ezeket az adatokat más szolgáltatásban, és ne tölts fel személyes vagy bizalmas fájlokat közös tárhelyre.
+
 ## Engedélyezett eszközök
 
 - **DC++ (Direct Connect):** Ha fut hub, használd azt.
