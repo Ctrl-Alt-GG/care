@@ -28,8 +28,8 @@ Check the time again before you play, as delays may change it. Bracket displays 
 
 ## Put it on a shared display
 
-Open an enabled **Public dashboard**, then select **Big screen**. For court assignments, use **Courts**. On a shared display, use the public view rather than a signed-in organizer's management workspace.
+Open an enabled **Public dashboard**, then select **Big screen**. For court assignments, use **Courts**.
 
 ## A result is wrong
 
-Note the tournament name, both teams, the round, and the correct score, then tell an organizer. As a player or spectator, do not create a new tournament to correct it. The organizer workflow is covered in the [score-entry guide]({{< relref "record-tournament-results.md" >}}).
+Note the tournament name, both teams, the round, and the correct score, then tell an organizer.

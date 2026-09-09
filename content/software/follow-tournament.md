@@ -28,8 +28,8 @@ A **Public dashboard** csak megfelelően beállított és engedélyezett megoszt
 
 ## Kivetítőre szeretném tenni
 
-Nyisd meg az engedélyezett **Public dashboard** oldalt, majd válaszd a **Big screen** hivatkozást. A pályabeosztáshoz használd a **Courts** nézetet. Megosztott kijelzőn a nyilvános nézetet nyisd meg, ne egy bejelentkezett szervező kezelőfelületét.
+Nyisd meg az engedélyezett **Public dashboard** oldalt, majd válaszd a **Big screen** hivatkozást. A pályabeosztáshoz használd a **Courts** nézetet.
 
 ## Hibás eredményt látok
 
-Jegyezd fel a verseny nevét, a két csapatot, a fordulót és a helyes eredményt, majd szólj a szervezőnek. Játékosként vagy nézőként ne hozz létre új versenyt a javításhoz. A szervezői munkafolyamatot az [eredményrögzítési útmutató]({{< relref "record-tournament-results.md" >}}) ismerteti.
+Jegyezd fel a verseny nevét, a két csapatot, a fordulót és a helyes eredményt, majd szólj a szervezőnek.
