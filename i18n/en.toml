@@ -109,6 +109,15 @@ other = "Spawn"
 [family_lobby]
 other = "Lobby"
 
+[family_bracket]
+other = "Bracket"
+
+[family_streams]
+other = "Streams"
+
+[family_filehost]
+other = "Filehost"
+
 [pagination_prev]
 other = "Previous"
 

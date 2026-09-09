@@ -14,6 +14,13 @@
   --color-brand-800: #560000;
   --color-brand-900: #3d0000;
   --color-brand-950: #160505;
+  --color-family-homepage: #aa0000;
+  --color-family-care: #be123c;
+  --color-family-spawn: #ea580c;
+  --color-family-lobby: #2563eb;
+  --color-family-bracket: #0f766e;
+  --color-family-streams: #0891b2;
+  --color-family-filehost: #b45309;
 
   --font-sans: "Inter", "Inter var", ui-sans-serif, system-ui, -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
