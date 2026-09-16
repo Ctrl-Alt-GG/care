@@ -142,6 +142,7 @@ jobs:
       packages: write
       id-token: write
       attestations: write
+      artifact-metadata: write
     steps:
       - name: Verify current main commit
         uses: actions/github-script@v9
