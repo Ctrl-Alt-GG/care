@@ -140,6 +140,8 @@ jobs:
     permissions:
       contents: read
       packages: write
+      id-token: write
+      attestations: write
     steps:
       - name: Verify current main commit
         uses: actions/github-script@v9
@@ -177,6 +179,7 @@ jobs:
         shell: bash
         run: echo "name=ghcr.io/${GITHUB_REPOSITORY,,}" >> "$GITHUB_OUTPUT"
       - name: Build and publish OCI image
+        id: build
         if: steps.current.outputs.result == 'true'
         uses: docker/build-push-action@v7
         with:
@@ -190,6 +193,13 @@ jobs:
             org.opencontainers.image.description=Support and care hub for the Ctrl-Alt-GG LAN community
             org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
             org.opencontainers.image.revision=${{ github.sha }}
+      - name: Attest OCI image provenance
+        if: steps.current.outputs.result == 'true'
+        uses: actions/attest-build-provenance@v4
+        with:
+          subject-name: ${{ steps.image.outputs.name }}
+          subject-digest: ${{ steps.build.outputs.digest }}
+          push-to-registry: true
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.head.repo.full_name == github.repository
