@@ -189,11 +189,21 @@ jobs:
           tags: |
             ${{ steps.image.outputs.name }}:latest
             ${{ steps.image.outputs.name }}:${{ github.sha }}
+          provenance: mode=max
           labels: |
             org.opencontainers.image.title=Ctrl-Alt-GG Care
-            org.opencontainers.image.description=Support and care hub for the Ctrl-Alt-GG LAN community
+            org.opencontainers.image.description=Support and care hub for the Ctrl-Alt-GG LAN community, served as a static Hugo site by nginx.
             org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
             org.opencontainers.image.revision=${{ github.sha }}
+          annotations: |
+            index:org.opencontainers.image.title=Ctrl-Alt-GG Care
+            index:org.opencontainers.image.description=Support and care hub for the Ctrl-Alt-GG LAN community, served as a static Hugo site by nginx.
+            index:org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+            index:org.opencontainers.image.revision=${{ github.sha }}
+            manifest:org.opencontainers.image.title=Ctrl-Alt-GG Care
+            manifest:org.opencontainers.image.description=Support and care hub for the Ctrl-Alt-GG LAN community, served as a static Hugo site by nginx.
+            manifest:org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+            manifest:org.opencontainers.image.revision=${{ github.sha }}
       - name: Attest OCI image provenance
         if: steps.current.outputs.result == 'true'
         uses: actions/attest-build-provenance@v4
